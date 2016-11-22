@@ -83,6 +83,7 @@ bool vacuum2( double x, double y, double z){
 	   x_rot*x_rot + y*y >= (GraceRadius*GraceRadius)&&!(x*x+y*y<GraceRadius*GraceRadius)&&x>-0.1);//&&z>0.0);//&&!(z<3*GraceRadius&&x<GraceRadius));// && !(x<0.0&&z<2.7*GraceRadius));
 }
 
+
 //This is the bended  electrode
 bool hvelectrode1( double x, double y, double z){  
   double  depthOfElectrode=0.05;
@@ -164,7 +165,8 @@ void simu( int argc, char **argv )
   lowerEinzel=atof(argv[3]);
   upperEinzel=atof(argv[4]);
   // sets up size of volume for simulation and mesh size
-  double h = 0.5e-2; // mesh size in cm
+  double h = 5.0e-3; // mesh size in m
+  //double h = atof(argv[8])*1e-3; // mesh size in cm
   double sizereq[3] = { xdimensions,// x-dimension
 			ydimensions,// y-dimension
 			lengthOfStraightLine+airgap+0.2};// z-dimension
@@ -250,9 +252,11 @@ void simu( int argc, char **argv )
   geom.set_solid(19,longEinzel2);
 
   Solid *startPlate = new FuncSolid( detector);
-  startPlate->translate(Vec3D(0.0,0.0,-0.016));
+  startPlate->translate(Vec3D(0.0,0.0,-0.026));
   geom.set_solid( 20, startPlate);
 
+
+  cout<<"her er det"<<endl;
   // the first 6 are the boundaries of the volume of simulation
   geom.set_boundary(  1,  Bound(BOUND_NEUMANN,     0.0) );
   geom.set_boundary(  2,  Bound(BOUND_NEUMANN,     0.0) );
@@ -277,6 +281,8 @@ void simu( int argc, char **argv )
   geom.build_mesh();
   geom.build_surface();
 
+  cout<<"ferdig"<<endl;
+  
   //solve for potential in the given geometry
   EpotField epot( geom );
   MeshScalarField scharge( geom );
@@ -306,26 +312,36 @@ void simu( int argc, char **argv )
 
   //The inputfile giving  the energy,position and momentum  direction of the particles  are read  in.  
   ReadAscii din(argv[5], 7 );
-  cout<< "Reading this file"<<argv[5]<<endl;
+  cout<< "Reading this "<<argv[5]<<endl;
   cout << "Reading " << din.rows() << " particles\n";
-  // Loop  over all  the particles.  
+  // Loop  over all  the particles. We also make a vector of strings with the inital parameters so they can be stored for later analysis
+  std::vector<string> initialParameters;
   for( size_t l = 0; l < din.rows(); l++ ) {
     // 	  if (l>2){
     // 	continue;
     // }
+    //The original line in the inputfile. 
+    string initialLine=to_string(din[0][l])+"  "+to_string(din[1][l])+"  "+to_string(din[2][l])+"  "+to_string(din[3][l])+"  "+to_string(din[4][l])+"  "+to_string(din[5][l]) +"  "+to_string(din[6][l])+"  ";
+    
     double I  = 1.0;//the current (not used since  we don't care about space charge) 
     double m  = 1.0;//mass of the particle in terms of u
     double q = -1.0;//Charge of the particle in terms of elementary charge
     double t  = 0.0;//start time
-    double x  = (din[2][l])*1e-2;//x  start positin (in meter)
-    double y  = (din[3][l])*1e-2;//y  start positin (in meter)
-    double z  = 0.0;//z  start positin (in meter)
+    double test=(din[1][l]);
+    double x  = (din[2][l]+0.5)*1e-2;//x  start positin (in meter)
+    double y  = (din[3][l]+0.5)*1e-2;//y  start positin (in meter)
+    double z  = -1.0*1e-2;//z  start position (in meter)
     double energy = din[0][l];//the energy of the particle (in keV)
+    
     //since  we are not interested in particles with lower than 10 keV energy we skip them here to save computation time
     if (energy>10.0){
       continue;
     }
-
+    if (test>2.97){
+      continue;
+    }
+      
+   
     //here the  velocity of the particle is  calculated  by using the relativistic  energy 
     double c=299792458.0;
     double m0=938272.0;
@@ -335,8 +351,11 @@ void simu( int argc, char **argv )
     double vz =v_tot_r*din[4][l];
     double vx = v_tot_r*din[5][l];
     double vy = v_tot_r*din[6][l];
+      
     
     pdb.add_particle( I, q, m, ParticleP3D(t,x,vx,y,vy,z,vz) );
+    initialParameters.push_back(initialLine);
+    
   }
   
   //We find the trajectories of the particles in GRACE
@@ -344,13 +363,27 @@ void simu( int argc, char **argv )
 
   // save data for plotting
   geom.save( "geom.dat" );
-  epot.save( "epot.dat" );
+  epot.save( "mesh/withoutEninzelMesh_3.5epot.dat" );
   pdb.save( "pdb.dat" );
 
-  //define the name of the outputfile
-  string outputfile="scan/D1_"+string(argv[1])+"D2_"+string(argv[2])+"E1_"+string(argv[3])+"E2_"+string(argv[4])+"_scanning"+string(argv[6])+"keV.txt";
-  ofstream fileOut(outputfile.c_str());
+  //also want to write to the field to file
 
+  // cout<<"start here"<<endl;
+  // double zValueForField=0.5;
+  // for (double xValueForField=-0.15;xValueForField<0.15;xValueForField+=0.01){
+  //   for (double yValueForField=-0.15;yValueForField<0.15;yValueForField+=0.01){
+  //     cout<<xValueForField<<"  "<<yValueForField<<"  "<<zValueForField<<endl;
+  //     cout<<"epotential "<<epot.operator()(Vec3D(xValueForField,yValueForField,zValueForField))<<endl;
+  //   }
+  // }
+
+
+  
+  //define the name of the outputfile
+  string outputfile=string(argv[6])+"/D1_"+string(argv[1])+"D2_"+string(argv[2])+"E1_"+string(argv[3])+"E2_"+string(argv[4])+"_scanning"+string(argv[7])+".txt";
+  ofstream fileOut(outputfile.c_str());
+  string lineNumberOutputfile=outputfile+"lineNumber";
+  
   //here we iterate over the particle database to write all informationto file.  
   for( size_t k = 0; k < pdb.size(); k++ ) {
     Particle3D &pp = pdb.particle( k );
@@ -358,17 +391,19 @@ void simu( int argc, char **argv )
     fileOut<< pp.location()<<"  "<<6.24e15*pp.m()*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"  ";
     //reset the trajectory to find the initial position, momentum directions and energy of the particle
     pp.reset_trajectory();
-    double vtotal=sqrt((pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6)));
     //print that information to file
-    fileOut <<"initial "<<pp.location()<<"  ";
-    fileOut <<pp(2)/vtotal<<"   "<<pp(4)/vtotal<<"  "<<pp(6)/vtotal<<"  "<<6.2415096471e15*1.6e-27*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"\n";
+    fileOut <<"initial "<<initialParameters[k]<< "\n";
+    //fileOut <<"initial "<<pp.location()<<"  ";
+    //fileOut <<pp(2)/vtotal<<"   "<<pp(4)/vtotal<<"  "<<pp(6)/vtotal<<"  "<<6.2415096471e15*1.6e-27*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"\n";
   }
   fileOut.close();
- 
 }
 
 int main( int argc, char **argv )
 {
+
+  cout<<string(argv[6])+"/D1_"+string(argv[1])+"D2_"+string(argv[2])+"E1_"+string(argv[3])+"E2_"+string(argv[4])+"_scanning"+string(argv[7])+".txt"<<endl;
+
   try {
     ibsimu.set_message_threshold( MSG_VERBOSE, 1 );
     simu( argc, argv );
