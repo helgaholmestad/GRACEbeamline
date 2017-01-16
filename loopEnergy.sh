@@ -1,3 +1,5 @@
+legg til noe her
+
 #!/bin/bash 
 #to loop over different inputfiles.  
 COUNTER1=0
