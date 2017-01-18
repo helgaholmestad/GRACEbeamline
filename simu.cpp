@@ -52,6 +52,7 @@ const double ydimensions=0.3;
 const double beam_curve = 40.0; // in degrees
 const double GraceRadius=0.1;
 const double GraceThickness=0.02;
+//const double GraceThickness=0.005;
 const double thicknessOfElectrodes=0.005;
 
 //here we set the voltages  of  the einzel lenses and the bending electrodes.  The voltage for the lower einzel is the same for both the rings because they are connected together in the GRACE apparatus. The voltages are initially set to zero, the values actually used are set as inputparameters.  
@@ -63,10 +64,31 @@ double HVelectrode2 = 0.0;
 //Here all the beamline elements are defined.  They are defined  as  boolean function that returns true or false. If the x,y,z position given to the function is inside the element it returns true, if not it returns false 
 
 // Here the straight line is defined, with a hole for the bended line  to be placed.   
+// bool vacuum1( double x, double y, double z){
+//   double x0 = 0.0;
+//   double theta=beam_curve*M_PI/180.0;
+//   double z0=0.5+0.1/cos(beam_curve*M_PI/180)-0.1/tan(beam_curve*M_PI/180)+0.02/tan(beam_curve*M_PI/180);
+//   z=z-z0;
+//   double x_rot=cos(theta)*x-sin(theta)*(z);
+//   return ( ( x*x + y*y <= (GraceRadius+GraceThickness)*(GraceRadius+GraceThickness) &&
+//    	     x*x + y*y >= GraceRadius*GraceRadius) && !(x_rot*x_rot + y*y <= (GraceRadius+GraceThickness)*(GraceRadius+GraceThickness) && x>=0));  
+// }
+
+// //Here the bended  line is defined
+// bool vacuum2( double x, double y, double z){
+//   double  theta=beam_curve*M_PI/180.0;
+//   double z0=0.5+0.1/cos(beam_curve*M_PI/180)-0.1/tan(beam_curve*M_PI/180)+0.02/tan(beam_curve*M_PI/180);
+//   z=z-z0;
+//   double x_rot=cos(theta)*x-sin(theta)*(z);
+//   return ( x_rot*x_rot + y*y <= (GraceRadius+GraceThickness)*(GraceRadius+GraceThickness)&&
+// 	   x_rot*x_rot + y*y >= (GraceRadius*GraceRadius)&&!(x*x+y*y<GraceRadius*GraceRadius)&&x>-0.1);//&&z>0.0);//&&!(z<3*GraceRadius&&x<GraceRadius));// && !(x<0.0&&z<2.7*GraceRadius));
+// }
+
+
 bool vacuum1( double x, double y, double z){
   double x0 = 0.0;
   double theta=beam_curve*M_PI/180.0;
-  double z0=0.5+0.1/cos(beam_curve*M_PI/180)-0.1/tan(beam_curve*M_PI/180)+0.02/tan(beam_curve*M_PI/180);
+  double z0=0.5-GraceRadius/tan(theta)+GraceRadius/sin(theta);//+0.5*GraceThickness;//-0.1/sin(beam_curve*M_PI/180);//-0.1/tan(beam_curve*M_PI/180)+0.02/tan(beam_curve*M_PI/180);
   z=z-z0;
   double x_rot=cos(theta)*x-sin(theta)*(z);
   return ( ( x*x + y*y <= (GraceRadius+GraceThickness)*(GraceRadius+GraceThickness) &&
@@ -75,13 +97,16 @@ bool vacuum1( double x, double y, double z){
 
 //Here the bended  line is defined
 bool vacuum2( double x, double y, double z){
-  double  theta=40.0*M_PI/180.0;
-  double z0=0.5+0.1/cos(40*M_PI/180)-0.1/tan(40*M_PI/180)+0.02/tan(40*M_PI/180);
+  double  theta=beam_curve*M_PI/180.0;
+  double z0=0.5-GraceRadius/tan(theta)+GraceRadius/sin(theta);// 0.1/sin(beam_curve*M_PI/180);//-0.1/tan(beam_curve*M_PI/180)+0.02/tan(beam_curve*M_PI/180);
   z=z-z0;
   double x_rot=cos(theta)*x-sin(theta)*(z);
   return ( x_rot*x_rot + y*y <= (GraceRadius+GraceThickness)*(GraceRadius+GraceThickness)&&
 	   x_rot*x_rot + y*y >= (GraceRadius*GraceRadius)&&!(x*x+y*y<GraceRadius*GraceRadius)&&x>-0.1);//&&z>0.0);//&&!(z<3*GraceRadius&&x<GraceRadius));// && !(x<0.0&&z<2.7*GraceRadius));
 }
+
+
+
 
 
 //This is the bended  electrode
@@ -210,12 +235,13 @@ void simu( int argc, char **argv )
 
   Solid *det = new FuncSolid( detector);
   double d=0.5+GraceRadius/sin(M_PI*beam_curve/180.0);
-  double up=0.85-0.1*cos(M_PI*(90.0-beam_curve)/180);  
-  double z_translateion=d+up;
-  double x_translateion=GraceRadius+up/tan((90.0-beam_curve)*M_PI/180.0);
+  double z_translateion=d+0.85*cos(M_PI*beam_curve/180.0);
+  double x_translateion=GraceRadius+0.85*sin(M_PI*beam_curve/180);
   det->rotate_y(beam_curve*M_PI/180);
   det->translate(Vec3D(x_translateion,0,z_translateion));
   geom.set_solid( 14, det);
+
+  
 
   Solid *vac1 = new FuncSolid( vacuum1);
   geom.set_solid( 15, vac1);
@@ -224,30 +250,30 @@ void simu( int argc, char **argv )
   geom.set_solid( 16, vac2);
   
   Solid *smallEinzel=new FuncSolid(upperEinzelSmall);
-  d=0.5+GraceRadius/sin(M_PI*40.0/180.0);
+  d=0.5+GraceRadius/sin(M_PI*beam_curve/180.0);
   double startFirstEinzel=0;
-  up=startFirstEinzel/cos(40*M_PI/180.0)+offset;
-  smallEinzel->rotate_y(40.0*M_PI/180);
+  double up=startFirstEinzel/cos(beam_curve*M_PI/180.0)+offset;
+  smallEinzel->rotate_y(beam_curve*M_PI/180);
   z_translateion=d+up;
-  x_translateion=GraceRadius+up/tan(50.0*M_PI/180.0);
+  x_translateion=GraceRadius+up/tan((90.0-beam_curve)*M_PI/180.0);
   smallEinzel->translate(Vec3D(x_translateion,0,z_translateion));
   geom.set_solid(17,smallEinzel);
 
   Solid *longEinzel1=new FuncSolid(upperEinzelLong);
-  d=0.5+GraceRadius/sin(M_PI*40.0/180.0);
-  up=(startFirstEinzel+upperEinzelLengthSmall+distanceBetweenLenzes)*cos(40*M_PI/180)+offset;
-  longEinzel1->rotate_y(40.0*M_PI/180);
+  d=0.5+GraceRadius/sin(M_PI*beam_curve/180.0);
+  up=(startFirstEinzel+upperEinzelLengthSmall+distanceBetweenLenzes)*cos(beam_curve*M_PI/180)+offset;
+  longEinzel1->rotate_y(beam_curve*M_PI/180);
   z_translateion=d+up;
-  x_translateion=GraceRadius+up/tan(50.0*M_PI/180.0);
+  x_translateion=GraceRadius+up/tan((90.0-beam_curve)*M_PI/180.0);
   longEinzel1->translate(Vec3D(x_translateion,0,z_translateion));
   geom.set_solid(18,longEinzel1);
 
   Solid *longEinzel2=new FuncSolid(upperEinzelLong);
-  d=0.5+GraceRadius/sin(M_PI*40.0/180.0);
-  up=(startFirstEinzel+upperEinzelLengthSmall+2*distanceBetweenLenzes+upperEinzelLengthLong)*cos(40*M_PI/180)+offset;
-  longEinzel2->rotate_y(40.0*M_PI/180);
+  d=0.5+GraceRadius/sin(M_PI*beam_curve/180.0);
+  up=(startFirstEinzel+upperEinzelLengthSmall+2*distanceBetweenLenzes+upperEinzelLengthLong)*cos(beam_curve*M_PI/180)+offset;
+  longEinzel2->rotate_y(beam_curve*M_PI/180);
   z_translateion=d+up;
-  x_translateion=GraceRadius+up/tan(50.0*M_PI/180.0);
+  x_translateion=GraceRadius+up/tan((90.0-beam_curve)*M_PI/180.0);
   longEinzel2->translate(Vec3D(x_translateion,0,z_translateion));
   geom.set_solid(19,longEinzel2);
 
@@ -317,9 +343,6 @@ void simu( int argc, char **argv )
   // Loop  over all  the particles. We also make a vector of strings with the inital parameters so they can be stored for later analysis
   std::vector<string> initialParameters;
   for( size_t l = 0; l < din.rows(); l++ ) {
-    // 	  if (l>2){
-    // 	continue;
-    // }
     //The original line in the inputfile. 
     string initialLine=to_string(din[0][l])+"  "+to_string(din[1][l])+"  "+to_string(din[2][l])+"  "+to_string(din[3][l])+"  "+to_string(din[4][l])+"  "+to_string(din[5][l]) +"  "+to_string(din[6][l])+"  ";
     
@@ -328,8 +351,8 @@ void simu( int argc, char **argv )
     double q = -1.0;//Charge of the particle in terms of elementary charge
     double t  = 0.0;//start time
     double test=(din[1][l]);
-    double x  = (din[2][l]+0.5)*1e-2;//x  start positin (in meter)
-    double y  = (din[3][l]+0.5)*1e-2;//y  start positin (in meter)
+    double x  = (din[2][l])*1e-2;//x  start positin (in meter)
+    double y  = (din[3][l])*1e-2;//y  start positin (in meter)
     double z  = -1.0*1e-2;//z  start position (in meter)
     double energy = din[0][l];//the energy of the particle (in keV)
     
@@ -347,11 +370,12 @@ void simu( int argc, char **argv )
     double m0=938272.0;
     double v_tot_r=sqrt(1-(m0*m0/((m0+din[0][l])*(m0+din[0][l]))))*c;
 
+
     //we find  the velocity of the particle in x,y and x direction 
-    double vz =v_tot_r*din[4][l];
     double vx = v_tot_r*din[5][l];
     double vy = v_tot_r*din[6][l];
-      
+    double vz =v_tot_r*din[4][l];
+
     
     pdb.add_particle( I, q, m, ParticleP3D(t,x,vx,y,vy,z,vz) );
     initialParameters.push_back(initialLine);
@@ -363,7 +387,7 @@ void simu( int argc, char **argv )
 
   // save data for plotting
   geom.save( "geom.dat" );
-  epot.save( "mesh/withoutEninzelMesh_3.5epot.dat" );
+  epot.save( "epot.dat" );
   pdb.save( "pdb.dat" );
 
   //also want to write to the field to file
@@ -387,14 +411,14 @@ void simu( int argc, char **argv )
   //here we iterate over the particle database to write all informationto file.  
   for( size_t k = 0; k < pdb.size(); k++ ) {
     Particle3D &pp = pdb.particle( k );
-    //write the final  locatiion and energy to files
-    fileOut<< pp.location()<<"  "<<6.24e15*pp.m()*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"  ";
-    //reset the trajectory to find the initial position, momentum directions and energy of the particle
-    pp.reset_trajectory();
-    //print that information to file
-    fileOut <<"initial "<<initialParameters[k]<< "\n";
-    //fileOut <<"initial "<<pp.location()<<"  ";
-    //fileOut <<pp(2)/vtotal<<"   "<<pp(4)/vtotal<<"  "<<pp(6)/vtotal<<"  "<<6.2415096471e15*1.6e-27*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"\n";
+      //write the final  locatiion and energy to files
+      fileOut<< pp.location()<<"  "<<6.24e15*pp.m()*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"  ";
+      //reset the trajectory to find the initial position, momentum directions and energy of the particle
+      pp.reset_trajectory();
+      //print that information to file
+      fileOut <<"initial "<<initialParameters[k]<< "\n";
+      //fileOut <<"initial "<<pp.location()<<"  ";
+      //fileOut <<pp(2)/vtotal<<"   "<<pp(4)/vtotal<<"  "<<pp(6)/vtotal<<"  "<<6.2415096471e15*1.6e-27*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"\n";
   }
   fileOut.close();
 }
@@ -402,6 +426,12 @@ void simu( int argc, char **argv )
 int main( int argc, char **argv )
 {
 
+    if( argc != 8) {
+	cerr << "Usage: bending1 bending2 einzel1 enizel2 inputfil outputfolder outputname\n";
+	exit( 1 );
+    }
+  
+  
   cout<<string(argv[6])+"/D1_"+string(argv[1])+"D2_"+string(argv[2])+"E1_"+string(argv[3])+"E2_"+string(argv[4])+"_scanning"+string(argv[7])+".txt"<<endl;
 
   try {
