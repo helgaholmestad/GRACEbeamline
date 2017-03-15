@@ -342,7 +342,9 @@ void simu( int argc, char **argv )
   cout << "Reading " << din.rows() << " particles\n";
   // Loop  over all  the particles. We also make a vector of strings with the inital parameters so they can be stored for later analysis
   std::vector<string> initialParameters;
-  for( size_t l = 0; l < din.rows(); l++ ) {
+  int counter=0;
+  for( size_t l = 0; l < din.rows();l++ ) {
+    counter+=1;
     //The original line in the inputfile. 
     string initialLine=to_string(din[0][l])+"  "+to_string(din[1][l])+"  "+to_string(din[2][l])+"  "+to_string(din[3][l])+"  "+to_string(din[4][l])+"  "+to_string(din[5][l]) +"  "+to_string(din[6][l])+"  ";
     
@@ -357,13 +359,15 @@ void simu( int argc, char **argv )
     double energy = din[0][l];//the energy of the particle (in keV)
     
     //since  we are not interested in particles with lower than 10 keV energy we skip them here to save computation time
-    if (energy>10.0){
-      continue;
-    }
+    //if (energy>10.0){
+    // continue;
+    // }
     if (test>2.97){
       continue;
     }
-      
+    if (counter>1000000){
+      continue;
+    }
    
     //here the  velocity of the particle is  calculated  by using the relativistic  energy 
     double c=299792458.0;
