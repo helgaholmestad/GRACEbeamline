@@ -1,7 +1,7 @@
 CC = g++
-LIBS = `pkg-config --libs ibsimu-1.0.6dev`
+LIBS = `pkg-config --libs ibsimu-1.0.6`
 LDFLAGS = -Wall -g
-CXXFLAGS = -Wall -g `pkg-config --cflags ibsimu-1.0.6dev`
+CXXFLAGS = -Wall -g `pkg-config --cflags --libs gtk+-3.0 ibsimu-1.0.6`
 
 all: simu analysis
 
