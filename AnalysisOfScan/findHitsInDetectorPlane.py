@@ -14,14 +14,14 @@ ztranslation=0.5+0.1/np.sin(40.0/180*np.pi)+0.85*np.cos(np.pi*40.0/180)
 xtranslateion=0.1+0.85*np.sin(40.0*np.pi/180.0);
 
 histo=TH1D("","",100,-2.0,2.0)
-
-
+scatter=TH2D("","",10,0,10,100,0.5,1)
 
 #file=open("hitsOnDetectorPlane.txt",'w')
 def findHitsOnDetector(filename):
     hitsOnDetectorPlane=[]
     for line in open(filename,'r'):
         columns=line.split()
+        scatter.Fill(float(columns[3]),float(columns[9]))
         if float(columns[2])<1.2:
             continue
         point=np.matrix([[float(columns[0])-xtranslateion],[float(columns[1])],[float(columns[2])-ztranslation]])
@@ -39,17 +39,19 @@ def findHitsOnDetector(filename):
 
 settings=["0","1000","2000","3000","4000","5000"]
 
+file=open("statistics.txt","w")
 for i in settings:
     for k in settings:
         for j in settings:
-            print "settings",0,i,k,j 
+            hits, mean,standDev=findHitsOnDetector("../voltageScan/D1_0D2_"+i+"E1_-"+k+"E2_-"+str(j)+"_scanning33um.txt")
+            file.write(str(0)+"  "+i+"  "+k+"  "+j+"  "+str(hits)+"  "+str(mean)+"  "+str(standDev)+"\n") 
             print findHitsOnDetector("../voltageScan/D1_0D2_"+i+"E1_-"+k+"E2_-"+str(j)+"_scanning33um.txt")
+            print i,k,j
             
-
 #print "hitsOnDetector",0.34*1.4*1.4*n*1.0/(10*10*np.pi)
-
-
-
+file.close()
+scatter.Draw("colz")
+input()
 
 #file.close()
 #histo.Draw()
