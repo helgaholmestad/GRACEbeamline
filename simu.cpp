@@ -187,8 +187,8 @@ void simu( int argc, char **argv )
   //the voltages  of the  electrodes  and  einzel are set with input parameters
   HVelectrode1=atof(argv[1]);
   HVelectrode2=-atof(argv[2]);
-  lowerEinzel=atof(argv[3]);
-  upperEinzel=atof(argv[4]);
+  lowerEinzel=-atof(argv[3]);
+  upperEinzel=-atof(argv[4]);
   // sets up size of volume for simulation and mesh size
   double h = 5.0e-3; // mesh size in m
   //double h = atof(argv[8])*1e-3; // mesh size in cm
@@ -363,11 +363,12 @@ void simu( int argc, char **argv )
       continue;
     }
     if (test>2.97){
+      cout<<"fant dobbel"<<endl;
       continue;
     }
-    if (counter>1000000){
-      continue;
-    }
+    //if (counter>1000000){
+    //   continue;
+    //}
    
     //here the  velocity of the particle is  calculated  by using the relativistic  energy 
     double c=299792458.0;
