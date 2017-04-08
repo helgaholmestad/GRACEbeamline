@@ -1,4 +1,4 @@
-from ROOT import gROOT, TCanvas, TH1D,TH2D,TFile
+from ROOT import gROOT, TCanvas, TH1D,TH2D,TFile,gStyle
 gROOT.Reset()
 import matplotlib.colors as colors
 import numpy as np
@@ -9,18 +9,18 @@ import matplotlib.pyplot as plt
 import operator
 
 
-energy=TH1D("","",400,0,400)
+energy=TH1D("","",110,0,11)
 xposition=TH1D("","",100,-3,3)
 yposition=TH1D("","",100,-3,3)
 zcomponent=TH1D("","",100,0,1.2)
 
 print "her"
 teller=0
-for line in open("../inputFiles/Degrader33um.txt",'r'):
+for line in open("../inputFiles/Degrader33.txt",'r'):
     l=line.split()
     teller+=1
-    if teller>100000:
-        break
+    #if teller>100000:
+    #    break
     e,x,y,zc=float(l[0]),float(l[2]),float(l[3]),float(l[4])
     if e>10.0:
         continue
@@ -37,7 +37,7 @@ ypositionD=TH1D("","",100,-3,3)
 zcomponentD=TH1D("","",100,0,1.2)
 
 print "her"
-for line in open("../particlesOnDetector/D1_0D2_3000E1_4000E2_4000_scanning33um.txt",'r'):
+for line in open("/slagbjorn/homes/helga/ibsimuData/onDetector/D1_0D2_3000E1_4000E2_4000_scanning33um.txt",'r'):
     l=line.split()
     e,x,y,zc=float(l[5]),float(l[7]),float(l[8]),float(l[9])
     if e>10.0:
@@ -48,43 +48,27 @@ for line in open("../particlesOnDetector/D1_0D2_3000E1_4000E2_4000_scanning33um.
     zcomponentD.Fill(zc)
 
 print "her da"
-
-canvas=TCanvas()
-energy.Scale(1.0/energy.Integral())
-energyD.Scale(1.0/energyD.Integral())
-energy.Draw("hist")
-energyD.Draw("hist same")
-canvas.SetLogy()
-canvas.Print("../fig/energy.png")
-
-
-canvas=TCanvas()
-xposition.Scale(1.0/xposition.Integral())
-xpositionD.Scale(1.0/xpositionD.Integral())
-xposition.Draw("hist")
-canvas.SetLogy()
-print xposition.GetMaximum()
-xpositionD.Draw("hist same")
-canvas.Print("../fig/xposition.png")
-
-
-canvas=TCanvas()
-yposition.Scale(1.0/yposition.Integral())
-ypositionD.Scale(1.0/ypositionD.Integral())
-canvas.SetLogy()
-yposition.Draw("hist")
-ypositionD.Draw("hist same")
-canvas.Print("../fig/yposition.png")
-
-canvas=TCanvas()
-zcomponent.Scale(1.0/zcomponent.Integral())
-zcomponentD.Scale(1.0/zcomponentD.Integral())
-canvas.SetLogy()
-zcomponent.Draw("hist")
-zcomponentD.Draw("hist same")
-canvas.Print("../fig/zcomponents.png")
+gStyle.SetOptStat("")
 
 
 
 
-
+def printCanvas(histo,histoD,title,filename):
+    canvas=TCanvas()
+    histoD.SetFillColorAlpha(1,0.3)
+    histo.SetFillColorAlpha(2,0.3)
+    histo.SetLineColor(2)
+    histoD.SetLineColor(1)
+    histo.GetXaxis().SetTitle(title)
+    histo.GetYaxis().SetTitle("Normalized frequency")
+    histo.Scale(1.0/histo.Integral())
+    histoD.Scale(1.0/histoD.Integral())
+    histoD.Draw("hist")
+    histo.Draw("hist same")
+    canvas.Update()
+    canvas.Print("../fig/"+filename+".pdf")
+    
+printCanvas(energy,energyD,"energy","energy")
+printCanvas(xposition,xpositionD,"x-position [cm]","xposition")
+printCanvas(yposition,ypositionD,"y-position [cm]","yposition")
+printCanvas(zcomponent,zcomponentD,"z-component of the momentum vector","zcomponent")

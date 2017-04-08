@@ -19,11 +19,10 @@ histo=TH1D("","",100,-2.0,2.0)
 scatter=TH2D("","",100,-1,1,100,-1,1)
 
 #file=open("hitsOnDetectorPlane.txt",'w')
-def findHitsOnDetector(filename):
+def findHitOnDetector(filename):
     settings=re.search("voltageScan/(.*).txt",filename)
-    print "her"
-    print settings.group(1)
-    output=open("../particlesOnDetector/"+settings.group(1)+".txt",'w')
+    #output=open("fig/raw/"+settings.group(1)+".txt",'w')
+    output=open("/slagbjorn/homes/helga/ibsimuData/onDetector/"+settings.group(1)+".txt",'w')
     hitsOnDetectorPlane=[]
     for line in open(filename,'r'):
         columns=line.split()
@@ -33,6 +32,8 @@ def findHitsOnDetector(filename):
         newPoint=rotation*point
         if  abs(newPoint[0])*abs(newPoint[0])+abs(newPoint[1])*abs(newPoint[1])<0.1*0.1 and abs(newPoint[2])<0.016:
             output.write(line)
+            histo.Fill(newPoint[0]*100.0,newPoint[1]*100.0)
+            
             hitsOnDetectorPlane.append(float(columns[3]))
     hits=np.asarray(hitsOnDetectorPlane)
     return len(hitsOnDetectorPlane), np.mean(hits),np.std(hits)
@@ -40,27 +41,25 @@ def findHitsOnDetector(filename):
 
 #n=writeHitsOnDetector(sys.argv[1])
 
+#hits, mean,standDev=findHitOnDetector("/slagbjorn/homes/helga/ibsimuData/voltageScan/D1_0D2_3000E1_4000E2_4000_scanning33um.txt")
 
+#print "here"
+#input()
+
+number=0
 settings=["0","1000","2000","3000","4000","5000","6000","7000","8000","9000","10000"]
-settings2=["3000","4000","5000"]
+settings2=["0","1000","2000","3000","4000","5000","6000","7000","8000"]
 file=open("statistics.txt","w")
-for i in settings:
-    for k in settings:
-        for j in settings:
-            hits, mean,standDev=findHitsOnDetector("../voltageScan/D1_0D2_"+i+"E1_"+k+"E2_"+str(j)+"_scanning33um.txt")
+for i in settings2:
+    for k in settings2:
+        for j in settings2:
+            hits, mean,standDev=findHitOnDetector("/slagbjorn/homes/helga/ibsimuData/voltageScan/D1_0D2_"+i+"E1_"+k+"E2_"+str(j)+"_scanning33um.txt")
             #hits, mean,standDev=findHitsOnDetector("../oldData/D1_0D2_3000E1_-4000E2_-"+str(j)+"_scanning81.txt")
             file.write(str(0)+"  "+i+"  "+k+"  "+j+"  "+str(hits)+"  "+str(mean)+"  "+str(standDev)+"\n") 
             #print findHitsOnDetector("../voltageScan/D1_0D2_"+i+"E1_-"+k+"E2_-"+str(j)+"_scanning33um.txt")
             #print i,k,j
-            
+            number+=1
+            print number
 #print "hitsOnDetector",0.34*1.4*1.4*n*1.0/(10*10*np.pi)
 file.close()
-scatter.Draw("colz")
-input()
-
-#file.close()
-#histo.Draw()
-#input()
-
-
 
