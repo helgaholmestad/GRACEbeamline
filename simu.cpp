@@ -362,7 +362,7 @@ void simu( int argc, char **argv )
     if (energy>10.0){
       continue;
     }
-    if (test>2.97){
+    if (test>3.00){
       cout<<"fant dobbel"<<endl;
       continue;
     }

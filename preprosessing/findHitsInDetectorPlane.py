@@ -17,7 +17,8 @@ xtranslateion=0.1+0.85*np.sin(40.0*np.pi/180.0);
 
 def findHitOnDetector(filename):
     settings=re.search("voltageScan/(.*).txt",filename)
-    output=open("/slagbjorn/homes/helga/ibsimuData/onDetector/"+settings.group(1)+".txt",'w')
+    #output=open("/slagbjorn/homes/helga/ibsimuData/onDetector/"+settings.group(1)+".txt",'w')
+    output=open("/slagbjorn/homes/helga/ibsimuData/smallOnDetector/"+settings.group(1)+".txt",'w')
     hitsOnDetectorPlane=[]
     for line in open(filename,'r'):
         columns=line.split()
@@ -28,11 +29,9 @@ def findHitOnDetector(filename):
         if  abs(newPoint[0])*abs(newPoint[0])+abs(newPoint[1])*abs(newPoint[1])<0.1*0.1 and abs(newPoint[2])<0.016:
             output.write(line)  
 
-settings=["0","1000","2000","3000","4000","5000","6000","7000","8000","9000","10000"]
+#settings=["0","1000","2000","3000","4000","5000","6000","7000","8000","9000","10000"]
+settings=["1000","2000","3000","4000","5000"]
 for i in settings:
     for k in settings:
         for j in settings:
-            hits, mean,standDev=findHitOnDetector("/slagbjorn/homes/helga/ibsimuData/voltageScan/D1_0D2_"+i+"E1_"+k+"E2_"+str(j)+"_scanning33um.txt")
-            file.write(str(0)+"  "+i+"  "+k+"  "+j+"  "+str(hits)+"  "+str(mean)+"  "+str(standDev)+"\n") 
-            number+=1
-
+            findHitOnDetector("/slagbjorn/homes/helga/ibsimuData/voltageScan/D1_0D2_"+i+"E1_"+k+"E2_"+str(j)+"_scanning33um.txt")
