@@ -233,7 +233,7 @@ def hough(inputfile,pattern,folder):
         meta.write("clusterCharge "+str(clusterCharge) +"\n")
         meta.write("error "+str(error)+"\n")
         #printCanvas(histogramCenter,str(sys.argv[2]+"event"+str(event)))
-        if error >1.0 and prong>-1 and size>70:
+        if error >1.0 and prong>0 and size>70:
             meta.write("trough"+'\n')
             printCluster(histogramD,taggedCluster)
         else:

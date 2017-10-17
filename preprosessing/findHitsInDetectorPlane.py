@@ -27,7 +27,8 @@ def findHitOnDetector(filename):
         point=np.matrix([[float(columns[0])-xtranslateion],[float(columns[1])],[float(columns[2])-ztranslation]])
         newPoint=rotation*point
         if  abs(newPoint[0])*abs(newPoint[0])+abs(newPoint[1])*abs(newPoint[1])<0.1*0.1 and abs(newPoint[2])<0.016:
-            output.write(line)  
+            print line
+            #output.write(line)  
 
 #settings=["0","1000","2000","3000","4000","5000","6000","7000","8000","9000","10000"]
 settings=["1000","2000","3000","4000","5000"]

@@ -60,6 +60,6 @@ for i in settings2:
             #print i,k,j
             number+=1
             print number
-#print "hitsOnDetector",0.34*1.4*1.4*n*1.0/(10*10*np.pi)
+print "hitsOnDetector",0.44*1.4*1.4*n*1.0/(10*10*np.pi)
 file.close()
 

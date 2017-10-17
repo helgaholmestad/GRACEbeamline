@@ -81,7 +81,7 @@ def printCanvas(histo,histoD,title,filename,maxy):
     histoD.Draw("hist same")
     canvas.Update()
     canvas.SetLogy()
-    canvas.Print("/home/helga/Desktop/Thesis/thesis/Grace/fig/"+filename+".pdf")
+    canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/"+filename+".pdf")
     
 printCanvas(xposition,xpositionD,"x-position [cm]","xposition",100000000)
 printCanvas(yposition,ypositionD,"y-position [cm]","yposition",100000000)
