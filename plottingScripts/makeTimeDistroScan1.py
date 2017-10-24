@@ -17,7 +17,7 @@ def addClusters(filepath):
     numberOfAntiProton=0
     print filepath+"_data.txt"
     goodFile=True
-    for line in open("scan1"+"/"+filepath+"_data.txt"):
+    for line in open("../AntiprotonTagging/scan1"+"/"+filepath+"_data.txt"):
         columns=line.split()
         if columns[0]==filepath:
             continue
@@ -88,4 +88,4 @@ for histogram in histogramList:
 
 canvas.Update()
 legend.Draw("same")
-canvas.Print("/home/helga/GRACEReport/fig/scan1RealData.pdf")
+canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/scan1RealData.pdf")
