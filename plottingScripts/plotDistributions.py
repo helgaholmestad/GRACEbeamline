@@ -119,10 +119,6 @@ for config in listOfFiles:
     print "data fwhm",calculateFWHM(histodata)
 
     
-
-
-
-
 listOfFiles=[ "D1_0kV_D2_3kV_E1_4kV_E2_2kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_4kV"]
 listOfFilesSimu=["D1_0D2_3000E1_4000E2_2000_scanning33um.txt","D1_0D2_3000E1_4000E2_3000_scanning33um.txt","D1_0D2_3000E1_4000E2_4000_scanning33um.txt"]
 rootDirSimu="/home/helga/GRACESimu/ibsimuData/onDetector"

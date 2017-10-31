@@ -11,7 +11,7 @@ def findFluxOnSetting(d2,e1,e2):
     anti=0
     for filename in os.listdir(rootdir):
         if str("D2_"+str(d2)) in filename and str("E1_"+str(e1)) in filename and str("E2_"+str(e2)) in filename and "meta" in filename:
-           # print filename
+            print filename
             for line in open(rootdir+"/"+filename,'r'):
                 if line.split()[0]=="newFile":
                     antiArray.append(anti)
@@ -33,5 +33,11 @@ print "scan E2"
 for i in range(5):
     print i
     print findFluxOnSetting("3","4",str(i))
+    
+
+print "low bending"
+#do the scan on E2
+for i in range(5):
+    print findFluxOnSetting("1.5",str(i),"3")
     
     

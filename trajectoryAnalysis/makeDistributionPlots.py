@@ -8,6 +8,10 @@ import sys
 import matplotlib.pyplot as plt
 import operator
 
+#path="/slagbjorn/homes/helga/"
+#on laptop
+path="/home/helga/GRACESimu/" 
+
 
 energy=TH1D("","",800,-1,800)
 xposition=TH1D("","",100,-3,3.5)
@@ -16,7 +20,7 @@ zcomponent=TH1D("","",100,0,1.2)
 zangle=TH1D("","",900,0,90)
 print "her"
 teller=0
-for line in open("../inputFiles/Degrader33um.txt",'r'):
+for line in open("../inputFiles/DegraderAllEnergies.txt",'r'):
     l=line.split()
     teller+=1
     #if teller>100000:
@@ -42,9 +46,10 @@ zcomponentD=TH1D("","",100,0,1.2)
 zangleD=TH1D("","",900,0,90)
 
 print "her"
-for line in open("/slagbjorn/homes/helga/ibsimuData/onDetector/D1_0D2_3000E1_3000E2_3000_scanning33um.txt",'r'):
+for line in open(path+"ibsimuData/onDetector/D1_0D2_3000E1_3000E2_3000_scanning33um.txt",'r'):
     l=line.split()
     e,x,y,zc,xc,yc=float(l[5]),float(l[7]),float(l[8]),float(l[9]),float(l[10]),float(l[11])
+    print e
     #if e>10.0:
     #    continue
     energyD.Fill(e)
@@ -63,6 +68,7 @@ gStyle.SetOptStat("")
 
 
 def printCanvas(histo,histoD,title,filename,maxy):
+    numberOfShoots=3.0 #remember to put in how many shoots you use to make the distribution. 
     canvas=TCanvas()
     histoD.SetFillColor(1)
     histo.SetFillColorAlpha(2,0.3)
@@ -71,7 +77,7 @@ def printCanvas(histo,histoD,title,filename,maxy):
     histo.GetXaxis().SetTitle(title)
     histo.GetYaxis().SetTitle("Number of particles")
     #histo.Scale(1.0/histo.Integral())
-    #histoD.Scale(scale)
+    histoD.Scale(1.0/numberOfShoots)
     legend =TLegend(0.5,0.6,0.9,0.9);
     legend.AddEntry(histo,"Beam into GRACE")
     legend.AddEntry(histoD,"Beam reaching end-plate")
@@ -83,8 +89,10 @@ def printCanvas(histo,histoD,title,filename,maxy):
     canvas.SetLogy()
     canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/"+filename+".pdf")
     
-printCanvas(xposition,xpositionD,"x-position [cm]","xposition",100000000)
-printCanvas(yposition,ypositionD,"y-position [cm]","yposition",100000000)
+printCanvas(xposition,xpositionD,"x-position [cm]","xposition",100000000000)
+printCanvas(yposition,ypositionD,"y-position [cm]","yposition",100000000000)
 #printCanvas(zcomponent,zcomponentD,"z-component of the momentum vector","zcomponent")
 printCanvas(zangle,zangleD,"Deviation from beam z-direction","zcomponent",100000000)
 printCanvas(energy,energyD,"energy [keV]","energy",100000000)
+energyD.Draw()
+input()
