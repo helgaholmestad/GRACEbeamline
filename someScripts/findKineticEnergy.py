@@ -8,6 +8,7 @@ histo=TH1D("","",2000,0,2000)
 for line in open("/home/helga/TimepixArticle/code/finalTimepix/fragmentsStudy/exam2001.log"):
 #for line in open("exam2001.log"):
     columns = line.split()
+    print line
     if len(columns)==0:
         continue
     # if columns[0]=="Kun":
@@ -17,7 +18,8 @@ for line in open("/home/helga/TimepixArticle/code/finalTimepix/fragmentsStudy/ex
     #     print "average kinetic energy",k
     #     histo.Fill(k)
     #     k=0
-    if(len(columns)>0 and (columns[0]=="oo" or columns[0]=="-h")): 
+    #if(len(columns)>0 and (columns[0]=="oo" or columns[0]=="-h-")):
+    if(len(columns)>0 and columns[0]=="-h-"): 
         a+=1
         print float(columns[2])
         k+=float(columns[2])

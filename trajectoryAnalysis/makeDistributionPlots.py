@@ -23,8 +23,6 @@ teller=0
 for line in open("../inputFiles/DegraderAllEnergies.txt",'r'):
     l=line.split()
     teller+=1
-    #if teller>100000:
-    #    break
     e,x,y,zc,xc,yc=float(l[0]),float(l[2]),float(l[3]),float(l[4]),float(l[5]),float(l[6])
     #if e>10.0 or zc<0.0:
     #    continue
@@ -37,7 +35,7 @@ for line in open("../inputFiles/DegraderAllEnergies.txt",'r'):
     zcomponent.Fill(zc)
 
 print "her da"
-
+print "mean ",energy.GetMean()
 
 energyD=TH1D("","",800,-1,800)
 xpositionD=TH1D("","",100,-3,3.5)
@@ -49,7 +47,6 @@ print "her"
 for line in open(path+"ibsimuData/onDetector/D1_0D2_3000E1_3000E2_3000_scanning33um.txt",'r'):
     l=line.split()
     e,x,y,zc,xc,yc=float(l[5]),float(l[7]),float(l[8]),float(l[9]),float(l[10]),float(l[11])
-    print e
     #if e>10.0:
     #    continue
     energyD.Fill(e)

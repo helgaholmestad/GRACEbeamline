@@ -23,8 +23,6 @@ def fillHistogram(filename):
     histo.Scale(1.0/histo.Integral())
     return histo
 
-
-
 def fillHistogram1500(filename):
     numberOfShoots=0
     histo=TH1D("","",30,1300,3300)
@@ -48,11 +46,12 @@ def fillHistogramSimu1500(filename):
     histo=TH1D("","",30,1300,3300)
     for line in open(filename):
         columns=line.split()
-        energyInMeV=float(columns[6])/1000.0
+        energyInMeV=float(columns[3])/1000.0
         v2=2*energyInMeV/massProton
         v=math.sqrt(v2)
-        timeInSeconds=1.48/v
-        timeInNanoSeconds=timeInSeconds*math.pow(10,9)+np.random.normal(0,100)
+        #remember that the air gap is taken into consideraion since the antiprotons slow down already there. Therefore 1.48+0.06
+        timeInSeconds=1.54/v
+        timeInNanoSeconds=timeInSeconds*math.pow(10,9)+np.random.normal(145,100)
         histo.Fill(timeInNanoSeconds)
     histo.Scale(1.0/histo.Integral())
     return histo
@@ -67,11 +66,11 @@ def fillHistogramSimu(filename):
     histo=TH1D("","",26,1200,2500)
     for line in open(filename):
         columns=line.split()
-        energyInMeV=float(columns[6])/1000.0
+        energyInMeV=float(columns[3])/1000.0
         v2=2*energyInMeV/massProton
         v=math.sqrt(v2)
-        timeInSeconds=1.48/v
-        timeInNanoSeconds=timeInSeconds*math.pow(10,9)+200+np.random.normal(0,100)
+        timeInSeconds=1.54/v
+        timeInNanoSeconds=timeInSeconds*math.pow(10,9)+np.random.normal(145,100)
         histo.Fill(timeInNanoSeconds)
     histo.Scale(1.0/histo.Integral())
     return histo
@@ -84,14 +83,12 @@ def calculateFWHM(histo):
     fwhm = histo.GetBinCenter(upperBin) - histo.GetBinCenter(lowerBin);
     return fwhm
 
-
-
+#list of files for scan1
 listOfFiles=[ "D1_0kV_D2_3kV_E1_3kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_5kV_E2_3kV"]
 listOfFilesSimu=["D1_0D2_3000E1_3000E2_3000_scanning33um.txt","D1_0D2_3000E1_4000E2_3000_scanning33um.txt","D1_0D2_3000E1_5000E2_3000_scanning33um.txt"]
 rootDirSimu="/home/helga/GRACESimu/ibsimuData/onDetector"
 rootDirData="/home/helga/GRACESimu/GRACEbeamline/AntiprotonTagging/scan1"
 counter=0
-scalingFactor=2*1.4*1.4/(np.pi*10)
 
 for config in listOfFiles:
     legend =TLegend(0.7,0.7,0.90,0.90);
@@ -107,16 +104,20 @@ for config in listOfFiles:
     histosimu.SetLineColor(4)
     histodata.SetLineWidth(2)
     legend.AddEntry(histosimu,"simulation")
-    histosimu.Draw()
+    histosimu.Draw("hist")
     histodata.Draw("ehistsame")
     legend.Draw("same")
     canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/compare"+config+".pdf")
     counter+=1
-    print config
-    print "simu mean", histosimu.GetMean()
-    print "simu fwhm",calculateFWHM(histosimu)
-    print "data mean", histodata.GetMean()
-    print "data fwhm",calculateFWHM(histodata)
+    print "  "
+    print "  "
+    print "the config",config
+    print "  "
+    print "&   "+str(histodata.GetMean())+ " &  "+str(histosimu.GetMean())+ " & "+ str(calculateFWHM(histodata))+  "  &  "+str(calculateFWHM(histosimu))
+    print "   "
+    print "  "
+    print "  "
+    print "  "
 
     
 listOfFiles=[ "D1_0kV_D2_3kV_E1_4kV_E2_2kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_4kV"]
@@ -124,7 +125,44 @@ listOfFilesSimu=["D1_0D2_3000E1_4000E2_2000_scanning33um.txt","D1_0D2_3000E1_400
 rootDirSimu="/home/helga/GRACESimu/ibsimuData/onDetector"
 rootDirData="/home/helga/GRACESimu/GRACEbeamline/AntiprotonTagging/scan2"
 counter=0
-scalingFactor=2*1.4*1.4/(np.pi*10)
+
+for config in listOfFiles:
+    legend =TLegend(0.7,0.7,0.90,0.90);
+    canvas=TCanvas()
+    histodata=fillHistogram(rootDirData+"/"+config+"_data.txt")
+    histosimu=fillHistogramSimu(rootDirSimu+"/"+listOfFilesSimu[counter])
+    histodata.SetLineColor(1)
+    #histodata.SetFillColorAlpha(colorCounter,1)
+    legend.AddEntry(histodata,"Data")
+    histodata.GetXaxis().SetTitle("time delay")
+    histodata.GetYaxis().SetTitle("normalized frequency")
+    histosimu.SetFillColorAlpha(4,0.6)
+    histosimu.SetLineColor(4)
+    histodata.SetLineWidth(2)
+    legend.AddEntry(histosimu,"simulation")
+    histodata.Draw("ehist")
+    histosimu.Draw("histsame")
+    legend.Draw("same")
+    canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/compare"+config+".pdf")
+    counter+=1
+    print "  "
+    print "  "
+    print "the config",config
+    print "  "
+    print "&   "+str(histodata.GetMean())+ " &  "+str(histosimu.GetMean())+ " & "+ str(calculateFWHM(histodata))+  "  &  "+str(calculateFWHM(histosimu))
+    print "   "
+    print "  "
+    print "  "
+    print "  "
+
+
+
+
+listOfFiles=[ "D1_0kV_D2_1.5kV_E1_2kV_E2_3kV", "D1_0kV_D2_1.5kV_E1_3kV_E2_3kV","D1_0kV_D2_1.5kV_E1_4kV_E2_3kV"]
+listOfFilesSimu=["D1_0D2_1500E1_2000E2_3000_scanning33um.txt","D1_0D2_1500E1_3000E2_3000_scanning33um.txt","D1_0D2_1500E1_4000E2_3000_scanning33um.txt"]
+rootDirSimu="/home/helga/GRACESimu/ibsimuData/onDetector"
+rootDirData="/home/helga/GRACESimu/GRACEbeamline/AntiprotonTagging/scan3"
+counter=0
 
 for config in listOfFiles:
     legend =TLegend(0.7,0.7,0.90,0.90);
@@ -141,49 +179,23 @@ for config in listOfFiles:
     histodata.SetLineWidth(2)
     legend.AddEntry(histosimu,"simulation")
     histodata.Draw("ehist")
-    histosimu.Draw("same")
+    histosimu.Draw("histsame")
     legend.Draw("same")
-    canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/compare"+config+".pdf")
+    canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/compare"+config.replace(".","")+".pdf")
     counter+=1
-    print config
-    print "simu mean", histosimu.GetMean()
-    print "simu fwhm",calculateFWHM(histosimu)
-    print "data mean", histodata.GetMean()
-    print "data fwhm",calculateFWHM(histodata)
-
-
-
-# listOfFiles=[ "D1_0kV_D2_1.5kV_E1_2kV_E2_3kV", "D1_0kV_D2_1.5kV_E1_3kV_E2_3kV"]
-# listOfFilesSimu=["configs_D1_0D2_1500E1_2000E2_3000_scanning33um.txt","configs_D1_0D2_1500E1_3000E2_3000_scanning33um.txt"]
-# rootDirSimu="/home/helga/GRACESimu/IbsimuData/onDetector"
-# rootDirData="/home/helga/GRACESimu/GRACEbeamline/AntiprotonTagging/scan3"
-# counter=0
-# scalingFactor=2*1.4*1.4/(np.pi*10)
-
-# for config in listOfFiles:
-#     legend =TLegend(0.7,0.7,0.90,0.90);
-#     canvas=TCanvas()
-#     histodata=fillHistogram1500(rootDirData+"/"+config+"_data.txt")
-#     histosimu=fillHistogramSimu1500(rootDirSimu+"/"+listOfFilesSimu[counter])
-#     histodata.SetLineColor(1)
-#     #histodata.SetFillColorAlpha(colorCounter,1)
-#     legend.AddEntry(histodata,"Data")
-#     histodata.GetXaxis().SetTitle("time delay")
-#     histodata.GetYaxis().SetTitle("normalized frequency")
-#     histosimu.SetFillColorAlpha(4,0.6)
-#     histosimu.SetLineColor(4)
-#     histodata.SetLineWidth(2)
-#     legend.AddEntry(histosimu,"simulation")
-#     histodata.Draw("ehist")
-#     histosimu.Draw("same")
-#     legend.Draw("same")
-#     canvas.Print("/home/helga/gitThesis/thesis/fig/compare"+config+".pdf")
-#     counter+=1
-#     print config
-#     print "simu mean", histosimu.GetMean()
-#     print "simu fwhm",calculateFWHM(histosimu)
-#     print "data mean", histodata.GetMean()
-#     print "data fwhm",calculateFWHM(histodata)
+    print "  "
+    print "  "
+    print "the config",config
+    print "  "
+    print "&   "+str(histodata.GetMean())+ " &  "+str(histosimu.GetMean())+ " & "+ str(calculateFWHM(histodata))+  "  &  "+str(calculateFWHM(histosimu))
+    print "   "
+    print "  "
+    print "  "
+    print "  "
+    #print "simu mean", histosimu.GetMean()
+    #print "simu fwhm",calculateFWHM(histosimu)
+    #print "data mean", histodata.GetMean()
+    #print "data fwhm",calculateFWHM(histodata)
 
 
 
