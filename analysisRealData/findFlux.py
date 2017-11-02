@@ -34,4 +34,11 @@ for i in range(5):
     print i
     print findFluxOnSetting("3","4",str(i))
     
+
+print "scan D2=1.5"
+#do the scan on E2
+for i in range(5):
+    print i
+    print findFluxOnSetting("1.5",str(i),"3")
+    
     
