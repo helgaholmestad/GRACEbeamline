@@ -17,7 +17,7 @@ def addClusters(filepath):
     numberOfAntiProton=0
     print filepath+"_data.txt"
     goodFile=True
-    for line in open("scan1"+"/"+filepath+"_data.txt"):
+    for line in open("../AntiprotonTagging/scan1"+"/"+filepath+"_data.txt"):
         columns=line.split()
         if columns[0]==filepath:
             continue
@@ -77,7 +77,7 @@ legend =TLegend(0.55,0.55,0.90,0.90);
 counter=0
 for histogram in histogramList:
     if histogram==histogramList[0]:
-        histogram.GetYaxis().SetRangeUser(0,5.5)
+        histogram.GetYaxis().SetRangeUser(0,5)
         histogram.GetYaxis().SetTitle("Tagged antiprotons per shoot")
         histogram.GetXaxis().SetTitle("Time delay [ns]")
         histogram.Draw("histsame")        
@@ -88,4 +88,4 @@ for histogram in histogramList:
 
 canvas.Update()
 legend.Draw("same")
-canvas.Print("/home/helga/GRACEReport/fig/scan1RealData.pdf")
+canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/scan1RealData.pdf")

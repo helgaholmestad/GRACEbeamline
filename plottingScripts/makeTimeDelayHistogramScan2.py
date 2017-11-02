@@ -10,7 +10,7 @@ import sys
 c=299792458.0
 massProton=938.0/(c*c)
 gStyle.SetOptStat("")
-scalingFactor=1.4*1.4/(np.pi*10)
+scalingFactor=1.4*1.4/(3*np.pi*100)
 print  scalingFactor
 def analyseFile(inputfile):
     particles={}
@@ -43,7 +43,8 @@ nameList=["D1=0 kV D2= 3 kV  E1= 4 kV E2 =0 kV",
           "D1=0 kV D2= 3 kV  E1= 4 kV E2 =4 kV"]
     
 for j in [0,1000,2000,3000,4000,5000]:
-    timeDelay=analyseFile("../particlesOnDetector/D1_0D2_3000E1_-4000E2_-"+str(j)+"_scanning81.txt")
+                                          #ibsimuData/onDetector/D1_0D2_3000E1_4000E2_0_scanning33um.txt 
+    timeDelay=analyseFile("../../ibsimuData/onDetector/D1_0D2_3000E1_4000E2_"+str(j)+"_scanning33um.txt")
     timeDelay.SetLineWidth(5)
     listOfHistograms.append(timeDelay)
     
@@ -57,9 +58,8 @@ for i in range(5,-1,-1):
     if i==5:
         listOfHistograms[i].SetFillColorAlpha(colorCounter,0.6)
         listOfHistograms[i].SetLineColor(colorCounter)
-        listOfHistograms[i].GetYaxis().SetRangeUser(0,100)
+        listOfHistograms[i].GetYaxis().SetRangeUser(0,5)
         listOfHistograms[i].Draw("hist")
-        
     else:
         listOfHistograms[i].SetFillColorAlpha(colorCounter,0.6)
         listOfHistograms[i].SetLineColor(colorCounter)
@@ -69,5 +69,4 @@ for i in range(5,-1,-1):
     print colorCounter
 canvas.Update()
 legend.Draw("same")
-input()
-canvas.Print("/home/helga/GRACEReport/fig/scanEinzel2Simu.pdf")
+canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/scanEinzel2Simu.pdf")

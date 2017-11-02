@@ -17,7 +17,7 @@ def addClusters(filepath):
     numberOfAntiProton=0
     print filepath+"_data.txt"
     goodFile=True
-    for line in open("../AntiprotonTagging/scan2"+"/"+filepath+"_data.txt"):
+    for line in open("scan2"+"/"+filepath+"_data.txt"):
         columns=line.split()
         if columns[0]==filepath:
             continue
@@ -32,14 +32,16 @@ def addClusters(filepath):
             goodFile=False
             continue
         else:
-            histo.Fill(float(columns[0]))
-            timeList.append(columns[0])
-            numberOfAntiProton+=2
-            tmpAntiproton+=2
+            timeDelay=float(columns[0])
+            if timeDelay>900 and timeDelay<2500:
+                histo.Fill(float(timeDelay))
+                timeList.append(timeDelay)
+                numberOfAntiProton+=2
+                tmpAntiproton+=2
     listOfAntiprotons.append(tmpAntiproton)
     newListOfAntiprotons=[]
     for q in listOfAntiprotons:
-        if q<80 and q!=0:
+        if q<80:
             newListOfAntiprotons.append(q)
     #        numberOfShoot=numberOfShoot-1
     average=sum(newListOfAntiprotons)*1.0/len(newListOfAntiprotons)
@@ -50,7 +52,8 @@ def addClusters(filepath):
     print "average number of antiprotons",filepath,average,"uncertainty",np.sqrt(variance*1.0/numberOfShoot)
 #    print "interval for config",filepath,timeList[int(0.16*len(timeList))],timeList[(int(0.84*len(timeList)))]
     return histo,numberOfAntiProton
-listOfFiles=["D1_0kV_D2_3kV_E1_4kV_E2_0kV","D1_0kV_D2_3kV_E1_4kV_E2_1kV", "D1_0kV_D2_3kV_E1_4kV_E2_2kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_4kV"]
+#listOfFiles=["D1_0kV_D2_3kV_E1_4kV_E2_0kV","D1_0kV_D2_3kV_E1_4kV_E2_1kV", "D1_0kV_D2_3kV_E1_4kV_E2_2kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_4kV"]
+listOfFiles=["D1_0kV_D2_3kV_E1_4kV_E2_2kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_4kV"]
 histogramList=[]
 cumulativeHistogram=[]
 nameList=[]
@@ -61,6 +64,12 @@ nameList=["D1=0 kV D2= 3 kV  E1= 4 kV E2 =4 kV",
           "D1=0 kV D2= 3 kV  E1= 4  kV E2 =2 kV",
            "D1=0 kV D2= 3 kV  E1= 4 kV E2 =1 kV",
           "D1=0 kV D2= 3 kV  E1= 4 kV E2 =0 kV"]
+
+
+nameList=["D1=0 kV D2= 3 kV  E1= 4 kV E2 =4 kV",
+          "D1=0 kV D2= 3 kV  E1= 4 kV E2 =3 kV",
+          "D1=0 kV D2= 3 kV  E1= 4  kV E2 =2 kV"]
+
 
 for config in reversed(listOfFiles):
     histogram=addClusters(config)
@@ -75,7 +84,7 @@ legend =TLegend(0.55,0.55,0.90,0.90);
 counter=0
 for histogram in histogramList:
     if histogram==histogramList[0]:
-        histogram.GetYaxis().SetRangeUser(0,5)
+        histogram.GetYaxis().SetRangeUser(0,5.5)
         histogram.Draw("histsame")        
     else:
         histogram.Draw("histsame")
@@ -84,4 +93,4 @@ for histogram in histogramList:
 
 canvas.Update()
 legend.Draw("same")
-canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/scan2RealData.pdf")
+canvas.Print("/home/helga/GRACEReport/fig/scan2RealData.pdf")
