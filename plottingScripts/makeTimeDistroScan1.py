@@ -77,7 +77,7 @@ legend =TLegend(0.55,0.55,0.90,0.90);
 counter=0
 for histogram in histogramList:
     if histogram==histogramList[0]:
-        histogram.GetYaxis().SetRangeUser(0,5.5)
+        histogram.GetYaxis().SetRangeUser(0,5)
         histogram.GetYaxis().SetTitle("Tagged antiprotons per shoot")
         histogram.GetXaxis().SetTitle("Time delay [ns]")
         histogram.Draw("histsame")        

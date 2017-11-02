@@ -7,71 +7,85 @@ import os.path
 import re
 import math
 gStyle.SetOptStat("")
+ 
+
+def findKineticEnergy(time):
+    c=299792458.0
+    massProton=938.0/(c*c)
+    sign=1.0
+    if time<0:
+        sign=-1.0
+    time=time*1.0/(math.pow(10,9))
+    v2=math.pow((1.48/time),2)
+    kineticEnergy=v2*massProton*1000.0/2
+    return sign*kineticEnergy
+
+
+def findTime(energy):
+    c=299792458.0
+    massProton=938.0/(c*c)
+    v2=energy*2/(massProton*1000.0)
+    time=1.48/math.sqrt(v2)
+    time=time*math.pow(10,9)
+    return time
 
 def fillHistogram(filename):
-    numberOfShoots=0
-    histo=TH1D("","",26,1200,2500)
+    c=299792458.0
+    massProton=938.0/(c*c)
+    histo=TH1D("","",50,0,10)
     histo.Sumw2()
     for line in open(filename):
         columns=line.split()
         if columns[0]=="new":
-            numberOfShoots+=1
             continue
         if columns[0].startswith("D1") or columns[0]=="noFile":
             continue
-        histo.Fill(float(columns[0]))
+        time=float(columns[0])
+        #removing false hits from next event
+        if time>10000:
+            continue
+        histo.Fill(findKineticEnergy(time))
     histo.Scale(1.0/histo.Integral())
     return histo
 
 def fillHistogram1500(filename):
-    numberOfShoots=0
-    histo=TH1D("","",30,1300,3300)
+    histo=TH1D("","",50,0,10)
     histo.Sumw2()
     for line in open(filename):
         columns=line.split()
         if columns[0]=="new":
-            numberOfShoots+=1
             continue
         if columns[0].startswith("D1") or columns[0]=="noFile":
             continue
-        histo.Fill(float(columns[0]))
+        time=float(columns[0])
+        if time>10000:
+            continue
+        histo.Fill(findKineticEnergy(time))
     histo.Scale(1.0/histo.Integral())
     return histo
 
 
 
 def fillHistogramSimu1500(filename):
-    c=299792458.0
-    massProton=938.0/(c*c)
-    histo=TH1D("","",30,1300,3300)
+    histo=TH1D("","",50,0,10)
     for line in open(filename):
         columns=line.split()
-        energyInMeV=float(columns[3])/1000.0
-        v2=2*energyInMeV/massProton
-        v=math.sqrt(v2)
-        #remember that the air gap is taken into consideraion since the antiprotons slow down already there. Therefore 1.48+0.06
-        timeInSeconds=1.54/v
-        timeInNanoSeconds=timeInSeconds*math.pow(10,9)+np.random.normal(145,100)
-        histo.Fill(timeInNanoSeconds)
+        energy=float(columns[3])
+        time=findTime(energy)+np.random.normal(145,100)
+        histo.Fill(findKineticEnergy(time))
     histo.Scale(1.0/histo.Integral())
     return histo
 
 
 
 
-
 def fillHistogramSimu(filename):
-    c=299792458.0
-    massProton=938.0/(c*c)
-    histo=TH1D("","",26,1200,2500)
+    histo=TH1D("","",50,0,10)
     for line in open(filename):
         columns=line.split()
-        energyInMeV=float(columns[3])/1000.0
-        v2=2*energyInMeV/massProton
-        v=math.sqrt(v2)
-        timeInSeconds=1.54/v
-        timeInNanoSeconds=timeInSeconds*math.pow(10,9)+np.random.normal(145,100)
-        histo.Fill(timeInNanoSeconds)
+        energy=float(columns[3])
+        time=findTime(energy)+np.random.normal(145,100)
+        histo.Fill(findKineticEnergy(time))
     histo.Scale(1.0/histo.Integral())
     return histo
 
@@ -98,8 +112,8 @@ for config in listOfFiles:
     histodata.SetLineColor(1)
     #histodata.SetFillColorAlpha(colorCounter,1)
     legend.AddEntry(histodata,"Data")
-    histodata.GetXaxis().SetTitle("time delay")
-    histodata.GetYaxis().SetTitle("normalized frequency")
+    histosimu.GetXaxis().SetTitle("Kinetic energy [keV]")
+    histosimu.GetYaxis().SetTitle("normalized frequency")
     histosimu.SetFillColorAlpha(4,0.6)
     histosimu.SetLineColor(4)
     histodata.SetLineWidth(2)
@@ -134,14 +148,14 @@ for config in listOfFiles:
     histodata.SetLineColor(1)
     #histodata.SetFillColorAlpha(colorCounter,1)
     legend.AddEntry(histodata,"Data")
-    histodata.GetXaxis().SetTitle("time delay")
-    histodata.GetYaxis().SetTitle("normalized frequency")
+    histosimu.GetXaxis().SetTitle("Kinetic energy [keV]")
+    histosimu.GetYaxis().SetTitle("normalized frequency")
     histosimu.SetFillColorAlpha(4,0.6)
     histosimu.SetLineColor(4)
     histodata.SetLineWidth(2)
     legend.AddEntry(histosimu,"simulation")
-    histodata.Draw("ehist")
-    histosimu.Draw("histsame")
+    histosimu.Draw("ehist")
+    histodata.Draw("histsame")
     legend.Draw("same")
     canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/compare"+config+".pdf")
     counter+=1
@@ -172,14 +186,14 @@ for config in listOfFiles:
     histodata.SetLineColor(1)
     #histodata.SetFillColorAlpha(colorCounter,1)
     legend.AddEntry(histodata,"Data")
-    histodata.GetXaxis().SetTitle("time delay")
-    histodata.GetYaxis().SetTitle("normalized frequency")
+    histosimu.GetXaxis().SetTitle("Kinetic energy [keV]")
+    histosimu.GetYaxis().SetTitle("normalized frequency")
     histosimu.SetFillColorAlpha(4,0.6)
     histosimu.SetLineColor(4)
     histodata.SetLineWidth(2)
     legend.AddEntry(histosimu,"simulation")
-    histodata.Draw("ehist")
-    histosimu.Draw("histsame")
+    histosimu.Draw("ehist")
+    histodata.Draw("histsame")
     legend.Draw("same")
     canvas.Print("/home/helga/gitThesis/thesis/Grace/fig/compare"+config.replace(".","")+".pdf")
     counter+=1
