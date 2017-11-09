@@ -1,14 +1,14 @@
 #!/bin/bash
 
 function run {
-    ./simu 0 $1 $2 $3 inputFiles/Degrader33um.txt /slagbjorn/homes/helga/ibsimuData/voltageScan 33um &
+    ./simu 0 $1 $2 $3 inputFiles/Degrader3shoots.txt /slagbjorn/homes/helga/ibsimuData/voltageScan 33um &
 }
 
 
 
 function runStop {
     echo "stop"
-    ./simu 0 $1 $2 $3 inputFiles/Degrader33um.txt /slagbjorn/homes/helga/ibsimuData/voltageScan 33um 
+    ./simu 0 $1 $2 $3 inputFiles/Degrader3shoots.txt /slagbjorn/homes/helga/ibsimuData/voltageScan 33um 
 }
 
 

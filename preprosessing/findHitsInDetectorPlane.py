@@ -8,9 +8,9 @@ import sys
 import re
 import os
 #on raptor
-#path="/slagbjorn/homes/helga/"
+path="/slagbjorn/homes/helga/"
 #on laptop
-path="/home/helga/GRACESimu/" 
+#path="/home/helga/GRACESimu/" 
 #this program is to take the output from the ibsimu and filter out the hits  that ended up on the endplate  on the detector.
 
 theta=(-40.0/180.0)*np.pi
@@ -20,7 +20,7 @@ xtranslateion=0.1+0.85*np.sin(40.0*np.pi/180.0);
 
 def findHitOnDetector(filename):
     if os.path.isfile(filename)==False:
-        print "not found",filename
+        print("not found",filename)
         return
     settings=re.search("voltageScan/(.*).txt",filename)
     output=open(path+"ibsimuData/onDetector/"+settings.group(1)+".txt",'w')
