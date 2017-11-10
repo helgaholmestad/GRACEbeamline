@@ -1,0 +1,7358 @@
+noFile
+newFile
+newCluster 
+energy 7181.713
+pixels 121.0
+prong 1
+clusterCharge 19022.448
+error 2.34773777552
+trough
+newCluster 
+energy 629.731
+pixels 14.0
+prong 0
+clusterCharge 693.963
+error 0.785337093524
+notTrough
+newCluster 
+energy 5002.788
+pixels 89.0
+prong 1
+clusterCharge 7897.86
+error 1.88154173773
+trough
+newCluster 
+energy 1853.606
+pixels 12.0
+prong 0
+clusterCharge 1884.716
+error 1.24145016085
+notTrough
+newCluster 
+energy 724.229
+pixels 24.0
+prong 0
+clusterCharge 959.677
+error 1.34260233372
+notTrough
+newCluster 
+energy 7597.251
+pixels 37.0
+prong 0
+clusterCharge 9006.472
+error 1.55706953874
+notTrough
+newCluster 
+energy 354.5
+pixels 16.0
+prong 0
+clusterCharge 451.376
+error 0.399114063143
+notTrough
+newCluster 
+energy 817.949
+pixels 12.0
+prong 0
+clusterCharge 1154.983
+error 0.458817947048
+notTrough
+newCluster 
+energy 337.22
+pixels 15.0
+prong 1
+clusterCharge 513.768
+error 0.464982660034
+notTrough
+newCluster 
+energy 433.265
+pixels 25.0
+prong 0
+clusterCharge 785.211
+error 2.21306782999
+notTrough
+newCluster 
+energy 395.124
+pixels 11.0
+prong 0
+clusterCharge 457.403
+error 0.380802463852
+notTrough
+newCluster 
+energy 163.167
+pixels 36.0
+prong 2
+clusterCharge 823.43
+error 0.267456014907
+notTrough
+newCluster 
+energy 167.419
+pixels 13.0
+prong 0
+clusterCharge 295.456
+error 0.293205183002
+notTrough
+newCluster 
+energy 372.135
+pixels 19.0
+prong 1
+clusterCharge 651.843
+error 0.382730751492
+notTrough
+newCluster 
+energy 288.642
+pixels 15.0
+prong 0
+clusterCharge 442.464
+error 0.89185528582
+notTrough
+newCluster 
+energy 162.831
+pixels 13.0
+prong 0
+clusterCharge 259.276
+error 0.303529392531
+notTrough
+newCluster 
+energy 249.595
+pixels 20.0
+prong 1
+clusterCharge 624.844
+error 0.314210175405
+notTrough
+newCluster 
+energy 255.828
+pixels 13.0
+prong 0
+clusterCharge 427.15
+error 0.306385752713
+notTrough
+newCluster 
+energy 206.123
+pixels 18.0
+prong 1
+clusterCharge 471.264
+error 0.233691357319
+notTrough
+newCluster 
+energy 1008.459
+pixels 17.0
+prong 0
+clusterCharge 1025.296
+error 1.07428034608
+notTrough
+newCluster 
+energy 222.11
+pixels 13.0
+prong 0
+clusterCharge 332.949
+error 0.249259257631
+notTrough
+newCluster 
+energy 1472.255
+pixels 30.0
+prong 0
+clusterCharge 2703.766
+error 0.738834983324
+notTrough
+newCluster 
+energy 283.366
+pixels 16.0
+prong 0
+clusterCharge 482.383
+error 0.593184101312
+notTrough
+newCluster 
+energy 347.849
+pixels 12.0
+prong 0
+clusterCharge 470.335
+error 0.525518401812
+notTrough
+newCluster 
+energy 327.697
+pixels 14.0
+prong 0
+clusterCharge 439.01
+error 0.363699788541
+notTrough
+newCluster 
+energy 384.491
+pixels 15.0
+prong 0
+clusterCharge 542.037
+error 0.905887012842
+notTrough
+newCluster 
+energy 10858.765
+pixels 87.0
+prong 0
+clusterCharge 18483.247
+error 3.25977608751
+notTrough
+newCluster 
+energy 474.457
+pixels 21.0
+prong 0
+clusterCharge 796.601
+error 2.55570525793
+notTrough
+newCluster 
+energy 243.137
+pixels 15.0
+prong 0
+clusterCharge 398.495
+error 0.294629592373
+notTrough
+newCluster 
+energy 453.735
+pixels 27.0
+prong 1
+clusterCharge 945.969
+error 0.399234200718
+notTrough
+newCluster 
+energy 5835.986
+pixels 54.0
+prong 1
+clusterCharge 8184.873
+error 2.00811795703
+notTrough
+newCluster 
+energy 99.832
+pixels 12.0
+prong 0
+clusterCharge 228.362
+error 0.592227206147
+notTrough
+newCluster 
+energy 5544.73
+pixels 60.0
+prong 1
+clusterCharge 6251.18
+error 1.30499683748
+notTrough
+newCluster 
+energy 656.045
+pixels 19.0
+prong 0
+clusterCharge 870.961
+error 0.606866757185
+notTrough
+newCluster 
+energy 199.546
+pixels 27.0
+prong 1
+clusterCharge 664.104
+error 0.332722531309
+notTrough
+newCluster 
+energy 4344.873
+pixels 140.0
+prong 1
+clusterCharge 9695.105
+error 1.21310436845
+trough
+newCluster 
+energy 4866.022
+pixels 129.0
+prong 1
+clusterCharge 10272.12
+error 0.993563431479
+notTrough
+newCluster 
+energy 1010.641
+pixels 153.0
+prong 2
+clusterCharge 6519.667
+error 0.852272667871
+notTrough
+newCluster 
+energy 63.078
+pixels 18.0
+prong 1
+clusterCharge 409.57
+error 1.64092815905e-14
+notTrough
+newCluster 
+energy 168.185
+pixels 16.0
+prong 1
+clusterCharge 440.456
+error 0.236352692855
+notTrough
+newCluster 
+energy 92.495
+pixels 20.0
+prong 1
+clusterCharge 487.492
+error 0.209018685122
+notTrough
+newCluster 
+energy 458.825
+pixels 22.0
+prong 1
+clusterCharge 766.233
+error 0.415743730278
+notTrough
+newCluster 
+energy 341.713
+pixels 29.0
+prong 2
+clusterCharge 823.246
+error 0.552400199114
+notTrough
+newCluster 
+energy 320.939
+pixels 22.0
+prong 2
+clusterCharge 568.346
+error 0.311155980992
+notTrough
+newCluster 
+energy 160.047
+pixels 13.0
+prong 1
+clusterCharge 304.851
+error 0.223444339261
+notTrough
+newCluster 
+energy 142.206
+pixels 11.0
+prong 0
+clusterCharge 226.931
+error 0.383759388234
+notTrough
+newCluster 
+energy 187.885
+pixels 28.0
+prong 1
+clusterCharge 594.715
+error 1.21661505834
+notTrough
+newFile
+newCluster 
+energy 203.29
+pixels 12.0
+prong 1
+clusterCharge 286.878
+error 0.278727901416
+notTrough
+newCluster 
+energy 3217.043
+pixels 16.0
+prong 0
+clusterCharge 3286.184
+error 1.40377096304
+notTrough
+newCluster 
+energy 2953.553
+pixels 58.0
+prong 1
+clusterCharge 4359.542
+error 3.06554512367
+notTrough
+newCluster 
+energy 598.697
+pixels 15.0
+prong 0
+clusterCharge 645.965
+error 0.994114133688
+notTrough
+newCluster 
+energy 398.005
+pixels 35.0
+prong 2
+clusterCharge 979.357
+error 0.428219359296
+notTrough
+newCluster 
+energy 3189.949
+pixels 48.0
+prong 1
+clusterCharge 4412.449
+error 0.865969531153
+notTrough
+newCluster 
+energy 9922.006
+pixels 74.0
+prong 0
+clusterCharge 13774.56
+error 2.76215351716
+notTrough
+newCluster 
+energy 44.796
+pixels 11.0
+prong 1
+clusterCharge 296.858
+error 4.80185914409
+notTrough
+newCluster 
+energy 45.88
+pixels 19.0
+prong 1
+clusterCharge 391.169
+error 0.251558115108
+notTrough
+newCluster 
+energy 400.941
+pixels 14.0
+prong 0
+clusterCharge 574.688
+error 0.823406287621
+notTrough
+newCluster 
+energy 472.554
+pixels 13.0
+prong 0
+clusterCharge 536.829
+error 0.850005314448
+notTrough
+newCluster 
+energy 639.694
+pixels 13.0
+prong 0
+clusterCharge 718.807
+error 0.532966374311
+notTrough
+newCluster 
+energy 693.445
+pixels 11.0
+prong 0
+clusterCharge 756.677
+error 0.629008882221
+notTrough
+newCluster 
+energy 9082.529
+pixels 104.0
+prong 2
+clusterCharge 14237.051
+error 3.76460660852
+trough
+newCluster 
+energy 336.394
+pixels 22.0
+prong 1
+clusterCharge 679.397
+error 0.654046337334
+notTrough
+newCluster 
+energy 186.253
+pixels 24.0
+prong 1
+clusterCharge 492.829
+error 0.270381299367
+notTrough
+newCluster 
+energy 221.515
+pixels 12.0
+prong 0
+clusterCharge 355.43
+error 0.250113419106
+notTrough
+newCluster 
+energy 261.764
+pixels 16.0
+prong 0
+clusterCharge 420.345
+error 0.348828634044
+notTrough
+newCluster 
+energy 5164.081
+pixels 34.0
+prong 0
+clusterCharge 6839.471
+error 1.3044357311
+notTrough
+newCluster 
+energy 1230.047
+pixels 21.0
+prong 0
+clusterCharge 1374.624
+error 1.63385060122
+notTrough
+newCluster 
+energy 2346.033
+pixels 12.0
+prong 0
+clusterCharge 2555.119
+error 0.889756521003
+notTrough
+newCluster 
+energy 346.548
+pixels 19.0
+prong 0
+clusterCharge 601.417
+error 1.52648480692
+notTrough
+newCluster 
+energy 205.699
+pixels 29.0
+prong 2
+clusterCharge 735.903
+error 0.274392276791
+notTrough
+newCluster 
+energy 125.155
+pixels 15.0
+prong 1
+clusterCharge 531.838
+error 0.288052061991
+notTrough
+newCluster 
+energy 439.821
+pixels 15.0
+prong 0
+clusterCharge 709.515
+error 0.35845483828
+notTrough
+newCluster 
+energy 512.739
+pixels 23.0
+prong 0
+clusterCharge 854.296
+error 0.980329711635
+notTrough
+newCluster 
+energy 298.664
+pixels 31.0
+prong 1
+clusterCharge 963.443
+error 3.30293357767
+notTrough
+newCluster 
+energy 609.41
+pixels 37.0
+prong 1
+clusterCharge 1769.236
+error 0.532712972226
+notTrough
+newCluster 
+energy 1022.981
+pixels 11.0
+prong 0
+clusterCharge 1253.004
+error 1.05131496608
+notTrough
+newCluster 
+energy 339.646
+pixels 24.0
+prong 1
+clusterCharge 769.982
+error 0.320627123496
+notTrough
+newCluster 
+energy 447.727
+pixels 12.0
+prong 0
+clusterCharge 473.965
+error 1.22914170227
+notTrough
+newCluster 
+energy 480.011
+pixels 12.0
+prong 0
+clusterCharge 535.772
+error 1.73612335212
+notTrough
+newCluster 
+energy 70.409
+pixels 17.0
+prong 1
+clusterCharge 398.51
+error 0.255924298643
+notTrough
+newCluster 
+energy 28.799
+pixels 12.0
+prong 1
+clusterCharge 275.222
+error 3.98172910513
+notTrough
+newCluster 
+energy 177.269
+pixels 50.0
+prong 1
+clusterCharge 1233.89
+error 0.570079002853
+notTrough
+newCluster 
+energy 4980.954
+pixels 37.0
+prong 0
+clusterCharge 6457.514
+error 1.48615887802
+notTrough
+newCluster 
+energy 604.692
+pixels 14.0
+prong 0
+clusterCharge 938.41
+error 0.791802121233
+notTrough
+newCluster 
+energy 271.852
+pixels 13.0
+prong 0
+clusterCharge 366.49
+error 1.23400873613
+notTrough
+newCluster 
+energy 188.716
+pixels 23.0
+prong 1
+clusterCharge 674.514
+error 0.258231199515
+notTrough
+newCluster 
+energy 721.796
+pixels 167.0
+prong 2
+clusterCharge 9865.098
+error 0.52999295677
+notTrough
+newCluster 
+energy 243.727
+pixels 17.0
+prong 1
+clusterCharge 533.725
+error 0.403805427811
+notTrough
+newCluster 
+energy 3197.649
+pixels 34.0
+prong 0
+clusterCharge 3951.979
+error 2.76329744374
+notTrough
+newCluster 
+energy 325.693
+pixels 18.0
+prong 1
+clusterCharge 645.192
+error 0.26532831999
+notTrough
+newCluster 
+energy 292.898
+pixels 17.0
+prong 1
+clusterCharge 557.989
+error 0.924424047657
+notTrough
+newCluster 
+energy 486.283
+pixels 35.0
+prong 2
+clusterCharge 1158.505
+error 0.397662822711
+notTrough
+newCluster 
+energy 249.526
+pixels 29.0
+prong 2
+clusterCharge 852.837
+error 0.181903070494
+notTrough
+newCluster 
+energy 49.478
+pixels 11.0
+prong 1
+clusterCharge 208.16
+error 0.228147521472
+notTrough
+newCluster 
+energy 68.555
+pixels 12.0
+prong 1
+clusterCharge 236.565
+error 0.279641874904
+notTrough
+newCluster 
+energy 119.742
+pixels 14.0
+prong 1
+clusterCharge 276.487
+error 0.460359561882
+notTrough
+newCluster 
+energy 239.762
+pixels 17.0
+prong 1
+clusterCharge 415.65
+error 0.54858626068
+notTrough
+newCluster 
+energy 246.77
+pixels 22.0
+prong 1
+clusterCharge 626.645
+error 0.401491565592
+notTrough
+newCluster 
+energy 494.317
+pixels 18.0
+prong 1
+clusterCharge 739.415
+error 1.29759129521
+notTrough
+newCluster 
+energy 231.882
+pixels 12.0
+prong 0
+clusterCharge 271.931
+error 0.876599590853
+notTrough
+newCluster 
+energy 267.228
+pixels 35.0
+prong 0
+clusterCharge 1434.151
+error 0.366552660752
+notTrough
+newCluster 
+energy 101.824
+pixels 13.0
+prong 0
+clusterCharge 325.757
+error 0.276830445135
+notTrough
+newCluster 
+energy 4282.322
+pixels 282.0
+prong 1
+clusterCharge 35391.345
+error 0.991085576193
+notTrough
+newCluster 
+energy 459.236
+pixels 16.0
+prong 0
+clusterCharge 639.519
+error 1.1087786932
+notTrough
+newCluster 
+energy 364.59
+pixels 12.0
+prong 0
+clusterCharge 479.847
+error 0.488014236203
+notTrough
+newFile
+newCluster 
+energy 416.59
+pixels 17.0
+prong 0
+clusterCharge 695.633
+error 0.356188955915
+notTrough
+newCluster 
+energy 739.119
+pixels 30.0
+prong 0
+clusterCharge 1202.735
+error 5.87497838735
+notTrough
+newCluster 
+energy 3245.975
+pixels 36.0
+prong 0
+clusterCharge 3975.681
+error 2.9512632275
+notTrough
+newCluster 
+energy 286.02
+pixels 22.0
+prong 1
+clusterCharge 628.527
+error 0.351600238331
+notTrough
+newCluster 
+energy 286.226
+pixels 20.0
+prong 1
+clusterCharge 539.926
+error 0.636396361191
+notTrough
+newCluster 
+energy 1040.254
+pixels 12.0
+prong 0
+clusterCharge 1091.105
+error 0.95244047433
+notTrough
+newCluster 
+energy 486.498
+pixels 14.0
+prong 0
+clusterCharge 530.493
+error 0.764214859737
+notTrough
+newCluster 
+energy 135.513
+pixels 11.0
+prong 0
+clusterCharge 259.082
+error 0.293720139306
+notTrough
+newCluster 
+energy 329.705
+pixels 19.0
+prong 1
+clusterCharge 671.01
+error 0.468211721219
+notTrough
+newCluster 
+energy 104.43
+pixels 13.0
+prong 1
+clusterCharge 330.5
+error 0.261537347642
+notTrough
+newCluster 
+energy 2285.204
+pixels 17.0
+prong 0
+clusterCharge 2516.327
+error 1.5149721664
+notTrough
+newCluster 
+energy 1627.461
+pixels 13.0
+prong 0
+clusterCharge 1906.305
+error 1.19850052514
+notTrough
+newCluster 
+energy 340.044
+pixels 22.0
+prong 1
+clusterCharge 853.346
+error 0.36351934026
+notTrough
+newCluster 
+energy 3540.87
+pixels 18.0
+prong 0
+clusterCharge 3945.825
+error 1.45100712843
+notTrough
+newCluster 
+energy 183.286
+pixels 14.0
+prong 0
+clusterCharge 316.571
+error 0.276816218699
+notTrough
+newCluster 
+energy 1599.727
+pixels 16.0
+prong 0
+clusterCharge 2008.277
+error 2.15380799722
+notTrough
+newCluster 
+energy 119.652
+pixels 16.0
+prong 1
+clusterCharge 335.998
+error 0.259849999449
+notTrough
+newCluster 
+energy 134.419
+pixels 11.0
+prong 0
+clusterCharge 329.205
+error 0.267164733318
+notTrough
+newCluster 
+energy 109.622
+pixels 13.0
+prong 0
+clusterCharge 269.971
+error 0.233258451669
+notTrough
+newCluster 
+energy 416.134
+pixels 15.0
+prong 0
+clusterCharge 711.991
+error 0.32625538621
+notTrough
+newCluster 
+energy 5936.746
+pixels 61.0
+prong 0
+clusterCharge 8652.202
+error 1.98524460118
+notTrough
+newCluster 
+energy 309.848
+pixels 15.0
+prong 1
+clusterCharge 717.878
+error 0.263489798061
+notTrough
+newCluster 
+energy 376.961
+pixels 24.0
+prong 1
+clusterCharge 713.121
+error 0.369290442884
+notTrough
+newCluster 
+energy 529.828
+pixels 27.0
+prong 1
+clusterCharge 921.679
+error 0.985912726341
+notTrough
+newCluster 
+energy 142.676
+pixels 14.0
+prong 1
+clusterCharge 271.574
+error 0.257449048899
+notTrough
+newCluster 
+energy 161.014
+pixels 19.0
+prong 1
+clusterCharge 418.726
+error 0.264366822701
+notTrough
+newCluster 
+energy 152.211
+pixels 17.0
+prong 0
+clusterCharge 362.203
+error 0.34251026328
+notTrough
+newCluster 
+energy 8090.358
+pixels 81.0
+prong 1
+clusterCharge 13137.411
+error 1.40760608215
+trough
+newCluster 
+energy 141.273
+pixels 17.0
+prong 0
+clusterCharge 352.339
+error 0.231673423797
+notTrough
+newCluster 
+energy 2070.105
+pixels 17.0
+prong 0
+clusterCharge 2271.707
+error 2.21796499591
+notTrough
+newCluster 
+energy 280.745
+pixels 20.0
+prong 1
+clusterCharge 587.825
+error 0.50126372526
+notTrough
+newCluster 
+energy 85.744
+pixels 15.0
+prong 1
+clusterCharge 348.826
+error 0.201550410799
+notTrough
+newCluster 
+energy 2228.231
+pixels 20.0
+prong 0
+clusterCharge 2410.232
+error 0.883109443951
+notTrough
+newCluster 
+energy 67.92
+pixels 20.0
+prong 1
+clusterCharge 418.372
+error 0.272498056165
+notTrough
+newCluster 
+energy 954.03
+pixels 146.0
+prong 2
+clusterCharge 11364.124
+error 0.653563181257
+notTrough
+newCluster 
+energy 238.032
+pixels 68.0
+prong 2
+clusterCharge 1962.279
+error 0.366527209444
+notTrough
+newCluster 
+energy 385.17
+pixels 44.0
+prong 1
+clusterCharge 1917.734
+error 0.363227375761
+notTrough
+newCluster 
+energy 442.158
+pixels 45.0
+prong 2
+clusterCharge 1245.481
+error 0.631898656431
+notTrough
+newCluster 
+energy 45.91
+pixels 12.0
+prong 0
+clusterCharge 260.327
+error 2.84217094304e-14
+notTrough
+newCluster 
+energy 526.508
+pixels 18.0
+prong 0
+clusterCharge 806.858
+error 2.70511107353
+notTrough
+newCluster 
+energy 187.337
+pixels 13.0
+prong 0
+clusterCharge 302.061
+error 0.318588508271
+notTrough
+newCluster 
+energy 165.834
+pixels 17.0
+prong 0
+clusterCharge 389.893
+error 1.04337783962
+notTrough
+newCluster 
+energy 151.043
+pixels 14.0
+prong 1
+clusterCharge 307.648
+error 0.333557795972
+notTrough
+newCluster 
+energy 397.934
+pixels 15.0
+prong 0
+clusterCharge 606.835
+error 1.73921018598
+notTrough
+newCluster 
+energy 10297.203
+pixels 186.0
+prong 2
+clusterCharge 26745.192
+error 3.85320055236
+trough
+newCluster 
+energy 343.427
+pixels 29.0
+prong 1
+clusterCharge 746.404
+error 1.16451142226
+notTrough
+newFile
+newCluster 
+energy 392.921
+pixels 19.0
+prong 0
+clusterCharge 644.635
+error 1.44540875065
+notTrough
+newCluster 
+energy 193.478
+pixels 13.0
+prong 0
+clusterCharge 399.796
+error 0.257954783947
+notTrough
+newCluster 
+energy 223.161
+pixels 11.0
+prong 0
+clusterCharge 312.387
+error 0.304473498314
+notTrough
+newCluster 
+energy 8437.627
+pixels 78.0
+prong 1
+clusterCharge 15223.431
+error 1.797168328
+trough
+newCluster 
+energy 1495.87
+pixels 15.0
+prong 0
+clusterCharge 2128.007
+error 1.08847719714
+notTrough
+newCluster 
+energy 1250.725
+pixels 33.0
+prong 0
+clusterCharge 2327.471
+error 0.585808518783
+notTrough
+newCluster 
+energy 1995.89
+pixels 37.0
+prong 1
+clusterCharge 4696.893
+error 0.979683728486
+notTrough
+newCluster 
+energy 98.968
+pixels 13.0
+prong 0
+clusterCharge 319.796
+error 0.232107606954
+notTrough
+newCluster 
+energy 3463.532
+pixels 28.0
+prong 0
+clusterCharge 4048.023
+error 1.30377175477
+notTrough
+newCluster 
+energy 733.031
+pixels 15.0
+prong 0
+clusterCharge 936.139
+error 0.903301951705
+notTrough
+newCluster 
+energy 102.08
+pixels 14.0
+prong 0
+clusterCharge 384.339
+error 0.264243622968
+notTrough
+newCluster 
+energy 6069.185
+pixels 37.0
+prong 0
+clusterCharge 7582.848
+error 1.40187037854
+notTrough
+newCluster 
+energy 232.752
+pixels 11.0
+prong 0
+clusterCharge 251.083
+error 0.402954571846
+notTrough
+newCluster 
+energy 134.398
+pixels 17.0
+prong 1
+clusterCharge 358.869
+error 0.255719799203
+notTrough
+newCluster 
+energy 99.539
+pixels 18.0
+prong 1
+clusterCharge 451.588
+error 0.285697568666
+notTrough
+newCluster 
+energy 218.812
+pixels 11.0
+prong 0
+clusterCharge 301.13
+error 0.323252742774
+notTrough
+newCluster 
+energy 4308.617
+pixels 30.0
+prong 0
+clusterCharge 4538.104
+error 2.15383917875
+notTrough
+newCluster 
+energy 56.02
+pixels 15.0
+prong 0
+clusterCharge 340.277
+error 7.1054273576e-15
+notTrough
+newCluster 
+energy 26.071
+pixels 13.0
+prong 1
+clusterCharge 263.882
+error 1.47473008855e-14
+notTrough
+newCluster 
+energy 436.895
+pixels 12.0
+prong 0
+clusterCharge 436.895
+error 0.427843618408
+notTrough
+newCluster 
+energy 773.303
+pixels 11.0
+prong 0
+clusterCharge 876.246
+error 0.693242195694
+notTrough
+newCluster 
+energy 198.428
+pixels 12.0
+prong 0
+clusterCharge 281.211
+error 0.293544812279
+notTrough
+newCluster 
+energy 206.834
+pixels 12.0
+prong 0
+clusterCharge 332.957
+error 0.300381782452
+notTrough
+newCluster 
+energy 5481.051
+pixels 56.0
+prong 0
+clusterCharge 7126.586
+error 1.80801544764
+notTrough
+newCluster 
+energy 530.556
+pixels 25.0
+prong 1
+clusterCharge 754.32
+error 1.78308710396
+notTrough
+newCluster 
+energy 689.584
+pixels 29.0
+prong 1
+clusterCharge 1185.177
+error 0.587701199717
+notTrough
+newCluster 
+energy 1339.883
+pixels 20.0
+prong 0
+clusterCharge 1496.947
+error 0.649082581539
+notTrough
+newCluster 
+energy 351.345
+pixels 18.0
+prong 1
+clusterCharge 561.216
+error 0.656059884212
+notTrough
+newCluster 
+energy 362.428
+pixels 24.0
+prong 0
+clusterCharge 683.829
+error 0.71202538475
+notTrough
+newCluster 
+energy 290.4
+pixels 12.0
+prong 0
+clusterCharge 372.091
+error 0.926985612392
+notTrough
+newCluster 
+energy 389.985
+pixels 11.0
+prong 0
+clusterCharge 411.782
+error 1.1738146826
+notTrough
+newCluster 
+energy 1057.024
+pixels 12.0
+prong 0
+clusterCharge 1100.156
+error 1.88271257776
+notTrough
+newFile
+newCluster 
+energy 5299.011
+pixels 198.0
+prong 3
+clusterCharge 22130.196
+error 10.3988237953
+trough
+newCluster 
+energy 3265.348
+pixels 171.0
+prong 4
+clusterCharge 17711.691
+error 3.55587450046
+trough
+newCluster 
+energy 259.829
+pixels 13.0
+prong 1
+clusterCharge 388.627
+error 1.20384393212
+notTrough
+newCluster 
+energy 966.662
+pixels 25.0
+prong 0
+clusterCharge 1984.814
+error 0.549728811253
+notTrough
+newCluster 
+energy 294.329
+pixels 16.0
+prong 0
+clusterCharge 475.469
+error 1.14533045694
+notTrough
+newCluster 
+energy 9836.35
+pixels 107.0
+prong 3
+clusterCharge 19960.903
+error 3.45907440403
+trough
+newCluster 
+energy 3032.013
+pixels 20.0
+prong 0
+clusterCharge 3425.78
+error 1.25898346696
+notTrough
+newCluster 
+energy 105.752
+pixels 18.0
+prong 0
+clusterCharge 525.975
+error 0.279354753028
+notTrough
+newCluster 
+energy 4154.107
+pixels 37.0
+prong 0
+clusterCharge 5442.093
+error 1.49763339382
+notTrough
+newCluster 
+energy 2577.302
+pixels 20.0
+prong 0
+clusterCharge 2874.286
+error 1.2514634832
+notTrough
+newCluster 
+energy 3377.069
+pixels 23.0
+prong 0
+clusterCharge 3882.098
+error 1.3726939744
+notTrough
+newCluster 
+energy 1605.644
+pixels 14.0
+prong 0
+clusterCharge 1921.292
+error 1.03015750728
+notTrough
+newCluster 
+energy 403.706
+pixels 22.0
+prong 2
+clusterCharge 744.955
+error 0.4227626663
+notTrough
+newCluster 
+energy 3973.442
+pixels 20.0
+prong 0
+clusterCharge 4205.219
+error 1.62083966268
+notTrough
+newCluster 
+energy 463.769
+pixels 24.0
+prong 0
+clusterCharge 818.32
+error 4.39090644275
+notTrough
+newCluster 
+energy 216.932
+pixels 15.0
+prong 0
+clusterCharge 314.373
+error 0.335243167004
+notTrough
+newCluster 
+energy 195.015
+pixels 11.0
+prong 0
+clusterCharge 329.958
+error 0.298427274292
+notTrough
+newCluster 
+energy 178.267
+pixels 15.0
+prong 1
+clusterCharge 314.944
+error 0.289927527176
+notTrough
+newCluster 
+energy 334.735
+pixels 17.0
+prong 1
+clusterCharge 524.041
+error 1.14733832376
+notTrough
+newCluster 
+energy 474.142
+pixels 19.0
+prong 1
+clusterCharge 719.269
+error 0.457730006279
+notTrough
+newCluster 
+energy 2137.036
+pixels 95.0
+prong 1
+clusterCharge 9187.765
+error 0.722943091993
+notTrough
+newCluster 
+energy 166.425
+pixels 14.0
+prong 0
+clusterCharge 318.125
+error 1.04796983735
+notTrough
+newCluster 
+energy 1217.447
+pixels 25.0
+prong 0
+clusterCharge 2525.133
+error 0.513380108543
+notTrough
+newCluster 
+energy 222.484
+pixels 11.0
+prong 0
+clusterCharge 295.032
+error 0.321606174898
+notTrough
+newCluster 
+energy 1394.978
+pixels 67.0
+prong 2
+clusterCharge 5752.701
+error 1.11475539036
+notTrough
+newCluster 
+energy 98.836
+pixels 11.0
+prong 0
+clusterCharge 261.772
+error 0.22210473756
+notTrough
+newCluster 
+energy 167.517
+pixels 19.0
+prong 1
+clusterCharge 449.648
+error 0.244799490333
+notTrough
+newCluster 
+energy 379.956
+pixels 11.0
+prong 0
+clusterCharge 463.295
+error 1.64441202534
+notTrough
+newCluster 
+energy 194.129
+pixels 18.0
+prong 1
+clusterCharge 474.578
+error 0.363938116695
+notTrough
+newCluster 
+energy 197.585
+pixels 22.0
+prong 1
+clusterCharge 587.341
+error 0.208210029602
+notTrough
+newCluster 
+energy 448.222
+pixels 55.0
+prong 1
+clusterCharge 1694.32
+error 0.331111511129
+notTrough
+newCluster 
+energy 205.495
+pixels 11.0
+prong 0
+clusterCharge 256.228
+error 0.368372702427
+notTrough
+newCluster 
+energy 404.673
+pixels 17.0
+prong 0
+clusterCharge 575.268
+error 0.566014899862
+notTrough
+newCluster 
+energy 318.284
+pixels 25.0
+prong 1
+clusterCharge 691.901
+error 0.338979123984
+notTrough
+newCluster 
+energy 362.302
+pixels 17.0
+prong 0
+clusterCharge 843.845
+error 0.234977677584
+notTrough
+newCluster 
+energy 191.627
+pixels 13.0
+prong 0
+clusterCharge 301.309
+error 0.425422132274
+notTrough
+newCluster 
+energy 2273.598
+pixels 15.0
+prong 0
+clusterCharge 2820.873
+error 0.973931037942
+notTrough
+newCluster 
+energy 1161.098
+pixels 13.0
+prong 0
+clusterCharge 1414.169
+error 0.466399370997
+notTrough
+newCluster 
+energy 6439.637
+pixels 87.0
+prong 2
+clusterCharge 11162.622
+error 4.61035124448
+trough
+newCluster 
+energy 5600.036
+pixels 99.0
+prong 2
+clusterCharge 17131.491
+error 1.23957329665
+trough
+newCluster 
+energy 372.108
+pixels 69.0
+prong 2
+clusterCharge 2265.06
+error 2.52570243395
+notTrough
+newCluster 
+energy 220.689
+pixels 50.0
+prong 1
+clusterCharge 1128.174
+error 0.872437119148
+notTrough
+newCluster 
+energy 269.306
+pixels 13.0
+prong 0
+clusterCharge 408.992
+error 0.344426781323
+notTrough
+newCluster 
+energy 197.898
+pixels 13.0
+prong 0
+clusterCharge 288.579
+error 0.666200140941
+notTrough
+newCluster 
+energy 447.482
+pixels 25.0
+prong 0
+clusterCharge 844.331
+error 4.56417523537
+notTrough
+newCluster 
+energy 2347.258
+pixels 24.0
+prong 0
+clusterCharge 2517.585
+error 1.42576857737
+notTrough
+newCluster 
+energy 858.234
+pixels 16.0
+prong 0
+clusterCharge 1227.883
+error 0.45586456322
+notTrough
+newCluster 
+energy 5199.644
+pixels 72.0
+prong 1
+clusterCharge 10817.108
+error 5.30119672367
+trough
+newCluster 
+energy 2759.263
+pixels 46.0
+prong 1
+clusterCharge 4010.948
+error 2.41629515222
+notTrough
+newCluster 
+energy 194.061
+pixels 26.0
+prong 2
+clusterCharge 1044.719
+error 0.307861049816
+notTrough
+newCluster 
+energy 403.829
+pixels 12.0
+prong 0
+clusterCharge 477.32
+error 0.59503633626
+notTrough
+newCluster 
+energy 4865.498
+pixels 68.0
+prong 1
+clusterCharge 10197.293
+error 1.56470014996
+notTrough
+newCluster 
+energy 2060.683
+pixels 21.0
+prong 0
+clusterCharge 2925.135
+error 3.10916038616
+notTrough
+newCluster 
+energy 365.863
+pixels 34.0
+prong 1
+clusterCharge 1039.94
+error 0.389064739639
+notTrough
+newCluster 
+energy 410.788
+pixels 25.0
+prong 1
+clusterCharge 866.167
+error 0.378182762807
+notTrough
+newCluster 
+energy 11749.796
+pixels 75.0
+prong 0
+clusterCharge 15385.234
+error 2.64060642099
+notTrough
+newCluster 
+energy 351.148
+pixels 17.0
+prong 1
+clusterCharge 571.51
+error 0.280278448396
+notTrough
+newCluster 
+energy 240.785
+pixels 11.0
+prong 0
+clusterCharge 412.252
+error 0.429719781845
+notTrough
+newCluster 
+energy 290.959
+pixels 16.0
+prong 0
+clusterCharge 475.869
+error 0.426794093457
+notTrough
+newCluster 
+energy 216.561
+pixels 14.0
+prong 0
+clusterCharge 306.797
+error 0.370999258002
+notTrough
+newCluster 
+energy 241.921
+pixels 13.0
+prong 0
+clusterCharge 448.872
+error 0.274111737302
+notTrough
+newCluster 
+energy 283.508
+pixels 13.0
+prong 0
+clusterCharge 355.414
+error 0.514719845927
+notTrough
+newCluster 
+energy 140.671
+pixels 11.0
+prong 0
+clusterCharge 295.658
+error 0.24249882536
+notTrough
+newCluster 
+energy 314.546
+pixels 11.0
+prong 1
+clusterCharge 792.514
+error 0.476427178272
+notTrough
+newCluster 
+energy 3285.785
+pixels 17.0
+prong 0
+clusterCharge 3577.871
+error 1.88177540218
+notTrough
+newFile
+newCluster 
+energy 2327.215
+pixels 17.0
+prong 0
+clusterCharge 2905.759
+error 1.3179504786
+notTrough
+newCluster 
+energy 3259.513
+pixels 38.0
+prong 0
+clusterCharge 4419.737
+error 2.49743060848
+notTrough
+newCluster 
+energy 281.664
+pixels 32.0
+prong 2
+clusterCharge 1254.918
+error 0.367110606166
+notTrough
+newCluster 
+energy 3646.813
+pixels 54.0
+prong 1
+clusterCharge 5366.315
+error 1.75741553031
+notTrough
+newCluster 
+energy 1708.04
+pixels 18.0
+prong 0
+clusterCharge 1822.74
+error 0.932921431192
+notTrough
+newCluster 
+energy 582.919
+pixels 18.0
+prong 0
+clusterCharge 1227.639
+error 0.418320713221
+notTrough
+newCluster 
+energy 3175.002
+pixels 18.0
+prong 0
+clusterCharge 3824.826
+error 1.45720856096
+notTrough
+newCluster 
+energy 357.454
+pixels 17.0
+prong 0
+clusterCharge 717.977
+error 1.13067092464
+notTrough
+newCluster 
+energy 417.772
+pixels 13.0
+prong 0
+clusterCharge 433.401
+error 0.72915078928
+notTrough
+newCluster 
+energy 458.007
+pixels 12.0
+prong 0
+clusterCharge 548.53
+error 2.01179354843
+notTrough
+newCluster 
+energy 1882.679
+pixels 12.0
+prong 0
+clusterCharge 2460.807
+error 0.993666814065
+notTrough
+newCluster 
+energy 681.622
+pixels 22.0
+prong 0
+clusterCharge 1087.175
+error 0.521356776125
+notTrough
+newCluster 
+energy 327.958
+pixels 13.0
+prong 0
+clusterCharge 757.865
+error 0.258539297133
+notTrough
+newCluster 
+energy 5787.056
+pixels 84.0
+prong 2
+clusterCharge 8348.333
+error 4.20699756135
+trough
+newCluster 
+energy 1444.515
+pixels 13.0
+prong 0
+clusterCharge 1885.265
+error 0.990223705243
+notTrough
+newCluster 
+energy 7144.619
+pixels 145.0
+prong 1
+clusterCharge 20495.826
+error 3.56861244378
+trough
+newCluster 
+energy 301.97
+pixels 14.0
+prong 0
+clusterCharge 417.947
+error 0.338704698375
+notTrough
+newCluster 
+energy 190.453
+pixels 11.0
+prong 0
+clusterCharge 348.926
+error 0.228884883023
+notTrough
+newCluster 
+energy 192.459
+pixels 16.0
+prong 0
+clusterCharge 398.693
+error 0.259700248492
+notTrough
+newCluster 
+energy 235.718
+pixels 15.0
+prong 0
+clusterCharge 431.614
+error 0.275527866278
+notTrough
+newCluster 
+energy 771.182
+pixels 61.0
+prong 2
+clusterCharge 2048.814
+error 1.2281856509
+notTrough
+newCluster 
+energy 555.471
+pixels 44.0
+prong 2
+clusterCharge 1369.22
+error 0.472226774026
+notTrough
+newCluster 
+energy 189.494
+pixels 14.0
+prong 0
+clusterCharge 295.685
+error 0.26508754692
+notTrough
+newCluster 
+energy 215.776
+pixels 15.0
+prong 0
+clusterCharge 375.051
+error 0.281942588729
+notTrough
+newCluster 
+energy 153.002
+pixels 13.0
+prong 0
+clusterCharge 263.987
+error 0.326476103285
+notTrough
+newCluster 
+energy 515.354
+pixels 13.0
+prong 0
+clusterCharge 576.696
+error 0.634168163275
+notTrough
+newCluster 
+energy 199.642
+pixels 20.0
+prong 1
+clusterCharge 437.755
+error 1.56089546436
+notTrough
+newCluster 
+energy 118.712
+pixels 11.0
+prong 0
+clusterCharge 242.272
+error 0.300537153519
+notTrough
+newCluster 
+energy 5995.853
+pixels 62.0
+prong 1
+clusterCharge 11012.132
+error 1.26623210663
+notTrough
+newCluster 
+energy 176.513
+pixels 11.0
+prong 0
+clusterCharge 291.869
+error 0.26741648404
+notTrough
+newCluster 
+energy 159.646
+pixels 18.0
+prong 1
+clusterCharge 443.827
+error 0.317072107705
+notTrough
+newCluster 
+energy 173.818
+pixels 15.0
+prong 0
+clusterCharge 345.574
+error 1.05555767843
+notTrough
+newFile
+newCluster 
+energy 1032.468
+pixels 20.0
+prong 0
+clusterCharge 1247.409
+error 2.34841625915
+notTrough
+newCluster 
+energy 96.772
+pixels 23.0
+prong 2
+clusterCharge 468.027
+error 0.21092346396
+notTrough
+newCluster 
+energy 260.887
+pixels 26.0
+prong 2
+clusterCharge 791.067
+error 0.309182092547
+notTrough
+newCluster 
+energy 198.251
+pixels 18.0
+prong 1
+clusterCharge 449.452
+error 1.7307630768
+notTrough
+newCluster 
+energy 525.806
+pixels 17.0
+prong 0
+clusterCharge 762.243
+error 0.73860389539
+notTrough
+newCluster 
+energy 340.327
+pixels 12.0
+prong 0
+clusterCharge 537.662
+error 0.324687059716
+notTrough
+newCluster 
+energy 163.916
+pixels 11.0
+prong 0
+clusterCharge 265.302
+error 2.15606833334
+notTrough
+newCluster 
+energy 604.964
+pixels 31.0
+prong 1
+clusterCharge 640.53
+error 0.408517531088
+notTrough
+newCluster 
+energy 503.599
+pixels 31.0
+prong 1
+clusterCharge 1118.321
+error 1.3847080183
+notTrough
+newCluster 
+energy 1008.807
+pixels 22.0
+prong 0
+clusterCharge 1407.694
+error 1.45190082331
+notTrough
+newCluster 
+energy 157.059
+pixels 14.0
+prong 1
+clusterCharge 348.818
+error 0.233564192144
+notTrough
+newCluster 
+energy 173.015
+pixels 12.0
+prong 0
+clusterCharge 363.669
+error 0.540217879772
+notTrough
+newCluster 
+energy 6925.681
+pixels 45.0
+prong 0
+clusterCharge 9039.921
+error 1.85993453921
+notTrough
+newCluster 
+energy 389.674
+pixels 14.0
+prong 0
+clusterCharge 512.933
+error 1.33641148559
+notTrough
+newCluster 
+energy 236.652
+pixels 14.0
+prong 0
+clusterCharge 456.593
+error 0.274635178626
+notTrough
+newCluster 
+energy 360.614
+pixels 26.0
+prong 1
+clusterCharge 798.506
+error 2.66473477656
+notTrough
+newCluster 
+energy 143.112
+pixels 11.0
+prong 0
+clusterCharge 290.754
+error 0.27914526312
+notTrough
+newCluster 
+energy 282.708
+pixels 13.0
+prong 0
+clusterCharge 506.137
+error 0.565909882002
+notTrough
+newCluster 
+energy 324.571
+pixels 11.0
+prong 0
+clusterCharge 394.796
+error 0.706610855855
+notTrough
+newCluster 
+energy 403.774
+pixels 28.0
+prong 1
+clusterCharge 879.579
+error 1.63924346738
+notTrough
+newCluster 
+energy 399.017
+pixels 16.0
+prong 0
+clusterCharge 700.638
+error 0.5
+notTrough
+newCluster 
+energy 2783.137
+pixels 23.0
+prong 0
+clusterCharge 3586.745
+error 1.04982964144
+notTrough
+newCluster 
+energy 232.875
+pixels 22.0
+prong 0
+clusterCharge 539.319
+error 0.855796430428
+notTrough
+newCluster 
+energy 3497.178
+pixels 21.0
+prong 0
+clusterCharge 4104.338
+error 1.04315813167
+notTrough
+newCluster 
+energy 2648.57
+pixels 24.0
+prong 0
+clusterCharge 3512.021
+error 0.962406645461
+notTrough
+newCluster 
+energy 425.044
+pixels 32.0
+prong 1
+clusterCharge 1135.248
+error 1.59745589263
+notTrough
+newCluster 
+energy 295.469
+pixels 14.0
+prong 0
+clusterCharge 374.956
+error 0.367014786606
+notTrough
+newCluster 
+energy 286.296
+pixels 25.0
+prong 1
+clusterCharge 754.509
+error 0.310602533231
+notTrough
+newCluster 
+energy 335.501
+pixels 21.0
+prong 2
+clusterCharge 654.003
+error 0.338834177676
+notTrough
+newCluster 
+energy 136.174
+pixels 12.0
+prong 1
+clusterCharge 252.658
+error 0.218902276038
+notTrough
+newCluster 
+energy 11122.755
+pixels 131.0
+prong 2
+clusterCharge 23704.943
+error 2.8552952929
+trough
+newCluster 
+energy 916.203
+pixels 40.0
+prong 1
+clusterCharge 2492.81
+error 0.480131800134
+notTrough
+newCluster 
+energy 12458.702
+pixels 106.0
+prong 1
+clusterCharge 25704.605
+error 5.29441798747
+trough
+newCluster 
+energy 296.796
+pixels 12.0
+prong 0
+clusterCharge 492.638
+error 0.623609564462
+notTrough
+newCluster 
+energy 210.056
+pixels 21.0
+prong 1
+clusterCharge 589.519
+error 0.343233315714
+notTrough
+newCluster 
+energy 436.058
+pixels 16.0
+prong 0
+clusterCharge 583.176
+error 0.867380976217
+notTrough
+newCluster 
+energy 2378.061
+pixels 94.0
+prong 2
+clusterCharge 7968.711
+error 0.629743535047
+notTrough
+newCluster 
+energy 1107.102
+pixels 70.0
+prong 2
+clusterCharge 4196.617
+error 0.721569651975
+notTrough
+newCluster 
+energy 173.202
+pixels 11.0
+prong 0
+clusterCharge 230.387
+error 0.23351214412
+notTrough
+newCluster 
+energy 623.503
+pixels 12.0
+prong 0
+clusterCharge 681.594
+error 0.578040467008
+notTrough
+newCluster 
+energy 1089.678
+pixels 23.0
+prong 1
+clusterCharge 1819.813
+error 0.638330400069
+notTrough
+newCluster 
+energy 304.059
+pixels 20.0
+prong 0
+clusterCharge 952.422
+error 0.33562529266
+notTrough
+newCluster 
+energy 327.725
+pixels 11.0
+prong 0
+clusterCharge 359.691
+error 0.518406067013
+notTrough
+newCluster 
+energy 345.87
+pixels 34.0
+prong 2
+clusterCharge 969.367
+error 0.41108255744
+notTrough
+newCluster 
+energy 437.444
+pixels 14.0
+prong 0
+clusterCharge 588.319
+error 1.33307342534
+notTrough
+newCluster 
+energy 612.622
+pixels 14.0
+prong 0
+clusterCharge 680.841
+error 0.598913400491
+notTrough
+newCluster 
+energy 343.544
+pixels 41.0
+prong 1
+clusterCharge 1077.333
+error 1.68404836906
+notTrough
+newCluster 
+energy 216.04
+pixels 14.0
+prong 0
+clusterCharge 352.022
+error 0.969686840929
+notTrough
+newCluster 
+energy 269.926
+pixels 20.0
+prong 0
+clusterCharge 545.573
+error 1.59112529655
+notTrough
+newCluster 
+energy 6189.006
+pixels 117.0
+prong 1
+clusterCharge 11805.911
+error 1.04445926235
+trough
+newCluster 
+energy 179.723
+pixels 12.0
+prong 1
+clusterCharge 245.831
+error 0.249427523865
+notTrough
+newCluster 
+energy 248.781
+pixels 12.0
+prong 0
+clusterCharge 268.199
+error 0.324216771144
+notTrough
+newCluster 
+energy 204.664
+pixels 11.0
+prong 0
+clusterCharge 248.698
+error 0.242705646526
+notTrough
+newCluster 
+energy 820.109
+pixels 33.0
+prong 1
+clusterCharge 1787.487
+error 0.502853443147
+notTrough
+newCluster 
+energy 156.561
+pixels 29.0
+prong 2
+clusterCharge 672.468
+error 0.280995769043
+notTrough
+newCluster 
+energy 260.794
+pixels 15.0
+prong 0
+clusterCharge 478.528
+error 0.331587931388
+notTrough
+newCluster 
+energy 6388.871
+pixels 37.0
+prong 0
+clusterCharge 8007.153
+error 2.02873148056
+notTrough
+newCluster 
+energy 8099.219
+pixels 59.0
+prong 0
+clusterCharge 11210.115
+error 2.21308637991
+notTrough
+newCluster 
+energy 249.594
+pixels 15.0
+prong 0
+clusterCharge 525.445
+error 0.765745997417
+notTrough
+newCluster 
+energy 132.798
+pixels 11.0
+prong 0
+clusterCharge 258.979
+error 0.263479577203
+notTrough
+newCluster 
+energy 113.375
+pixels 11.0
+prong 1
+clusterCharge 307.722
+error 1.42108547152e-14
+notTrough
+newCluster 
+energy 170.702
+pixels 47.0
+prong 2
+clusterCharge 1008.215
+error 0.301705378122
+notTrough
+newCluster 
+energy 125.459
+pixels 13.0
+prong 0
+clusterCharge 297.046
+error 0.376453752315
+notTrough
+newCluster 
+energy 267.528
+pixels 29.0
+prong 1
+clusterCharge 779.25
+error 0.430344155464
+notTrough
+newCluster 
+energy 134.725
+pixels 11.0
+prong 0
+clusterCharge 251.189
+error 0.263479577203
+notTrough
+newCluster 
+energy 3050.914
+pixels 13.0
+prong 0
+clusterCharge 3734.94
+error 2.46864958413
+notTrough
+newCluster 
+energy 1849.09
+pixels 13.0
+prong 0
+clusterCharge 2080.576
+error 2.3438711982
+notTrough
+newCluster 
+energy 1115.748
+pixels 11.0
+prong 0
+clusterCharge 1388.503
+error 2.51046555219
+notTrough
+newCluster 
+energy 1588.614
+pixels 17.0
+prong 0
+clusterCharge 2500.914
+error 3.43887715615
+notTrough
+newFile
+newCluster 
+energy 1232.581
+pixels 14.0
+prong 0
+clusterCharge 1388.283
+error 0.719551195106
+notTrough
+newCluster 
+energy 136.78
+pixels 11.0
+prong 0
+clusterCharge 263.524
+error 0.194213701292
+notTrough
+newCluster 
+energy 190.314
+pixels 12.0
+prong 0
+clusterCharge 436.176
+error 0.330120656677
+notTrough
+newCluster 
+energy 1875.124
+pixels 19.0
+prong 0
+clusterCharge 2156.722
+error 0.887247007648
+notTrough
+newCluster 
+energy 3534.761
+pixels 41.0
+prong 1
+clusterCharge 6617.733
+error 1.20243679503
+notTrough
+newCluster 
+energy 2480.934
+pixels 49.0
+prong 1
+clusterCharge 5887.54
+error 0.794245421893
+notTrough
+newCluster 
+energy 1181.357
+pixels 12.0
+prong 0
+clusterCharge 2052.662
+error 0.473907071152
+notTrough
+newCluster 
+energy 5500.702
+pixels 35.0
+prong 0
+clusterCharge 6797.575
+error 2.35459970296
+notTrough
+newCluster 
+energy 1236.156
+pixels 21.0
+prong 0
+clusterCharge 1383.234
+error 2.5624158125
+notTrough
+newCluster 
+energy 291.422
+pixels 11.0
+prong 0
+clusterCharge 333.088
+error 0.491869376838
+notTrough
+newCluster 
+energy 2290.899
+pixels 33.0
+prong 0
+clusterCharge 4020.139
+error 0.781618138442
+notTrough
+newCluster 
+energy 990.885
+pixels 12.0
+prong 0
+clusterCharge 1249.093
+error 1.29099444874
+notTrough
+newCluster 
+energy 1828.274
+pixels 12.0
+prong 0
+clusterCharge 2124.121
+error 0.816496580928
+notTrough
+newCluster 
+energy 5835.939
+pixels 35.0
+prong 0
+clusterCharge 6926.495
+error 1.66299788686
+notTrough
+newCluster 
+energy 54.533
+pixels 11.0
+prong 0
+clusterCharge 336.168
+error 6.68953867724e-15
+notTrough
+newCluster 
+energy 914.59
+pixels 23.0
+prong 1
+clusterCharge 1648.475
+error 0.370404239712
+notTrough
+newCluster 
+energy 13882.467
+pixels 181.0
+prong 2
+clusterCharge 27832.229
+error 3.73695838496
+trough
+newCluster 
+energy 1840.16
+pixels 24.0
+prong 0
+clusterCharge 2189.746
+error 3.4258587152
+notTrough
+newCluster 
+energy 2130.767
+pixels 19.0
+prong 0
+clusterCharge 2559.432
+error 0.972776003115
+notTrough
+newCluster 
+energy 3150.034
+pixels 53.0
+prong 1
+clusterCharge 6130.784
+error 3.27536705172
+notTrough
+newCluster 
+energy 323.647
+pixels 34.0
+prong 2
+clusterCharge 900.325
+error 0.33966836599
+notTrough
+newCluster 
+energy 330.643
+pixels 33.0
+prong 1
+clusterCharge 844.34
+error 2.92547653573
+notTrough
+newCluster 
+energy 6204.53
+pixels 40.0
+prong 0
+clusterCharge 7556.1
+error 2.84458284159
+notTrough
+newCluster 
+energy 108.578
+pixels 14.0
+prong 1
+clusterCharge 369.147
+error 0.276408116116
+notTrough
+newCluster 
+energy 2023.46
+pixels 13.0
+prong 0
+clusterCharge 1636.594
+error 0.693267736909
+notTrough
+newCluster 
+energy 581.994
+pixels 38.0
+prong 2
+clusterCharge 1119.5
+error 3.16664744781
+notTrough
+newCluster 
+energy 682.708
+pixels 19.0
+prong 0
+clusterCharge 1106.121
+error 0.408530522292
+notTrough
+newCluster 
+energy 261.225
+pixels 19.0
+prong 1
+clusterCharge 585.702
+error 0.311161608542
+notTrough
+newCluster 
+energy 762.136
+pixels 26.0
+prong 1
+clusterCharge 1446.29
+error 0.537948945091
+notTrough
+newCluster 
+energy 554.183
+pixels 20.0
+prong 0
+clusterCharge 749.31
+error 1.21682938774
+notTrough
+newCluster 
+energy 2824.141
+pixels 22.0
+prong 0
+clusterCharge 3021.875
+error 1.44802872241
+notTrough
+newCluster 
+energy 292.197
+pixels 17.0
+prong 1
+clusterCharge 538.083
+error 0.527650349097
+notTrough
+newCluster 
+energy 684.697
+pixels 19.0
+prong 0
+clusterCharge 833.073
+error 1.36005342949
+notTrough
+newCluster 
+energy 234.152
+pixels 77.0
+prong 3
+clusterCharge 1808.964
+error 1.87547328232
+trough
+newCluster 
+energy 21.674
+pixels 11.0
+prong 0
+clusterCharge 198.6
+error 3.02976440531e-15
+notTrough
+newCluster 
+energy 34.782
+pixels 19.0
+prong 1
+clusterCharge 443.616
+error 7.1054273576e-15
+notTrough
+newCluster 
+energy 63.506
+pixels 22.0
+prong 1
+clusterCharge 458.881
+error 0.22920745978
+notTrough
+newCluster 
+energy 32.4
+pixels 12.0
+prong 1
+clusterCharge 284.891
+error 3.00759123661e-14
+notTrough
+newCluster 
+energy 196.097
+pixels 15.0
+prong 1
+clusterCharge 347.55
+error 0.325426691201
+notTrough
+newCluster 
+energy 413.956
+pixels 24.0
+prong 1
+clusterCharge 695.694
+error 1.41085007621
+notTrough
+newCluster 
+energy 294.117
+pixels 11.0
+prong 0
+clusterCharge 312.6
+error 0.32666168317
+notTrough
+newFile
+newCluster 
+energy 12060.039
+pixels 106.0
+prong 1
+clusterCharge 17821.644
+error 2.94991767694
+trough
+newCluster 
+energy 377.017
+pixels 13.0
+prong 0
+clusterCharge 472.551
+error 0.909983442659
+notTrough
+newCluster 
+energy 210.333
+pixels 11.0
+prong 0
+clusterCharge 275.798
+error 0.342997170285
+notTrough
+newCluster 
+energy 331.399
+pixels 22.0
+prong 1
+clusterCharge 653.472
+error 0.909365784925
+notTrough
+newCluster 
+energy 1771.528
+pixels 50.0
+prong 1
+clusterCharge 2685.553
+error 2.47406153671
+notTrough
+newCluster 
+energy 151.798
+pixels 26.0
+prong 2
+clusterCharge 634.963
+error 0.515394329009
+notTrough
+newCluster 
+energy 282.001
+pixels 14.0
+prong 0
+clusterCharge 439.041
+error 0.385390810863
+notTrough
+newCluster 
+energy 676.684
+pixels 18.0
+prong 0
+clusterCharge 961.113
+error 1.07565491049
+notTrough
+newCluster 
+energy 448.964
+pixels 25.0
+prong 0
+clusterCharge 974.28
+error 3.83998701289
+notTrough
+newCluster 
+energy 788.27
+pixels 60.0
+prong 2
+clusterCharge 1949.641
+error 3.74038654221
+notTrough
+newCluster 
+energy 224.723
+pixels 20.0
+prong 1
+clusterCharge 490.72
+error 0.533043561506
+notTrough
+newCluster 
+energy 236.561
+pixels 15.0
+prong 0
+clusterCharge 365.771
+error 0.323712402645
+notTrough
+newCluster 
+energy 92.736
+pixels 16.0
+prong 1
+clusterCharge 342.576
+error 0.26848087902
+notTrough
+newCluster 
+energy 381.009
+pixels 18.0
+prong 0
+clusterCharge 562.916
+error 0.971456513698
+notTrough
+newCluster 
+energy 364.082
+pixels 15.0
+prong 0
+clusterCharge 578.257
+error 1.01869670686
+notTrough
+newCluster 
+energy 2373.385
+pixels 24.0
+prong 0
+clusterCharge 2771.938
+error 1.47968581307
+notTrough
+newCluster 
+energy 3425.237
+pixels 22.0
+prong 0
+clusterCharge 4273.711
+error 1.34708806531
+notTrough
+newCluster 
+energy 1630.51
+pixels 21.0
+prong 0
+clusterCharge 1919.173
+error 1.80425644428
+notTrough
+newCluster 
+energy 2481.141
+pixels 36.0
+prong 0
+clusterCharge 3172.305
+error 1.8099012816
+notTrough
+newCluster 
+energy 230.473
+pixels 16.0
+prong 0
+clusterCharge 426.992
+error 0.449534260628
+notTrough
+newCluster 
+energy 252.635
+pixels 17.0
+prong 0
+clusterCharge 445.631
+error 0.423394017992
+notTrough
+newCluster 
+energy 625.329
+pixels 15.0
+prong 0
+clusterCharge 784.283
+error 1.31310998992
+notTrough
+newCluster 
+energy 856.89
+pixels 26.0
+prong 1
+clusterCharge 1892.411
+error 0.493556816052
+notTrough
+newCluster 
+energy 561.742
+pixels 14.0
+prong 0
+clusterCharge 811.397
+error 0.515042402408
+notTrough
+newCluster 
+energy 7705.604
+pixels 176.0
+prong 2
+clusterCharge 23341.054
+error 6.17148940454
+trough
+newCluster 
+energy 1955.409
+pixels 12.0
+prong 0
+clusterCharge 2031.436
+error 1.25439398655
+notTrough
+newCluster 
+energy 112.128
+pixels 24.0
+prong 1
+clusterCharge 510.441
+error 0.596198519704
+notTrough
+newCluster 
+energy 109.926
+pixels 14.0
+prong 1
+clusterCharge 291.719
+error 0.26029207891
+notTrough
+newCluster 
+energy 279.488
+pixels 15.0
+prong 1
+clusterCharge 383.278
+error 0.486829598632
+notTrough
+newCluster 
+energy 3375.036
+pixels 51.0
+prong 2
+clusterCharge 6198.929
+error 2.69886474858
+notTrough
+newCluster 
+energy 201.923
+pixels 20.0
+prong 1
+clusterCharge 481.045
+error 0.29594426983
+notTrough
+newCluster 
+energy 300.169
+pixels 14.0
+prong 0
+clusterCharge 429.096
+error 1.20086651142
+notTrough
+newCluster 
+energy 225.972
+pixels 11.0
+prong 0
+clusterCharge 285.036
+error 0.322018260003
+notTrough
+newCluster 
+energy 328.28
+pixels 20.0
+prong 1
+clusterCharge 647.047
+error 0.366589920059
+notTrough
+newCluster 
+energy 4397.182
+pixels 29.0
+prong 0
+clusterCharge 5133.074
+error 2.52458173388
+notTrough
+newCluster 
+energy 120.138
+pixels 11.0
+prong 0
+clusterCharge 334.264
+error 0.273797612291
+notTrough
+newCluster 
+energy 137.489
+pixels 17.0
+prong 1
+clusterCharge 365.69
+error 0.287381003981
+notTrough
+newCluster 
+energy 289.593
+pixels 28.0
+prong 1
+clusterCharge 998.556
+error 0.622185582991
+notTrough
+newCluster 
+energy 156.782
+pixels 15.0
+prong 0
+clusterCharge 338.993
+error 1.25170222414
+notTrough
+newCluster 
+energy 348.888
+pixels 15.0
+prong 0
+clusterCharge 514.939
+error 0.864039863372
+notTrough
+newCluster 
+energy 285.969
+pixels 16.0
+prong 0
+clusterCharge 402.673
+error 0.403378767251
+notTrough
+newCluster 
+energy 419.365
+pixels 44.0
+prong 2
+clusterCharge 1126.801
+error 2.43995814433
+notTrough
+newCluster 
+energy 216.961
+pixels 16.0
+prong 0
+clusterCharge 370.006
+error 2.69676619571
+notTrough
+noFile
+newFile
+newCluster 
+energy 255.675
+pixels 11.0
+prong 0
+clusterCharge 304.263
+error 0.311968527875
+notTrough
+newCluster 
+energy 390.686
+pixels 19.0
+prong 0
+clusterCharge 583.181
+error 0.530882238957
+notTrough
+newCluster 
+energy 553.91
+pixels 27.0
+prong 1
+clusterCharge 1062.2
+error 0.41954140318
+notTrough
+newCluster 
+energy 247.005
+pixels 12.0
+prong 0
+clusterCharge 333.623
+error 1.37345343995
+notTrough
+newCluster 
+energy 213.824
+pixels 16.0
+prong 0
+clusterCharge 384.42
+error 0.293345222904
+notTrough
+newCluster 
+energy 636.875
+pixels 21.0
+prong 0
+clusterCharge 832.534
+error 0.828951864283
+notTrough
+newCluster 
+energy 2012.541
+pixels 18.0
+prong 0
+clusterCharge 2420.679
+error 1.13959056975
+notTrough
+newCluster 
+energy 599.989
+pixels 25.0
+prong 1
+clusterCharge 696.989
+error 0.705431170345
+notTrough
+newCluster 
+energy 1559.35
+pixels 31.0
+prong 0
+clusterCharge 2911.468
+error 0.713410225175
+notTrough
+newCluster 
+energy 380.274
+pixels 12.0
+prong 0
+clusterCharge 706.873
+error 0.385788393844
+notTrough
+newCluster 
+energy 725.423
+pixels 57.0
+prong 1
+clusterCharge 3482.319
+error 0.488032421595
+notTrough
+newCluster 
+energy 2645.041
+pixels 42.0
+prong 0
+clusterCharge 3959.461
+error 2.03424686028
+notTrough
+newCluster 
+energy 2903.833
+pixels 19.0
+prong 0
+clusterCharge 3168.164
+error 1.44334678784
+notTrough
+newCluster 
+energy 7894.307
+pixels 223.0
+prong 4
+clusterCharge 33804.297
+error 11.960538991
+trough
+newCluster 
+energy 379.598
+pixels 24.0
+prong 1
+clusterCharge 779.081
+error 0.458645945056
+notTrough
+newCluster 
+energy 607.539
+pixels 56.0
+prong 1
+clusterCharge 2476.149
+error 1.00670026144
+notTrough
+newCluster 
+energy 109.485
+pixels 23.0
+prong 1
+clusterCharge 543.502
+error 0.393820139651
+notTrough
+newCluster 
+energy 3040.525
+pixels 54.0
+prong 1
+clusterCharge 5726.897
+error 1.62738519097
+notTrough
+newCluster 
+energy 6302.536
+pixels 51.0
+prong 0
+clusterCharge 7821.727
+error 2.11481862379
+notTrough
+newCluster 
+energy 5181.79
+pixels 37.0
+prong 0
+clusterCharge 4855.565
+error 1.34168107541
+notTrough
+newCluster 
+energy 14451.269
+pixels 129.0
+prong 1
+clusterCharge 21626.601
+error 3.46007998434
+trough
+newCluster 
+energy 475.949
+pixels 26.0
+prong 0
+clusterCharge 832.15
+error 0.743247654873
+notTrough
+newCluster 
+energy 223.11
+pixels 31.0
+prong 1
+clusterCharge 753.787
+error 0.262580796241
+notTrough
+newCluster 
+energy 365.352
+pixels 13.0
+prong 0
+clusterCharge 470.769
+error 0.345587417686
+notTrough
+newCluster 
+energy 2658.201
+pixels 39.0
+prong 1
+clusterCharge 4557.492
+error 0.799821876815
+notTrough
+newCluster 
+energy 434.135
+pixels 14.0
+prong 0
+clusterCharge 542.397
+error 0.303917780949
+notTrough
+newCluster 
+energy 121.533
+pixels 14.0
+prong 0
+clusterCharge 268.554
+error 1.84842972884
+notTrough
+newCluster 
+energy 125.971
+pixels 15.0
+prong 1
+clusterCharge 322.768
+error 0.31074834047
+notTrough
+newCluster 
+energy 195.448
+pixels 13.0
+prong 0
+clusterCharge 310.849
+error 0.688786579157
+notTrough
+newCluster 
+energy 1180.922
+pixels 14.0
+prong 0
+clusterCharge 1581.67
+error 2.12399784033
+notTrough
+newFile
+newCluster 
+energy 175.084
+pixels 13.0
+prong 1
+clusterCharge 361.759
+error 0.236054859891
+notTrough
+newCluster 
+energy 268.356
+pixels 11.0
+prong 0
+clusterCharge 346.369
+error 0.706069206481
+notTrough
+newCluster 
+energy 889.285
+pixels 17.0
+prong 0
+clusterCharge 1835.238
+error 0.465333770229
+notTrough
+newCluster 
+energy 375.314
+pixels 14.0
+prong 0
+clusterCharge 506.897
+error 0.624971500684
+notTrough
+newCluster 
+energy 1284.504
+pixels 13.0
+prong 0
+clusterCharge 1615.322
+error 1.2639751327
+notTrough
+newCluster 
+energy 206.119
+pixels 14.0
+prong 0
+clusterCharge 399.54
+error 0.304722139431
+notTrough
+newCluster 
+energy 99.592
+pixels 15.0
+prong 0
+clusterCharge 285.401
+error 0.258980804679
+notTrough
+newCluster 
+energy 2625.459
+pixels 18.0
+prong 0
+clusterCharge 2810.157
+error 1.22020034785
+notTrough
+newCluster 
+energy 169.92
+pixels 12.0
+prong 1
+clusterCharge 258.971
+error 0.229207835564
+notTrough
+newCluster 
+energy 348.679
+pixels 15.0
+prong 0
+clusterCharge 471.805
+error 2.38348225383
+notTrough
+newCluster 
+energy 297.983
+pixels 17.0
+prong 0
+clusterCharge 648.821
+error 0.33961985314
+notTrough
+newCluster 
+energy 1143.405
+pixels 17.0
+prong 0
+clusterCharge 1350.223
+error 0.551977017826
+notTrough
+newCluster 
+energy 888.17
+pixels 13.0
+prong 0
+clusterCharge 920.786
+error 0.58956937226
+notTrough
+newCluster 
+energy 406.123
+pixels 11.0
+prong 0
+clusterCharge 443.058
+error 0.401814068264
+notTrough
+newCluster 
+energy 928.851
+pixels 27.0
+prong 0
+clusterCharge 1272.276
+error 2.78694871509
+notTrough
+newCluster 
+energy 199.274
+pixels 16.0
+prong 0
+clusterCharge 399.0
+error 0.515144371095
+notTrough
+newCluster 
+energy 195.149
+pixels 15.0
+prong 1
+clusterCharge 365.268
+error 0.294388324971
+notTrough
+newCluster 
+energy 9127.277
+pixels 112.0
+prong 1
+clusterCharge 17842.594
+error 1.88837499751
+trough
+newCluster 
+energy 1366.118
+pixels 16.0
+prong 0
+clusterCharge 1438.81
+error 1.39601395474
+notTrough
+newCluster 
+energy 723.291
+pixels 24.0
+prong 1
+clusterCharge 1223.602
+error 4.6530443064
+notTrough
+newCluster 
+energy 6566.264
+pixels 49.0
+prong 0
+clusterCharge 8777.55
+error 2.02049486506
+notTrough
+newCluster 
+energy 901.19
+pixels 14.0
+prong 0
+clusterCharge 961.143
+error 0.469651345724
+notTrough
+newCluster 
+energy 409.743
+pixels 17.0
+prong 1
+clusterCharge 725.291
+error 0.716320320101
+notTrough
+newCluster 
+energy 9932.037
+pixels 187.0
+prong 4
+clusterCharge 26372.181
+error 6.35429807256
+trough
+newCluster 
+energy 338.698
+pixels 12.0
+prong 0
+clusterCharge 468.109
+error 0.583360266562
+notTrough
+newCluster 
+energy 217.946
+pixels 11.0
+prong 0
+clusterCharge 284.532
+error 0.264318489168
+notTrough
+newCluster 
+energy 614.451
+pixels 11.0
+prong 0
+clusterCharge 733.235
+error 0.55811017071
+notTrough
+newCluster 
+energy 3474.084
+pixels 19.0
+prong 0
+clusterCharge 3765.729
+error 1.27623974189
+notTrough
+newCluster 
+energy 444.164
+pixels 16.0
+prong 0
+clusterCharge 650.399
+error 0.399859174209
+notTrough
+newCluster 
+energy 130.833
+pixels 11.0
+prong 0
+clusterCharge 297.408
+error 0.237061905644
+notTrough
+newCluster 
+energy 1907.869
+pixels 34.0
+prong 1
+clusterCharge 3416.139
+error 0.730076411135
+notTrough
+newCluster 
+energy 998.827
+pixels 14.0
+prong 0
+clusterCharge 1167.423
+error 0.513692733625
+notTrough
+newCluster 
+energy 2775.009
+pixels 68.0
+prong 1
+clusterCharge 7170.692
+error 2.54295417509
+notTrough
+newCluster 
+energy 234.621
+pixels 42.0
+prong 1
+clusterCharge 1684.604
+error 0.336662541058
+notTrough
+newCluster 
+energy 233.301
+pixels 17.0
+prong 1
+clusterCharge 464.342
+error 0.282836420299
+notTrough
+newCluster 
+energy 198.316
+pixels 13.0
+prong 0
+clusterCharge 365.74
+error 0.286449657726
+notTrough
+newCluster 
+energy 264.528
+pixels 11.0
+prong 0
+clusterCharge 289.008
+error 0.373389078744
+notTrough
+newCluster 
+energy 1517.306
+pixels 39.0
+prong 0
+clusterCharge 2332.345
+error 3.41751425136
+notTrough
+newCluster 
+energy 471.674
+pixels 12.0
+prong 0
+clusterCharge 585.469
+error 0.454474683802
+notTrough
+newCluster 
+energy 329.357
+pixels 18.0
+prong 0
+clusterCharge 461.447
+error 1.28609538595
+notTrough
+newCluster 
+energy 200.702
+pixels 11.0
+prong 0
+clusterCharge 242.32
+error 0.407243988105
+notTrough
+newCluster 
+energy 253.052
+pixels 11.0
+prong 0
+clusterCharge 327.411
+error 0.384353057393
+notTrough
+newCluster 
+energy 271.55
+pixels 14.0
+prong 1
+clusterCharge 497.558
+error 0.357006497634
+notTrough
+newCluster 
+energy 2576.732
+pixels 21.0
+prong 0
+clusterCharge 3555.539
+error 0.717135066938
+notTrough
+newCluster 
+energy 132.469
+pixels 13.0
+prong 0
+clusterCharge 291.29
+error 0.232151797734
+notTrough
+newCluster 
+energy 228.82
+pixels 20.0
+prong 1
+clusterCharge 539.054
+error 0.303976329232
+notTrough
+newCluster 
+energy 184.295
+pixels 16.0
+prong 1
+clusterCharge 416.976
+error 0.198047931145
+notTrough
+newCluster 
+energy 224.638
+pixels 23.0
+prong 1
+clusterCharge 624.602
+error 0.343573425352
+notTrough
+newCluster 
+energy 346.596
+pixels 15.0
+prong 0
+clusterCharge 462.275
+error 0.359096158387
+notTrough
+newCluster 
+energy 423.545
+pixels 24.0
+prong 0
+clusterCharge 679.203
+error 1.29537668483
+notTrough
+newCluster 
+energy 1571.569
+pixels 29.0
+prong 0
+clusterCharge 2536.077
+error 0.687640827957
+notTrough
+newCluster 
+energy 3804.785
+pixels 26.0
+prong 0
+clusterCharge 4377.491
+error 1.39589761978
+notTrough
+newCluster 
+energy 268.009
+pixels 19.0
+prong 1
+clusterCharge 575.455
+error 0.537844222379
+notTrough
+newCluster 
+energy 71.812
+pixels 19.0
+prong 1
+clusterCharge 446.394
+error 0.463386487404
+notTrough
+newCluster 
+energy 563.432
+pixels 14.0
+prong 0
+clusterCharge 676.234
+error 1.18645938884
+notTrough
+newCluster 
+energy 2412.39
+pixels 15.0
+prong 0
+clusterCharge 2761.447
+error 1.19752424923
+notTrough
+newCluster 
+energy 8058.348
+pixels 124.0
+prong 2
+clusterCharge 19175.657
+error 2.88352487325
+trough
+newCluster 
+energy 303.491
+pixels 16.0
+prong 1
+clusterCharge 527.839
+error 0.347304768016
+notTrough
+newCluster 
+energy 401.717
+pixels 11.0
+prong 0
+clusterCharge 640.517
+error 0.459354313052
+notTrough
+newCluster 
+energy 872.785
+pixels 24.0
+prong 0
+clusterCharge 1359.104
+error 0.642996179133
+notTrough
+newCluster 
+energy 6606.059
+pixels 71.0
+prong 1
+clusterCharge 12909.825
+error 4.56869209584
+trough
+newCluster 
+energy 349.628
+pixels 12.0
+prong 0
+clusterCharge 290.076
+error 2.21089200963
+notTrough
+newCluster 
+energy 321.665
+pixels 16.0
+prong 1
+clusterCharge 469.256
+error 0.33941643168
+notTrough
+newCluster 
+energy 270.184
+pixels 39.0
+prong 1
+clusterCharge 953.764
+error 0.512769511073
+notTrough
+newCluster 
+energy 179.054
+pixels 15.0
+prong 1
+clusterCharge 352.461
+error 0.289151016631
+notTrough
+newCluster 
+energy 184.354
+pixels 51.0
+prong 2
+clusterCharge 1052.853
+error 0.23641959428
+notTrough
+newCluster 
+energy 220.28
+pixels 11.0
+prong 0
+clusterCharge 373.971
+error 0.692385609842
+notTrough
+newCluster 
+energy 224.153
+pixels 14.0
+prong 0
+clusterCharge 378.045
+error 0.340107180253
+notTrough
+newCluster 
+energy 1840.917
+pixels 13.0
+prong 0
+clusterCharge 2013.052
+error 2.86476365502
+notTrough
+newCluster 
+energy 1628.366
+pixels 15.0
+prong 0
+clusterCharge 2012.688
+error 2.45217822701
+notTrough
+newCluster 
+energy 3769.606
+pixels 57.0
+prong 3
+clusterCharge 9347.235
+error 2.93066757618
+notTrough
+newFile
+newCluster 
+energy 331.223
+pixels 14.0
+prong 0
+clusterCharge 543.246
+error 0.437934969758
+notTrough
+newCluster 
+energy 430.996
+pixels 15.0
+prong 0
+clusterCharge 516.22
+error 0.353729016188
+notTrough
+newCluster 
+energy 226.77
+pixels 15.0
+prong 0
+clusterCharge 426.557
+error 0.325032703744
+notTrough
+newCluster 
+energy 325.556
+pixels 13.0
+prong 0
+clusterCharge 410.873
+error 0.47772869027
+notTrough
+newCluster 
+energy 3946.846
+pixels 263.0
+prong 2
+clusterCharge 21454.195
+error 8.62816344614
+trough
+newCluster 
+energy 505.107
+pixels 15.0
+prong 0
+clusterCharge 594.687
+error 1.11678108867
+notTrough
+newCluster 
+energy 209.159
+pixels 12.0
+prong 0
+clusterCharge 292.715
+error 0.982646006294
+notTrough
+newCluster 
+energy 2583.374
+pixels 13.0
+prong 0
+clusterCharge 3414.827
+error 0.372994462532
+notTrough
+newCluster 
+energy 1961.272
+pixels 17.0
+prong 0
+clusterCharge 2475.362
+error 1.39153019706
+notTrough
+newCluster 
+energy 3714.014
+pixels 60.0
+prong 1
+clusterCharge 7957.511
+error 0.957925188788
+notTrough
+newCluster 
+energy 415.776
+pixels 13.0
+prong 0
+clusterCharge 520.961
+error 0.858855481226
+notTrough
+newCluster 
+energy 349.277
+pixels 16.0
+prong 0
+clusterCharge 570.027
+error 0.40841790628
+notTrough
+newCluster 
+energy 677.198
+pixels 37.0
+prong 1
+clusterCharge 1181.642
+error 3.76905516452
+notTrough
+newCluster 
+energy 321.503
+pixels 16.0
+prong 1
+clusterCharge 687.222
+error 0.457043421089
+notTrough
+newCluster 
+energy 246.854
+pixels 12.0
+prong 0
+clusterCharge 384.044
+error 0.64260210406
+notTrough
+newCluster 
+energy 172.141
+pixels 23.0
+prong 1
+clusterCharge 496.846
+error 0.272864286374
+notTrough
+newCluster 
+energy 187.22
+pixels 14.0
+prong 1
+clusterCharge 304.045
+error 0.248214524918
+notTrough
+newCluster 
+energy 385.406
+pixels 22.0
+prong 1
+clusterCharge 777.191
+error 0.347823902965
+notTrough
+newCluster 
+energy 203.092
+pixels 20.0
+prong 1
+clusterCharge 459.252
+error 0.290439439922
+notTrough
+newCluster 
+energy 302.029
+pixels 13.0
+prong 1
+clusterCharge 405.502
+error 0.295373327185
+notTrough
+newCluster 
+energy 296.776
+pixels 20.0
+prong 0
+clusterCharge 953.689
+error 0.36664412139
+notTrough
+newCluster 
+energy 810.632
+pixels 29.0
+prong 1
+clusterCharge 1772.167
+error 0.51732091822
+notTrough
+newCluster 
+energy 223.361
+pixels 11.0
+prong 0
+clusterCharge 366.86
+error 0.365809199487
+notTrough
+newCluster 
+energy 402.18
+pixels 16.0
+prong 0
+clusterCharge 580.297
+error 0.763255800382
+notTrough
+newCluster 
+energy 4843.42
+pixels 50.0
+prong 0
+clusterCharge 5915.297
+error 1.79692039206
+notTrough
+newCluster 
+energy 1603.96
+pixels 20.0
+prong 0
+clusterCharge 2059.921
+error 0.755747210484
+notTrough
+newCluster 
+energy 292.654
+pixels 21.0
+prong 1
+clusterCharge 667.421
+error 1.08819769245
+notTrough
+newCluster 
+energy 6312.588
+pixels 103.0
+prong 2
+clusterCharge 13293.977
+error 3.27462674424
+trough
+newCluster 
+energy 148.573
+pixels 14.0
+prong 0
+clusterCharge 438.426
+error 0.474500756074
+notTrough
+newCluster 
+energy 3662.947
+pixels 39.0
+prong 0
+clusterCharge 4665.12
+error 2.7304968972
+notTrough
+newCluster 
+energy 417.083
+pixels 13.0
+prong 0
+clusterCharge 469.239
+error 0.351927849153
+notTrough
+newCluster 
+energy 125.441
+pixels 13.0
+prong 0
+clusterCharge 292.92
+error 0.232576331116
+notTrough
+newCluster 
+energy 428.794
+pixels 11.0
+prong 0
+clusterCharge 635.847
+error 2.00680659937
+notTrough
+newCluster 
+energy 188.708
+pixels 11.0
+prong 0
+clusterCharge 232.006
+error 0.324156868644
+notTrough
+newCluster 
+energy 260.392
+pixels 20.0
+prong 1
+clusterCharge 459.264
+error 0.323698272711
+notTrough
+newCluster 
+energy 286.758
+pixels 11.0
+prong 0
+clusterCharge 326.488
+error 0.338732385967
+notTrough
+newCluster 
+energy 351.974
+pixels 15.0
+prong 0
+clusterCharge 458.814
+error 0.60474094494
+notTrough
+newCluster 
+energy 10341.914
+pixels 105.0
+prong 2
+clusterCharge 17797.23
+error 3.59456925247
+trough
+newCluster 
+energy 1307.122
+pixels 15.0
+prong 0
+clusterCharge 1825.9
+error 0.611606217315
+notTrough
+newCluster 
+energy 164.886
+pixels 22.0
+prong 1
+clusterCharge 451.13
+error 0.262119335379
+notTrough
+newCluster 
+energy 159.284
+pixels 14.0
+prong 1
+clusterCharge 326.67
+error 0.26361546587
+notTrough
+newCluster 
+energy 158.139
+pixels 14.0
+prong 1
+clusterCharge 268.141
+error 0.320112230007
+notTrough
+newCluster 
+energy 469.352
+pixels 23.0
+prong 1
+clusterCharge 834.518
+error 0.396183934405
+notTrough
+newCluster 
+energy 1779.745
+pixels 77.0
+prong 1
+clusterCharge 6153.677
+error 3.89144217815
+trough
+newCluster 
+energy 313.249
+pixels 11.0
+prong 0
+clusterCharge 394.466
+error 0.669335122964
+notTrough
+newCluster 
+energy 535.165
+pixels 33.0
+prong 1
+clusterCharge 976.702
+error 3.99248773939
+notTrough
+newCluster 
+energy 301.767
+pixels 16.0
+prong 0
+clusterCharge 710.935
+error 0.368384868001
+notTrough
+newCluster 
+energy 184.901
+pixels 13.0
+prong 0
+clusterCharge 320.482
+error 0.355975275509
+notTrough
+newCluster 
+energy 332.637
+pixels 11.0
+prong 0
+clusterCharge 408.115
+error 0.718150043094
+notTrough
+newCluster 
+energy 5588.863
+pixels 52.0
+prong 0
+clusterCharge 8461.247
+error 1.16040933295
+notTrough
+newCluster 
+energy 354.32
+pixels 11.0
+prong 0
+clusterCharge 437.272
+error 0.935714060402
+notTrough
+newCluster 
+energy 223.858
+pixels 16.0
+prong 0
+clusterCharge 440.75
+error 1.9584966434
+notTrough
+newCluster 
+energy 436.901
+pixels 28.0
+prong 1
+clusterCharge 856.763
+error 0.853977639549
+notTrough
+newCluster 
+energy 149.515
+pixels 12.0
+prong 0
+clusterCharge 249.86
+error 0.382438938897
+notTrough
+newCluster 
+energy 210.8
+pixels 13.0
+prong 1
+clusterCharge 361.689
+error 0.309790837698
+notTrough
+newCluster 
+energy 256.421
+pixels 14.0
+prong 0
+clusterCharge 355.675
+error 0.375868812255
+notTrough
+newCluster 
+energy 349.979
+pixels 13.0
+prong 0
+clusterCharge 438.013
+error 0.374221560583
+notTrough
+newFile
+newCluster 
+energy 430.689
+pixels 27.0
+prong 2
+clusterCharge 869.796
+error 0.406956689868
+notTrough
+newCluster 
+energy 353.743
+pixels 12.0
+prong 0
+clusterCharge 580.524
+error 0.458481421143
+notTrough
+newCluster 
+energy 293.668
+pixels 11.0
+prong 0
+clusterCharge 377.832
+error 0.75659746611
+notTrough
+newCluster 
+energy 793.944
+pixels 11.0
+prong 0
+clusterCharge 893.345
+error 0.57335765708
+notTrough
+newCluster 
+energy 479.577
+pixels 17.0
+prong 0
+clusterCharge 940.001
+error 0.88208673833
+notTrough
+newCluster 
+energy 281.417
+pixels 11.0
+prong 0
+clusterCharge 408.452
+error 0.33511112372
+notTrough
+newCluster 
+energy 204.233
+pixels 18.0
+prong 1
+clusterCharge 511.32
+error 0.356683834164
+notTrough
+newCluster 
+energy 294.063
+pixels 11.0
+prong 0
+clusterCharge 415.087
+error 0.334224072937
+notTrough
+newCluster 
+energy 179.568
+pixels 13.0
+prong 0
+clusterCharge 322.501
+error 0.463969515176
+notTrough
+newCluster 
+energy 534.58
+pixels 15.0
+prong 0
+clusterCharge 589.919
+error 1.11601448141
+notTrough
+newCluster 
+energy 313.959
+pixels 29.0
+prong 1
+clusterCharge 703.489
+error 0.657223227294
+notTrough
+newCluster 
+energy 3901.626
+pixels 16.0
+prong 0
+clusterCharge 4277.187
+error 0.785441814883
+notTrough
+newCluster 
+energy 159.576
+pixels 25.0
+prong 2
+clusterCharge 638.522
+error 0.34589576271
+notTrough
+newCluster 
+energy 181.064
+pixels 14.0
+prong 1
+clusterCharge 417.974
+error 0.35981759466
+notTrough
+newCluster 
+energy 428.0
+pixels 17.0
+prong 0
+clusterCharge 642.08
+error 0.605913699211
+notTrough
+newCluster 
+energy 272.737
+pixels 14.0
+prong 0
+clusterCharge 518.296
+error 0.265148922999
+notTrough
+newCluster 
+energy 401.529
+pixels 17.0
+prong 0
+clusterCharge 582.971
+error 1.59949551691
+notTrough
+newCluster 
+energy 489.07
+pixels 14.0
+prong 0
+clusterCharge 665.922
+error 0.794934249163
+notTrough
+newCluster 
+energy 312.841
+pixels 14.0
+prong 0
+clusterCharge 457.062
+error 0.317233040528
+notTrough
+newCluster 
+energy 162.176
+pixels 17.0
+prong 1
+clusterCharge 401.429
+error 0.252577351909
+notTrough
+newCluster 
+energy 448.423
+pixels 13.0
+prong 0
+clusterCharge 516.908
+error 1.70258198778
+notTrough
+newCluster 
+energy 439.453
+pixels 12.0
+prong 0
+clusterCharge 502.689
+error 0.415448991777
+notTrough
+newCluster 
+energy 3772.635
+pixels 20.0
+prong 0
+clusterCharge 4185.587
+error 1.25898346696
+notTrough
+newCluster 
+energy 229.015
+pixels 20.0
+prong 1
+clusterCharge 519.949
+error 0.317306985397
+notTrough
+newCluster 
+energy 412.735
+pixels 11.0
+prong 0
+clusterCharge 599.185
+error 0.491869376838
+notTrough
+newCluster 
+energy 4626.208
+pixels 54.0
+prong 1
+clusterCharge 8190.766
+error 1.07633608042
+notTrough
+newCluster 
+energy 576.162
+pixels 14.0
+prong 0
+clusterCharge 887.243
+error 0.446682651949
+notTrough
+newCluster 
+energy 216.808
+pixels 15.0
+prong 1
+clusterCharge 419.021
+error 0.236867519969
+notTrough
+newCluster 
+energy 504.085
+pixels 38.0
+prong 0
+clusterCharge 1285.919
+error 3.76426484313
+notTrough
+newCluster 
+energy 182.578
+pixels 12.0
+prong 0
+clusterCharge 351.952
+error 0.377641739847
+notTrough
+newCluster 
+energy 6365.724
+pixels 85.0
+prong 1
+clusterCharge 10816.381
+error 2.2033957315
+trough
+newCluster 
+energy 258.759
+pixels 22.0
+prong 0
+clusterCharge 606.009
+error 0.782251950231
+notTrough
+newCluster 
+energy 39.442
+pixels 11.0
+prong 1
+clusterCharge 323.899
+error 5.58660952597e-14
+notTrough
+newCluster 
+energy 223.282
+pixels 12.0
+prong 0
+clusterCharge 365.562
+error 0.678540817226
+notTrough
+newCluster 
+energy 188.958
+pixels 34.0
+prong 1
+clusterCharge 833.946
+error 2.17337132838
+notTrough
+newCluster 
+energy 113.555
+pixels 11.0
+prong 0
+clusterCharge 263.572
+error 0.243790476388
+notTrough
+newCluster 
+energy 288.217
+pixels 11.0
+prong 0
+clusterCharge 330.022
+error 1.05102495018
+notTrough
+newCluster 
+energy 266.722
+pixels 12.0
+prong 1
+clusterCharge 416.522
+error 0.497790532716
+notTrough
+newCluster 
+energy 4043.947
+pixels 24.0
+prong 0
+clusterCharge 4556.97
+error 1.42826137508
+notTrough
+newCluster 
+energy 268.825
+pixels 14.0
+prong 0
+clusterCharge 356.349
+error 0.95610527207
+notTrough
+newCluster 
+energy 2189.306
+pixels 294.0
+prong 1
+clusterCharge 27843.272
+error 0.795808012759
+notTrough
+newCluster 
+energy 126.819
+pixels 14.0
+prong 1
+clusterCharge 302.721
+error 0.36292667473
+notTrough
+newCluster 
+energy 2074.21
+pixels 14.0
+prong 0
+clusterCharge 611.648
+error 0.897706212521
+notTrough
+newCluster 
+energy 441.057
+pixels 22.0
+prong 1
+clusterCharge 830.838
+error 0.464050795448
+notTrough
+newCluster 
+energy 280.073
+pixels 44.0
+prong 1
+clusterCharge 1182.867
+error 0.349904766059
+notTrough
+newCluster 
+energy 280.707
+pixels 13.0
+prong 0
+clusterCharge 471.931
+error 0.811419287644
+notTrough
+newCluster 
+energy 145.276
+pixels 11.0
+prong 0
+clusterCharge 291.951
+error 0.295104914399
+notTrough
+newCluster 
+energy 4564.568
+pixels 56.0
+prong 0
+clusterCharge 6034.478
+error 3.02495105785
+notTrough
+newCluster 
+energy 332.783
+pixels 34.0
+prong 0
+clusterCharge 982.006
+error 3.53038031676
+notTrough
+newCluster 
+energy 250.173
+pixels 12.0
+prong 0
+clusterCharge 379.933
+error 0.602196582874
+notTrough
+newCluster 
+energy 199.553
+pixels 19.0
+prong 1
+clusterCharge 655.53
+error 0.314241731284
+notTrough
+newCluster 
+energy 242.864
+pixels 17.0
+prong 1
+clusterCharge 404.501
+error 5.40355053767
+notTrough
+newFile
+newCluster 
+energy 232.149
+pixels 13.0
+prong 0
+clusterCharge 329.613
+error 0.282066657637
+notTrough
+newCluster 
+energy 619.673
+pixels 27.0
+prong 1
+clusterCharge 1214.273
+error 0.493457842056
+notTrough
+newCluster 
+energy 115.454
+pixels 14.0
+prong 0
+clusterCharge 298.919
+error 0.488355197722
+notTrough
+newCluster 
+energy 1221.259
+pixels 26.0
+prong 1
+clusterCharge 2267.888
+error 0.576184859125
+notTrough
+newCluster 
+energy 3965.327
+pixels 26.0
+prong 0
+clusterCharge 4819.693
+error 1.42275649285
+notTrough
+newCluster 
+energy 2985.912
+pixels 26.0
+prong 0
+clusterCharge 3434.535
+error 1.51885758574
+notTrough
+newCluster 
+energy 3722.915
+pixels 25.0
+prong 0
+clusterCharge 4573.691
+error 1.34783777461
+notTrough
+newCluster 
+energy 1817.379
+pixels 11.0
+prong 0
+clusterCharge 2086.153
+error 0.91962526466
+notTrough
+newCluster 
+energy 600.215
+pixels 11.0
+prong 0
+clusterCharge 666.823
+error 0.782029569731
+notTrough
+newCluster 
+energy 2063.253
+pixels 22.0
+prong 0
+clusterCharge 2343.962
+error 0.752717448376
+notTrough
+newCluster 
+energy 527.886
+pixels 15.0
+prong 0
+clusterCharge 646.644
+error 0.854676919553
+notTrough
+newCluster 
+energy 3127.179
+pixels 35.0
+prong 0
+clusterCharge 4628.092
+error 0.960526783507
+notTrough
+newCluster 
+energy 1854.485
+pixels 42.0
+prong 2
+clusterCharge 2958.641
+error 1.78972758136
+notTrough
+newCluster 
+energy 233.612
+pixels 12.0
+prong 0
+clusterCharge 357.463
+error 0.352239384864
+notTrough
+newCluster 
+energy 386.114
+pixels 12.0
+prong 0
+clusterCharge 609.196
+error 0.405881613766
+notTrough
+newCluster 
+energy 535.333
+pixels 12.0
+prong 0
+clusterCharge 558.33
+error 0.43189607122
+notTrough
+newCluster 
+energy 461.553
+pixels 13.0
+prong 0
+clusterCharge 593.517
+error 2.34904081209
+notTrough
+newCluster 
+energy 418.834
+pixels 19.0
+prong 0
+clusterCharge 683.494
+error 0.935188127203
+notTrough
+newCluster 
+energy 413.613
+pixels 19.0
+prong 0
+clusterCharge 846.99
+error 0.480697308851
+notTrough
+newCluster 
+energy 137.021
+pixels 20.0
+prong 1
+clusterCharge 434.452
+error 0.218781040352
+notTrough
+newCluster 
+energy 85.597
+pixels 18.0
+prong 0
+clusterCharge 492.403
+error 0.251318878531
+notTrough
+newCluster 
+energy 177.706
+pixels 19.0
+prong 1
+clusterCharge 385.235
+error 0.409053338942
+notTrough
+newCluster 
+energy 153.208
+pixels 15.0
+prong 0
+clusterCharge 343.467
+error 0.582034136682
+notTrough
+newCluster 
+energy 332.405
+pixels 21.0
+prong 0
+clusterCharge 741.558
+error 0.418430237863
+notTrough
+newCluster 
+energy 4110.479
+pixels 122.0
+prong 3
+clusterCharge 9498.481
+error 5.95464741331
+trough
+newCluster 
+energy 704.902
+pixels 30.0
+prong 2
+clusterCharge 1820.19
+error 0.393594945388
+notTrough
+newCluster 
+energy 9206.805
+pixels 84.0
+prong 0
+clusterCharge 14579.312
+error 2.91792666518
+notTrough
+newCluster 
+energy 249.463
+pixels 19.0
+prong 1
+clusterCharge 968.37
+error 0.316365788817
+notTrough
+newCluster 
+energy 547.436
+pixels 64.0
+prong 3
+clusterCharge 2801.051
+error 1.80781604457
+notTrough
+newCluster 
+energy 1329.323
+pixels 16.0
+prong 0
+clusterCharge 1363.255
+error 1.54223266121
+notTrough
+newCluster 
+energy 825.929
+pixels 27.0
+prong 1
+clusterCharge 2443.071
+error 0.521840489918
+notTrough
+newCluster 
+energy 844.529
+pixels 16.0
+prong 0
+clusterCharge 1427.235
+error 0.605986232149
+notTrough
+newCluster 
+energy 911.689
+pixels 16.0
+prong 0
+clusterCharge 1027.637
+error 0.968147131639
+notTrough
+newCluster 
+energy 4475.899
+pixels 27.0
+prong 0
+clusterCharge 5480.33
+error 1.96879457875
+notTrough
+newCluster 
+energy 678.329
+pixels 14.0
+prong 0
+clusterCharge 766.588
+error 0.55787497685
+notTrough
+newCluster 
+energy 83.002
+pixels 13.0
+prong 0
+clusterCharge 335.762
+error 0.222737708002
+notTrough
+newCluster 
+energy 229.461
+pixels 14.0
+prong 1
+clusterCharge 375.1
+error 0.80791311223
+notTrough
+newCluster 
+energy 202.406
+pixels 11.0
+prong 0
+clusterCharge 293.684
+error 0.287628661389
+notTrough
+newCluster 
+energy 368.58
+pixels 32.0
+prong 1
+clusterCharge 871.6
+error 0.375627092216
+notTrough
+newCluster 
+energy 201.439
+pixels 11.0
+prong 0
+clusterCharge 264.612
+error 0.281406466778
+notTrough
+newCluster 
+energy 196.992
+pixels 72.0
+prong 2
+clusterCharge 2037.113
+error 0.278790826477
+notTrough
+newCluster 
+energy 6310.564
+pixels 59.0
+prong 1
+clusterCharge 9965.52
+error 4.38906603809
+notTrough
+newCluster 
+energy 2708.318
+pixels 80.0
+prong 2
+clusterCharge 7068.576
+error 0.724390731234
+notTrough
+newCluster 
+energy 1556.132
+pixels 13.0
+prong 0
+clusterCharge 1484.653
+error 1.27971917209
+notTrough
+newCluster 
+energy 1539.883
+pixels 18.0
+prong 0
+clusterCharge 1794.179
+error 3.2376595959
+notTrough
+newCluster 
+energy 2528.072
+pixels 100.0
+prong 1
+clusterCharge 13205.281
+error 2.0378903632
+trough
+newFile
+newCluster 
+energy 721.001
+pixels 45.0
+prong 1
+clusterCharge 2020.805
+error 1.87956990793
+notTrough
+newCluster 
+energy 220.412
+pixels 32.0
+prong 2
+clusterCharge 676.619
+error 0.300787163099
+notTrough
+newCluster 
+energy 367.135
+pixels 17.0
+prong 0
+clusterCharge 482.342
+error 1.20278977973
+notTrough
+newCluster 
+energy 98.604
+pixels 12.0
+prong 0
+clusterCharge 341.76
+error 0.295588955545
+notTrough
+newCluster 
+energy 162.197
+pixels 11.0
+prong 0
+clusterCharge 296.323
+error 0.591794334362
+notTrough
+newCluster 
+energy 300.429
+pixels 25.0
+prong 1
+clusterCharge 860.781
+error 0.427283566817
+notTrough
+newCluster 
+energy 190.687
+pixels 18.0
+prong 1
+clusterCharge 430.502
+error 0.264312466193
+notTrough
+newCluster 
+energy 475.601
+pixels 19.0
+prong 0
+clusterCharge 993.902
+error 0.440931216796
+notTrough
+newCluster 
+energy 132.781
+pixels 15.0
+prong 1
+clusterCharge 959.325
+error 2.03261592887e-14
+notTrough
+newCluster 
+energy 1101.431
+pixels 19.0
+prong 0
+clusterCharge 1496.024
+error 0.657249427749
+notTrough
+newCluster 
+energy 489.235
+pixels 27.0
+prong 1
+clusterCharge 911.48
+error 1.5057022795
+notTrough
+newCluster 
+energy 901.099
+pixels 14.0
+prong 0
+clusterCharge 1009.084
+error 0.521737067112
+notTrough
+newCluster 
+energy 6286.101
+pixels 35.0
+prong 0
+clusterCharge 7618.066
+error 1.90162485416
+notTrough
+newCluster 
+energy 247.613
+pixels 13.0
+prong 0
+clusterCharge 401.677
+error 0.334290972463
+notTrough
+newCluster 
+energy 357.632
+pixels 15.0
+prong 0
+clusterCharge 552.832
+error 0.539980506471
+notTrough
+newCluster 
+energy 242.161
+pixels 17.0
+prong 1
+clusterCharge 510.389
+error 0.274574133073
+notTrough
+newCluster 
+energy 393.672
+pixels 23.0
+prong 1
+clusterCharge 824.028
+error 0.750880926139
+notTrough
+newCluster 
+energy 402.049
+pixels 17.0
+prong 1
+clusterCharge 773.878
+error 0.344328547736
+notTrough
+newCluster 
+energy 115.136
+pixels 11.0
+prong 0
+clusterCharge 302.981
+error 0.281671516088
+notTrough
+newCluster 
+energy 2083.188
+pixels 17.0
+prong 0
+clusterCharge 2445.782
+error 1.16367592424
+notTrough
+newCluster 
+energy 7075.997
+pixels 120.0
+prong 1
+clusterCharge 16926.395
+error 2.51957683412
+trough
+newCluster 
+energy 1329.82
+pixels 29.0
+prong 0
+clusterCharge 1866.876
+error 0.683471390471
+notTrough
+newCluster 
+energy 462.977
+pixels 13.0
+prong 0
+clusterCharge 488.984
+error 0.366324163568
+notTrough
+newCluster 
+energy 187.789
+pixels 16.0
+prong 0
+clusterCharge 382.662
+error 0.53784928879
+notTrough
+newCluster 
+energy 463.377
+pixels 38.0
+prong 2
+clusterCharge 1203.176
+error 0.296126116386
+notTrough
+newCluster 
+energy 8482.886
+pixels 71.0
+prong 0
+clusterCharge 11918.145
+error 2.35816065761
+notTrough
+newCluster 
+energy 1123.642
+pixels 34.0
+prong 1
+clusterCharge 1934.639
+error 0.660225084765
+notTrough
+newCluster 
+energy 240.666
+pixels 17.0
+prong 1
+clusterCharge 475.738
+error 0.258577950497
+notTrough
+newCluster 
+energy 3916.315
+pixels 56.0
+prong 1
+clusterCharge 5039.001
+error 2.30749231286
+notTrough
+newCluster 
+energy 3919.991
+pixels 28.0
+prong 0
+clusterCharge 4771.147
+error 1.47253772343
+notTrough
+newCluster 
+energy 147.217
+pixels 11.0
+prong 0
+clusterCharge 183.556
+error 0.255170786884
+notTrough
+newCluster 
+energy 10591.108
+pixels 110.0
+prong 1
+clusterCharge 19926.583
+error 1.64750980029
+trough
+newCluster 
+energy 3652.614
+pixels 68.0
+prong 1
+clusterCharge 9113.316
+error 0.698513803457
+notTrough
+newCluster 
+energy 204.491
+pixels 27.0
+prong 1
+clusterCharge 571.283
+error 1.46621329377
+notTrough
+newCluster 
+energy 78.48
+pixels 13.0
+prong 0
+clusterCharge 267.153
+error 0.248868651866
+notTrough
+newCluster 
+energy 402.069
+pixels 24.0
+prong 1
+clusterCharge 655.959
+error 2.13265568435
+notTrough
+newCluster 
+energy 254.885
+pixels 19.0
+prong 1
+clusterCharge 466.604
+error 0.440201542388
+notTrough
+newCluster 
+energy 195.26
+pixels 17.0
+prong 1
+clusterCharge 392.572
+error 0.392687830461
+notTrough
+newCluster 
+energy 138.712
+pixels 12.0
+prong 1
+clusterCharge 258.638
+error 0.265448825291
+notTrough
+newCluster 
+energy 680.172
+pixels 26.0
+prong 1
+clusterCharge 1248.114
+error 0.496030401958
+notTrough
+newCluster 
+energy 373.05
+pixels 11.0
+prong 0
+clusterCharge 425.291
+error 0.760188777796
+notTrough
+newCluster 
+energy 110.836
+pixels 14.0
+prong 0
+clusterCharge 340.456
+error 0.317999364002
+notTrough
+newCluster 
+energy 4294.871
+pixels 30.0
+prong 0
+clusterCharge 5441.606
+error 1.92706063034
+notTrough
+newCluster 
+energy 709.739
+pixels 13.0
+prong 0
+clusterCharge 819.071
+error 0.578450812462
+notTrough
+newCluster 
+energy 532.186
+pixels 17.0
+prong 0
+clusterCharge 758.969
+error 0.72863127325
+notTrough
+newCluster 
+energy 476.622
+pixels 32.0
+prong 1
+clusterCharge 1019.387
+error 0.381296860066
+notTrough
+newCluster 
+energy 429.305
+pixels 11.0
+prong 0
+clusterCharge 504.452
+error 0.987831097243
+notTrough
+newCluster 
+energy 281.805
+pixels 28.0
+prong 1
+clusterCharge 746.127
+error 0.340198586531
+notTrough
+newCluster 
+energy 204.467
+pixels 17.0
+prong 0
+clusterCharge 359.815
+error 0.319615749219
+notTrough
+newCluster 
+energy 1538.421
+pixels 45.0
+prong 1
+clusterCharge 2359.856
+error 1.9371391183
+notTrough
+newCluster 
+energy 136.948
+pixels 11.0
+prong 0
+clusterCharge 247.849
+error 0.237891601803
+notTrough
+newCluster 
+energy 212.227
+pixels 11.0
+prong 0
+clusterCharge 305.131
+error 0.248954907339
+notTrough
+newCluster 
+energy 202.122
+pixels 21.0
+prong 1
+clusterCharge 804.363
+error 0.307316888144
+notTrough
+newCluster 
+energy 1467.968
+pixels 15.0
+prong 0
+clusterCharge 1873.386
+error 0.802109091978
+notTrough
+newCluster 
+energy 223.339
+pixels 13.0
+prong 0
+clusterCharge 293.562
+error 0.824640626551
+notTrough
+newCluster 
+energy 161.996
+pixels 12.0
+prong 0
+clusterCharge 260.57
+error 0.22816747435
+notTrough
+newCluster 
+energy 324.647
+pixels 54.0
+prong 2
+clusterCharge 1446.5
+error 0.287514041246
+notTrough
+newCluster 
+energy 229.983
+pixels 39.0
+prong 2
+clusterCharge 914.771
+error 0.275176238882
+notTrough
+newCluster 
+energy 304.722
+pixels 15.0
+prong 0
+clusterCharge 468.973
+error 2.34850014493
+notTrough
+newCluster 
+energy 140.203
+pixels 13.0
+prong 0
+clusterCharge 279.013
+error 0.244845552004
+notTrough
+newCluster 
+energy 156.501
+pixels 15.0
+prong 0
+clusterCharge 363.907
+error 0.37287746455
+notTrough
+newCluster 
+energy 176.027
+pixels 24.0
+prong 2
+clusterCharge 580.656
+error 0.42470158814
+notTrough
+newCluster 
+energy 129.891
+pixels 12.0
+prong 0
+clusterCharge 244.519
+error 0.276381193281
+notTrough
+newCluster 
+energy 181.741
+pixels 15.0
+prong 1
+clusterCharge 388.712
+error 0.296450154608
+notTrough
+newCluster 
+energy 296.961
+pixels 16.0
+prong 1
+clusterCharge 478.248
+error 0.350323461871
+notTrough
+newCluster 
+energy 311.839
+pixels 20.0
+prong 0
+clusterCharge 624.167
+error 1.31520245012
+notTrough
+newCluster 
+energy 2457.001
+pixels 14.0
+prong 0
+clusterCharge 3522.632
+error 3.08479528575
+notTrough
+newCluster 
+energy 881.244
+pixels 17.0
+prong 0
+clusterCharge 1533.638
+error 0.845967305264
+notTrough
+newCluster 
+energy 2171.087
+pixels 11.0
+prong 0
+clusterCharge 2514.154
+error 0.926351295008
+notTrough
+newFile
+newCluster 
+energy 113.78
+pixels 12.0
+prong 0
+clusterCharge 227.595
+error 0.24298837067
+notTrough
+newCluster 
+energy 155.777
+pixels 12.0
+prong 0
+clusterCharge 283.478
+error 0.22336355586
+notTrough
+newCluster 
+energy 381.399
+pixels 21.0
+prong 0
+clusterCharge 633.641
+error 0.766899087281
+notTrough
+newCluster 
+energy 6141.337
+pixels 41.0
+prong 0
+clusterCharge 7802.407
+error 1.66646726847
+notTrough
+newCluster 
+energy 955.256
+pixels 33.0
+prong 1
+clusterCharge 2559.199
+error 0.456969065607
+notTrough
+newCluster 
+energy 280.992
+pixels 13.0
+prong 0
+clusterCharge 467.093
+error 0.95749260681
+notTrough
+newCluster 
+energy 333.82
+pixels 11.0
+prong 0
+clusterCharge 422.291
+error 0.337642408248
+notTrough
+newCluster 
+energy 1105.37
+pixels 24.0
+prong 0
+clusterCharge 1723.194
+error 0.582449933013
+notTrough
+newCluster 
+energy 207.981
+pixels 15.0
+prong 0
+clusterCharge 347.114
+error 3.08423677253
+notTrough
+newCluster 
+energy 326.167
+pixels 12.0
+prong 0
+clusterCharge 421.904
+error 0.923895315778
+notTrough
+newCluster 
+energy 636.507
+pixels 14.0
+prong 0
+clusterCharge 731.002
+error 1.11461187434
+notTrough
+newCluster 
+energy 615.686
+pixels 24.0
+prong 1
+clusterCharge 954.414
+error 1.05757797584
+notTrough
+newCluster 
+energy 178.363
+pixels 13.0
+prong 0
+clusterCharge 351.761
+error 0.322504616381
+notTrough
+newCluster 
+energy 4516.411
+pixels 36.0
+prong 0
+clusterCharge 5847.357
+error 2.01102279209
+notTrough
+newCluster 
+energy 373.423
+pixels 15.0
+prong 0
+clusterCharge 465.378
+error 2.27427505901
+notTrough
+newCluster 
+energy 162.544
+pixels 21.0
+prong 1
+clusterCharge 720.492
+error 0.263654626806
+notTrough
+newCluster 
+energy 2191.518
+pixels 18.0
+prong 0
+clusterCharge 2861.759
+error 1.72842773041
+notTrough
+newCluster 
+energy 323.49
+pixels 21.0
+prong 1
+clusterCharge 658.009
+error 0.335275436462
+notTrough
+newCluster 
+energy 2421.241
+pixels 30.0
+prong 0
+clusterCharge 2782.554
+error 1.93667754035
+notTrough
+newCluster 
+energy 629.479
+pixels 36.0
+prong 1
+clusterCharge 1246.016
+error 8.08414773412
+notTrough
+newCluster 
+energy 1785.561
+pixels 15.0
+prong 0
+clusterCharge 2177.905
+error 1.14487312104
+notTrough
+newCluster 
+energy 1481.831
+pixels 16.0
+prong 0
+clusterCharge 1551.373
+error 1.39908784875
+notTrough
+newCluster 
+energy 1318.571
+pixels 16.0
+prong 0
+clusterCharge 1679.382
+error 0.653935454726
+notTrough
+newCluster 
+energy 485.759
+pixels 43.0
+prong 1
+clusterCharge 1476.52
+error 0.508237807545
+notTrough
+newCluster 
+energy 123.481
+pixels 21.0
+prong 1
+clusterCharge 489.756
+error 0.239946380574
+notTrough
+newCluster 
+energy 1719.124
+pixels 12.0
+prong 0
+clusterCharge 2172.477
+error 0.854232321401
+notTrough
+newCluster 
+energy 466.26
+pixels 12.0
+prong 0
+clusterCharge 551.609
+error 1.32996887343
+notTrough
+newCluster 
+energy 878.604
+pixels 11.0
+prong 0
+clusterCharge 1013.175
+error 1.85641616879
+notTrough
+newCluster 
+energy 807.43
+pixels 18.0
+prong 0
+clusterCharge 898.977
+error 0.516640390633
+notTrough
+newCluster 
+energy 185.744
+pixels 13.0
+prong 0
+clusterCharge 348.191
+error 0.327121935906
+notTrough
+newCluster 
+energy 179.695
+pixels 19.0
+prong 1
+clusterCharge 456.372
+error 0.262474339191
+notTrough
+newCluster 
+energy 370.57
+pixels 11.0
+prong 0
+clusterCharge 393.125
+error 1.08187547595
+notTrough
+newCluster 
+energy 205.285
+pixels 11.0
+prong 0
+clusterCharge 256.908
+error 0.294139648857
+notTrough
+newCluster 
+energy 202.152
+pixels 32.0
+prong 1
+clusterCharge 710.911
+error 0.308513398282
+notTrough
+newCluster 
+energy 243.967
+pixels 14.0
+prong 0
+clusterCharge 411.046
+error 0.347755570703
+notTrough
+newCluster 
+energy 180.603
+pixels 32.0
+prong 1
+clusterCharge 688.273
+error 0.708965201421
+notTrough
+newCluster 
+energy 2011.575
+pixels 89.0
+prong 1
+clusterCharge 6623.013
+error 2.66821006931
+trough
+newCluster 
+energy 147.699
+pixels 15.0
+prong 0
+clusterCharge 353.033
+error 0.274994346391
+notTrough
+newCluster 
+energy 546.448
+pixels 72.0
+prong 1
+clusterCharge 2370.897
+error 0.674012443993
+notTrough
+newCluster 
+energy 211.196
+pixels 13.0
+prong 0
+clusterCharge 432.106
+error 0.344684650487
+notTrough
+newCluster 
+energy 173.037
+pixels 27.0
+prong 1
+clusterCharge 652.665
+error 0.227903794416
+notTrough
+newCluster 
+energy 7945.772
+pixels 82.0
+prong 1
+clusterCharge 11648.298
+error 2.52978606992
+trough
+newCluster 
+energy 390.807
+pixels 13.0
+prong 0
+clusterCharge 417.254
+error 0.459138518492
+notTrough
+newCluster 
+energy 413.826
+pixels 24.0
+prong 0
+clusterCharge 998.144
+error 0.388058624757
+notTrough
+newCluster 
+energy 347.793
+pixels 19.0
+prong 1
+clusterCharge 734.914
+error 0.398248486386
+notTrough
+newCluster 
+energy 200.886
+pixels 23.0
+prong 1
+clusterCharge 624.919
+error 0.241317936171
+notTrough
+newCluster 
+energy 7329.582
+pixels 76.0
+prong 2
+clusterCharge 9945.424
+error 2.96636596922
+trough
+newCluster 
+energy 343.383
+pixels 21.0
+prong 1
+clusterCharge 743.632
+error 0.916985099661
+notTrough
+newCluster 
+energy 240.785
+pixels 13.0
+prong 1
+clusterCharge 358.682
+error 0.388505934868
+notTrough
+newCluster 
+energy 8259.24
+pixels 204.0
+prong 4
+clusterCharge 29174.195
+error 6.75855493126
+trough
+newCluster 
+energy 1264.724
+pixels 35.0
+prong 2
+clusterCharge 2405.662
+error 0.503479519708
+notTrough
+newCluster 
+energy 229.414
+pixels 17.0
+prong 0
+clusterCharge 454.392
+error 0.296084275333
+notTrough
+newCluster 
+energy 327.453
+pixels 18.0
+prong 1
+clusterCharge 488.73
+error 0.377835616251
+notTrough
+newCluster 
+energy 185.555
+pixels 11.0
+prong 0
+clusterCharge 345.533
+error 0.300912173109
+notTrough
+newCluster 
+energy 53.468
+pixels 11.0
+prong 0
+clusterCharge 218.697
+error 0.208191386111
+notTrough
+newCluster 
+energy 202.059
+pixels 19.0
+prong 1
+clusterCharge 421.37
+error 0.763536200289
+notTrough
+newCluster 
+energy 134.37
+pixels 11.0
+prong 0
+clusterCharge 282.834
+error 0.248964798866
+notTrough
+newCluster 
+energy 392.547
+pixels 13.0
+prong 0
+clusterCharge 468.61
+error 0.373777747811
+notTrough
+newCluster 
+energy 364.835
+pixels 27.0
+prong 1
+clusterCharge 878.218
+error 1.42178707649
+notTrough
+newCluster 
+energy 213.019
+pixels 11.0
+prong 0
+clusterCharge 309.598
+error 0.3891442553
+notTrough
+newCluster 
+energy 224.169
+pixels 11.0
+prong 0
+clusterCharge 333.092
+error 0.301397286944
+notTrough
+newCluster 
+energy 789.062
+pixels 13.0
+prong 0
+clusterCharge 1574.391
+error 5.2409384558
+notTrough
+newFile
+newCluster 
+energy 1096.186
+pixels 34.0
+prong 1
+clusterCharge 2249.371
+error 1.11225633403
+notTrough
+newCluster 
+energy 1603.068
+pixels 92.0
+prong 3
+clusterCharge 6027.84
+error 4.87128921215
+trough
+newCluster 
+energy 837.669
+pixels 14.0
+prong 0
+clusterCharge 973.062
+error 0.487908293882
+notTrough
+newCluster 
+energy 146.31
+pixels 12.0
+prong 0
+clusterCharge 251.135
+error 0.312155321726
+notTrough
+newCluster 
+energy 560.459
+pixels 13.0
+prong 0
+clusterCharge 735.436
+error 0.781646337046
+notTrough
+newCluster 
+energy 1080.616
+pixels 12.0
+prong 0
+clusterCharge 1718.287
+error 0.957427107756
+notTrough
+newCluster 
+energy 2238.474
+pixels 72.0
+prong 1
+clusterCharge 6792.67
+error 3.2414483441
+trough
+newCluster 
+energy 266.78
+pixels 27.0
+prong 1
+clusterCharge 756.225
+error 0.900963823233
+notTrough
+newCluster 
+energy 1137.672
+pixels 40.0
+prong 1
+clusterCharge 2805.179
+error 0.586126129655
+notTrough
+newCluster 
+energy 297.587
+pixels 15.0
+prong 1
+clusterCharge 500.807
+error 0.70323727112
+notTrough
+newCluster 
+energy 254.43
+pixels 22.0
+prong 1
+clusterCharge 538.717
+error 0.307099003129
+notTrough
+newCluster 
+energy 108.106
+pixels 14.0
+prong 1
+clusterCharge 271.748
+error 0.258974043337
+notTrough
+newCluster 
+energy 328.5
+pixels 17.0
+prong 0
+clusterCharge 447.075
+error 0.388363130613
+notTrough
+newCluster 
+energy 387.779
+pixels 27.0
+prong 0
+clusterCharge 757.364
+error 0.570318100414
+notTrough
+newCluster 
+energy 197.317
+pixels 11.0
+prong 0
+clusterCharge 358.788
+error 0.494440840214
+notTrough
+newCluster 
+energy 364.008
+pixels 13.0
+prong 0
+clusterCharge 400.292
+error 0.457030944899
+notTrough
+newCluster 
+energy 741.37
+pixels 31.0
+prong 1
+clusterCharge 1605.429
+error 0.765397862753
+notTrough
+newCluster 
+energy 1158.017
+pixels 21.0
+prong 0
+clusterCharge 1663.698
+error 0.674325751711
+notTrough
+newCluster 
+energy 60.189
+pixels 29.0
+prong 2
+clusterCharge 678.915
+error 11.2729617698
+notTrough
+newCluster 
+energy 168.08
+pixels 12.0
+prong 0
+clusterCharge 271.025
+error 0.288200469761
+notTrough
+newCluster 
+energy 1125.458
+pixels 14.0
+prong 0
+clusterCharge 1406.603
+error 0.603279021872
+notTrough
+newCluster 
+energy 166.136
+pixels 18.0
+prong 1
+clusterCharge 438.8
+error 0.242535625036
+notTrough
+newCluster 
+energy 1172.851
+pixels 16.0
+prong 0
+clusterCharge 1447.287
+error 0.50852818745
+notTrough
+newCluster 
+energy 276.795
+pixels 20.0
+prong 1
+clusterCharge 676.399
+error 0.340668287921
+notTrough
+newCluster 
+energy 328.55
+pixels 12.0
+prong 0
+clusterCharge 599.616
+error 0.272215942004
+notTrough
+newCluster 
+energy 475.199
+pixels 21.0
+prong 0
+clusterCharge 711.575
+error 1.40285176679
+notTrough
+newCluster 
+energy 819.074
+pixels 32.0
+prong 1
+clusterCharge 1530.759
+error 2.28009193262
+notTrough
+newCluster 
+energy 1414.265
+pixels 36.0
+prong 1
+clusterCharge 3388.905
+error 0.904034362926
+notTrough
+newCluster 
+energy 237.412
+pixels 11.0
+prong 0
+clusterCharge 358.382
+error 0.376960767526
+notTrough
+newCluster 
+energy 162.847
+pixels 19.0
+prong 1
+clusterCharge 438.634
+error 0.303555595689
+notTrough
+newCluster 
+energy 1350.262
+pixels 24.0
+prong 0
+clusterCharge 2306.129
+error 0.511619708501
+notTrough
+newCluster 
+energy 160.165
+pixels 15.0
+prong 1
+clusterCharge 419.099
+error 0.282993548524
+notTrough
+newCluster 
+energy 144.168
+pixels 12.0
+prong 0
+clusterCharge 267.155
+error 0.32807485652
+notTrough
+newCluster 
+energy 121.172
+pixels 12.0
+prong 0
+clusterCharge 309.734
+error 0.243154813241
+notTrough
+newCluster 
+energy 387.104
+pixels 27.0
+prong 0
+clusterCharge 615.744
+error 3.3743848217
+notTrough
+newCluster 
+energy 254.584
+pixels 13.0
+prong 0
+clusterCharge 475.905
+error 0.959419377971
+notTrough
+newCluster 
+energy 380.374
+pixels 16.0
+prong 0
+clusterCharge 550.717
+error 0.426995886412
+notTrough
+newCluster 
+energy 187.81
+pixels 31.0
+prong 1
+clusterCharge 672.652
+error 0.239988476947
+notTrough
+newCluster 
+energy 241.453
+pixels 15.0
+prong 1
+clusterCharge 391.02
+error 0.303478516408
+notTrough
+newCluster 
+energy 209.809
+pixels 35.0
+prong 1
+clusterCharge 788.561
+error 0.266126777937
+notTrough
+newCluster 
+energy 169.758
+pixels 13.0
+prong 0
+clusterCharge 270.101
+error 0.248447336068
+notTrough
+newCluster 
+energy 182.711
+pixels 12.0
+prong 0
+clusterCharge 281.889
+error 1.59494172117
+notTrough
+newCluster 
+energy 498.815
+pixels 13.0
+prong 0
+clusterCharge 590.755
+error 1.07313157886
+notTrough
+newCluster 
+energy 777.997
+pixels 21.0
+prong 1
+clusterCharge 1316.088
+error 1.26563656517
+notTrough
+newCluster 
+energy 207.551
+pixels 16.0
+prong 0
+clusterCharge 432.038
+error 0.340176828121
+notTrough
+newCluster 
+energy 141.291
+pixels 24.0
+prong 1
+clusterCharge 512.687
+error 0.216175061135
+notTrough
+newCluster 
+energy 225.046
+pixels 12.0
+prong 0
+clusterCharge 330.572
+error 0.280830160178
+notTrough
+newCluster 
+energy 1895.466
+pixels 11.0
+prong 0
+clusterCharge 2144.506
+error 1.09137281424
+notTrough
+newCluster 
+energy 238.73
+pixels 12.0
+prong 0
+clusterCharge 353.844
+error 0.301316506855
+notTrough
+newCluster 
+energy 3202.39
+pixels 29.0
+prong 0
+clusterCharge 3232.36
+error 1.17341534539
+notTrough
+newCluster 
+energy 177.968
+pixels 18.0
+prong 0
+clusterCharge 414.536
+error 0.315798246745
+notTrough
+newCluster 
+energy 225.757
+pixels 14.0
+prong 0
+clusterCharge 364.468
+error 0.380392015452
+notTrough
+newCluster 
+energy 474.098
+pixels 13.0
+prong 0
+clusterCharge 502.018
+error 0.304096185106
+notTrough
+newCluster 
+energy 351.47
+pixels 15.0
+prong 0
+clusterCharge 467.42
+error 0.472824098727
+notTrough
+newCluster 
+energy 322.832
+pixels 16.0
+prong 1
+clusterCharge 488.444
+error 0.957512153946
+notTrough
+newCluster 
+energy 5568.544
+pixels 47.0
+prong 0
+clusterCharge 8749.629
+error 1.05215173844
+notTrough
+newCluster 
+energy 259.936
+pixels 11.0
+prong 0
+clusterCharge 299.165
+error 0.298255308345
+notTrough
+newFile
+newCluster 
+energy 2849.905
+pixels 17.0
+prong 0
+clusterCharge 3073.661
+error 1.22837160385
+notTrough
+newCluster 
+energy 245.862
+pixels 14.0
+prong 0
+clusterCharge 384.865
+error 0.35459834235
+notTrough
+newCluster 
+energy 719.405
+pixels 49.0
+prong 1
+clusterCharge 1748.578
+error 3.5687331595
+notTrough
+newCluster 
+energy 27.624
+pixels 11.0
+prong 0
+clusterCharge 219.039
+error 4.69369083387e-14
+notTrough
+newCluster 
+energy 7843.178
+pixels 65.0
+prong 0
+clusterCharge 11210.221
+error 1.75634063834
+notTrough
+newCluster 
+energy 320.881
+pixels 13.0
+prong 0
+clusterCharge 483.706
+error 1.03108075337
+notTrough
+newCluster 
+energy 2358.087
+pixels 42.0
+prong 1
+clusterCharge 5418.712
+error 0.919796542025
+notTrough
+newCluster 
+energy 173.897
+pixels 20.0
+prong 1
+clusterCharge 687.014
+error 0.263926797795
+notTrough
+newCluster 
+energy 3899.138
+pixels 47.0
+prong 1
+clusterCharge 5226.387
+error 1.29634997442
+notTrough
+newCluster 
+energy 429.567
+pixels 15.0
+prong 0
+clusterCharge 584.842
+error 1.53652098233
+notTrough
+newCluster 
+energy 2295.626
+pixels 54.0
+prong 2
+clusterCharge 3627.073
+error 3.16606865685
+notTrough
+newCluster 
+energy 3553.924
+pixels 24.0
+prong 0
+clusterCharge 3969.802
+error 1.43132475944
+notTrough
+newCluster 
+energy 645.547
+pixels 47.0
+prong 1
+clusterCharge 1904.078
+error 0.472918083642
+notTrough
+newCluster 
+energy 6007.619
+pixels 61.0
+prong 1
+clusterCharge 10403.438
+error 1.09640478284
+notTrough
+newCluster 
+energy 2515.14
+pixels 27.0
+prong 1
+clusterCharge 3234.073
+error 1.19361202692
+notTrough
+newCluster 
+energy 378.522
+pixels 12.0
+prong 0
+clusterCharge 398.463
+error 0.433710243323
+notTrough
+newCluster 
+energy 688.768
+pixels 18.0
+prong 0
+clusterCharge 900.918
+error 0.850916287671
+notTrough
+newCluster 
+energy 394.215
+pixels 40.0
+prong 1
+clusterCharge 1160.816
+error 0.394396640423
+notTrough
+newCluster 
+energy 333.751
+pixels 19.0
+prong 1
+clusterCharge 660.624
+error 0.301143295018
+notTrough
+newCluster 
+energy 297.285
+pixels 15.0
+prong 0
+clusterCharge 450.659
+error 0.997531094894
+notTrough
+newCluster 
+energy 279.583
+pixels 19.0
+prong 0
+clusterCharge 618.863
+error 0.307444826373
+notTrough
+newCluster 
+energy 478.321
+pixels 43.0
+prong 2
+clusterCharge 1913.737
+error 1.395219839
+notTrough
+newCluster 
+energy 1247.05
+pixels 11.0
+prong 0
+clusterCharge 1445.01
+error 0.911617415465
+notTrough
+newCluster 
+energy 502.354
+pixels 13.0
+prong 0
+clusterCharge 552.497
+error 0.428164058517
+notTrough
+newCluster 
+energy 628.558
+pixels 20.0
+prong 0
+clusterCharge 860.709
+error 2.79617123068
+notTrough
+newCluster 
+energy 710.136
+pixels 18.0
+prong 0
+clusterCharge 1205.92
+error 0.477149296715
+notTrough
+newCluster 
+energy 1985.549
+pixels 15.0
+prong 0
+clusterCharge 2335.085
+error 1.10096376513
+notTrough
+newCluster 
+energy 820.682
+pixels 41.0
+prong 2
+clusterCharge 2690.409
+error 0.446277385276
+notTrough
+newCluster 
+energy 8440.3
+pixels 63.0
+prong 1
+clusterCharge 11551.729
+error 2.56105316178
+notTrough
+newCluster 
+energy 2569.602
+pixels 21.0
+prong 0
+clusterCharge 3262.589
+error 1.71341090879
+notTrough
+newCluster 
+energy 770.636
+pixels 19.0
+prong 0
+clusterCharge 997.495
+error 1.43655165111
+notTrough
+newCluster 
+energy 12326.136
+pixels 111.0
+prong 1
+clusterCharge 18136.02
+error 3.28094717709
+trough
+newCluster 
+energy 1116.018
+pixels 24.0
+prong 0
+clusterCharge 2155.811
+error 0.476225341015
+notTrough
+newCluster 
+energy 511.426
+pixels 19.0
+prong 0
+clusterCharge 617.448
+error 0.946744879158
+notTrough
+newCluster 
+energy 462.54
+pixels 20.0
+prong 1
+clusterCharge 685.753
+error 0.474457929185
+notTrough
+newCluster 
+energy 37.983
+pixels 14.0
+prong 0
+clusterCharge 321.584
+error 4.49386683978e-14
+notTrough
+newCluster 
+energy 5257.43
+pixels 116.0
+prong 2
+clusterCharge 12696.363
+error 3.84395918624
+trough
+newCluster 
+energy 730.616
+pixels 11.0
+prong 0
+clusterCharge 1359.393
+error 0.879144736184
+notTrough
+newCluster 
+energy 1027.838
+pixels 103.0
+prong 2
+clusterCharge 6463.605
+error 0.56558150197
+notTrough
+newCluster 
+energy 1507.923
+pixels 22.0
+prong 0
+clusterCharge 1645.717
+error 1.9459983863
+notTrough
+newCluster 
+energy 1048.004
+pixels 80.0
+prong 2
+clusterCharge 4735.266
+error 0.567901705421
+notTrough
+newCluster 
+energy 3827.73
+pixels 51.0
+prong 1
+clusterCharge 6487.884
+error 1.08236027375
+notTrough
+newCluster 
+energy 157.543
+pixels 17.0
+prong 0
+clusterCharge 360.331
+error 0.685587273999
+notTrough
+newCluster 
+energy 389.007
+pixels 27.0
+prong 1
+clusterCharge 722.515
+error 2.18548323313
+notTrough
+newCluster 
+energy 885.709
+pixels 41.0
+prong 1
+clusterCharge 1470.687
+error 1.22695180227
+notTrough
+newCluster 
+energy 1708.362
+pixels 14.0
+prong 0
+clusterCharge 2271.863
+error 0.954204294989
+notTrough
+newCluster 
+energy 298.488
+pixels 14.0
+prong 0
+clusterCharge 450.39
+error 0.324038572109
+notTrough
+newCluster 
+energy 387.806
+pixels 22.0
+prong 1
+clusterCharge 736.289
+error 0.748285840999
+notTrough
+newCluster 
+energy 222.557
+pixels 17.0
+prong 1
+clusterCharge 454.73
+error 0.333743131383
+notTrough
+newCluster 
+energy 513.755
+pixels 29.0
+prong 1
+clusterCharge 981.907
+error 0.834760885367
+notTrough
+newCluster 
+energy 424.633
+pixels 34.0
+prong 1
+clusterCharge 1055.279
+error 0.377291486791
+notTrough
+newCluster 
+energy 151.992
+pixels 14.0
+prong 0
+clusterCharge 303.789
+error 0.347416275176
+notTrough
+newCluster 
+energy 243.913
+pixels 11.0
+prong 0
+clusterCharge 270.234
+error 0.324131020519
+notTrough
+newCluster 
+energy 119.019
+pixels 38.0
+prong 2
+clusterCharge 903.728
+error 0.297834404546
+notTrough
+newCluster 
+energy 112.718
+pixels 45.0
+prong 2
+clusterCharge 939.149
+error 0.297427687903
+notTrough
+newCluster 
+energy 242.582
+pixels 12.0
+prong 0
+clusterCharge 279.632
+error 0.454037511116
+notTrough
+newCluster 
+energy 532.817
+pixels 20.0
+prong 0
+clusterCharge 740.289
+error 0.957778098754
+notTrough
+newCluster 
+energy 2529.993
+pixels 15.0
+prong 0
+clusterCharge 2813.677
+error 2.12278564756
+notTrough
+newFile
+newCluster 
+energy 352.687
+pixels 25.0
+prong 1
+clusterCharge 806.13
+error 1.35699547786
+notTrough
+newCluster 
+energy 136.723
+pixels 11.0
+prong 1
+clusterCharge 227.145
+error 0.355011348905
+notTrough
+newCluster 
+energy 1379.874
+pixels 12.0
+prong 0
+clusterCharge 1701.602
+error 1.11803398875
+notTrough
+newCluster 
+energy 537.233
+pixels 18.0
+prong 0
+clusterCharge 764.363
+error 0.424918292799
+notTrough
+newCluster 
+energy 268.053
+pixels 21.0
+prong 1
+clusterCharge 631.122
+error 0.279458430492
+notTrough
+newCluster 
+energy 2830.172
+pixels 19.0
+prong 0
+clusterCharge 3141.04
+error 1.52153028092
+notTrough
+newCluster 
+energy 445.724
+pixels 14.0
+prong 0
+clusterCharge 564.77
+error 0.36970606009
+notTrough
+newCluster 
+energy 10110.128
+pixels 189.0
+prong 3
+clusterCharge 29437.791
+error 9.94239662442
+trough
+newCluster 
+energy 140.296
+pixels 13.0
+prong 1
+clusterCharge 308.702
+error 0.263188571499
+notTrough
+newCluster 
+energy 157.725
+pixels 13.0
+prong 0
+clusterCharge 252.247
+error 0.265006284354
+notTrough
+newCluster 
+energy 154.849
+pixels 11.0
+prong 0
+clusterCharge 241.686
+error 0.249167127058
+notTrough
+newCluster 
+energy 494.914
+pixels 20.0
+prong 0
+clusterCharge 859.13
+error 4.70237073217
+notTrough
+newCluster 
+energy 1397.427
+pixels 21.0
+prong 0
+clusterCharge 1537.858
+error 1.0038959649
+notTrough
+newCluster 
+energy 8678.842
+pixels 97.0
+prong 2
+clusterCharge 12900.708
+error 8.59324508585
+trough
+newCluster 
+energy 6512.313
+pixels 45.0
+prong 1
+clusterCharge 8179.898
+error 2.43558934721
+notTrough
+newCluster 
+energy 8551.073
+pixels 61.0
+prong 0
+clusterCharge 10580.695
+error 2.54423618554
+notTrough
+newCluster 
+energy 121.853
+pixels 13.0
+prong 0
+clusterCharge 344.703
+error 0.217869020484
+notTrough
+newCluster 
+energy 60.777
+pixels 11.0
+prong 1
+clusterCharge 227.102
+error 0.289471993901
+notTrough
+newCluster 
+energy 220.584
+pixels 24.0
+prong 1
+clusterCharge 676.992
+error 0.260118835331
+notTrough
+newCluster 
+energy 1732.039
+pixels 140.0
+prong 2
+clusterCharge 12049.985
+error 0.679606597213
+notTrough
+newCluster 
+energy 234.908
+pixels 18.0
+prong 1
+clusterCharge 512.284
+error 0.350847091932
+notTrough
+newCluster 
+energy 1444.289
+pixels 24.0
+prong 0
+clusterCharge 1859.993
+error 0.737109922365
+notTrough
+newCluster 
+energy 3580.031
+pixels 20.0
+prong 0
+clusterCharge 3839.291
+error 1.18666055185
+notTrough
+newCluster 
+energy 1668.695
+pixels 19.0
+prong 0
+clusterCharge 1596.014
+error 1.05855694779
+notTrough
+newCluster 
+energy 280.248
+pixels 11.0
+prong 0
+clusterCharge 417.535
+error 1.29901601526
+notTrough
+newCluster 
+energy 325.79
+pixels 12.0
+prong 0
+clusterCharge 393.4
+error 0.375671441898
+notTrough
+newCluster 
+energy 277.395
+pixels 42.0
+prong 2
+clusterCharge 1202.344
+error 0.287857636453
+notTrough
+newCluster 
+energy 1625.398
+pixels 17.0
+prong 0
+clusterCharge 1808.04
+error 1.29357664206
+notTrough
+newCluster 
+energy 685.441
+pixels 47.0
+prong 2
+clusterCharge 2726.245
+error 0.431353766725
+notTrough
+newCluster 
+energy 653.117
+pixels 20.0
+prong 0
+clusterCharge 1045.168
+error 0.611499704452
+notTrough
+newCluster 
+energy 388.192
+pixels 12.0
+prong 0
+clusterCharge 524.37
+error 0.384976735377
+notTrough
+newCluster 
+energy 472.144
+pixels 15.0
+prong 0
+clusterCharge 669.321
+error 0.498678377538
+notTrough
+newCluster 
+energy 712.362
+pixels 30.0
+prong 1
+clusterCharge 1364.107
+error 0.520497249875
+notTrough
+newCluster 
+energy 234.219
+pixels 20.0
+prong 1
+clusterCharge 507.524
+error 0.386298458502
+notTrough
+newCluster 
+energy 3370.885
+pixels 25.0
+prong 0
+clusterCharge 4116.19
+error 1.52805762039
+notTrough
+newCluster 
+energy 2366.486
+pixels 43.0
+prong 1
+clusterCharge 3449.77
+error 1.08771151903
+notTrough
+newCluster 
+energy 350.713
+pixels 13.0
+prong 1
+clusterCharge 460.089
+error 4.85926201614e-14
+notTrough
+newCluster 
+energy 372.474
+pixels 15.0
+prong 0
+clusterCharge 453.673
+error 1.95604492397
+notTrough
+newCluster 
+energy 197.918
+pixels 11.0
+prong 0
+clusterCharge 231.871
+error 0.322851804471
+notTrough
+newCluster 
+energy 569.691
+pixels 12.0
+prong 0
+clusterCharge 661.984
+error 1.16106959131
+notTrough
+newCluster 
+energy 1067.368
+pixels 22.0
+prong 0
+clusterCharge 1615.027
+error 0.494305220975
+notTrough
+newCluster 
+energy 277.044
+pixels 12.0
+prong 0
+clusterCharge 407.506
+error 0.336389498553
+notTrough
+newCluster 
+energy 220.975
+pixels 17.0
+prong 0
+clusterCharge 375.68
+error 0.465040832378
+notTrough
+newCluster 
+energy 147.125
+pixels 11.0
+prong 1
+clusterCharge 281.36
+error 0.237467845073
+notTrough
+newCluster 
+energy 639.674
+pixels 42.0
+prong 1
+clusterCharge 1356.928
+error 0.745404168879
+notTrough
+newCluster 
+energy 3134.982
+pixels 25.0
+prong 0
+clusterCharge 3564.638
+error 1.03831421075
+notTrough
+newCluster 
+energy 877.29
+pixels 47.0
+prong 2
+clusterCharge 2644.066
+error 0.472160839968
+notTrough
+newCluster 
+energy 944.746
+pixels 35.0
+prong 1
+clusterCharge 1902.574
+error 0.564397088411
+notTrough
+newCluster 
+energy 1087.622
+pixels 27.0
+prong 1
+clusterCharge 1662.118
+error 0.575815369559
+notTrough
+newCluster 
+energy 63.432
+pixels 14.0
+prong 1
+clusterCharge 428.207
+error 4.68606270482
+notTrough
+newCluster 
+energy 5097.876
+pixels 116.0
+prong 2
+clusterCharge 12925.615
+error 3.63288624356
+trough
+newCluster 
+energy 336.835
+pixels 49.0
+prong 2
+clusterCharge 1624.518
+error 0.790881982552
+notTrough
+newCluster 
+energy 312.666
+pixels 25.0
+prong 1
+clusterCharge 757.837
+error 0.33457025406
+notTrough
+newCluster 
+energy 139.418
+pixels 15.0
+prong 1
+clusterCharge 373.091
+error 0.299924495339
+notTrough
+newCluster 
+energy 285.898
+pixels 21.0
+prong 1
+clusterCharge 628.698
+error 1.29296051411
+notTrough
+newCluster 
+energy 108.282
+pixels 30.0
+prong 1
+clusterCharge 788.89
+error 0.911196821497
+notTrough
+newCluster 
+energy 467.391
+pixels 59.0
+prong 2
+clusterCharge 1806.36
+error 1.03445259656
+notTrough
+newCluster 
+energy 110.463
+pixels 27.0
+prong 2
+clusterCharge 600.079
+error 0.380633789513
+notTrough
+newFile
+newCluster 
+energy 306.461
+pixels 14.0
+prong 0
+clusterCharge 435.028
+error 0.780784679793
+notTrough
+newCluster 
+energy 3556.506
+pixels 18.0
+prong 0
+clusterCharge 4351.44
+error 0.760550623036
+notTrough
+newCluster 
+energy 1110.109
+pixels 13.0
+prong 0
+clusterCharge 1395.046
+error 0.676179895691
+notTrough
+newCluster 
+energy 468.209
+pixels 11.0
+prong 0
+clusterCharge 547.866
+error 0.966849940658
+notTrough
+newCluster 
+energy 182.941
+pixels 18.0
+prong 1
+clusterCharge 402.583
+error 0.218114211461
+notTrough
+newCluster 
+energy 619.875
+pixels 23.0
+prong 0
+clusterCharge 783.131
+error 1.62324276605
+notTrough
+newCluster 
+energy 215.577
+pixels 21.0
+prong 1
+clusterCharge 501.315
+error 0.775820407242
+notTrough
+newCluster 
+energy 367.849
+pixels 35.0
+prong 1
+clusterCharge 867.157
+error 0.99520180733
+notTrough
+newCluster 
+energy 12506.349
+pixels 153.0
+prong 3
+clusterCharge 31305.626
+error 5.5981700688
+trough
+newCluster 
+energy 816.736
+pixels 40.0
+prong 1
+clusterCharge 1785.175
+error 0.790110702334
+notTrough
+newCluster 
+energy 869.637
+pixels 30.0
+prong 1
+clusterCharge 1435.496
+error 0.551846555913
+notTrough
+newCluster 
+energy 233.324
+pixels 16.0
+prong 1
+clusterCharge 392.519
+error 0.306759064406
+notTrough
+newCluster 
+energy 658.323
+pixels 23.0
+prong 0
+clusterCharge 1041.944
+error 1.95343130452
+notTrough
+newCluster 
+energy 777.635
+pixels 14.0
+prong 0
+clusterCharge 881.654
+error 1.35799699711
+notTrough
+newCluster 
+energy 11327.431
+pixels 134.0
+prong 2
+clusterCharge 24758.996
+error 3.44508877223
+trough
+newCluster 
+energy 1856.349
+pixels 11.0
+prong 0
+clusterCharge 2305.689
+error 0.832483599929
+notTrough
+newCluster 
+energy 3366.688
+pixels 19.0
+prong 0
+clusterCharge 4205.753
+error 1.12707570416
+notTrough
+newCluster 
+energy 3473.634
+pixels 41.0
+prong 1
+clusterCharge 5436.917
+error 1.16239820364
+notTrough
+newCluster 
+energy 2182.746
+pixels 24.0
+prong 0
+clusterCharge 2544.953
+error 1.55557574276
+notTrough
+newCluster 
+energy 468.013
+pixels 54.0
+prong 2
+clusterCharge 1765.304
+error 0.409596367434
+notTrough
+newCluster 
+energy 255.682
+pixels 21.0
+prong 1
+clusterCharge 863.73
+error 0.373835918666
+notTrough
+newCluster 
+energy 554.992
+pixels 12.0
+prong 0
+clusterCharge 1000.09
+error 0.5
+notTrough
+newCluster 
+energy 271.689
+pixels 12.0
+prong 1
+clusterCharge 535.841
+error 0.330314059842
+notTrough
+newCluster 
+energy 413.975
+pixels 29.0
+prong 1
+clusterCharge 1285.447
+error 0.606134499392
+notTrough
+newCluster 
+energy 258.535
+pixels 11.0
+prong 0
+clusterCharge 310.243
+error 0.306495340812
+notTrough
+newCluster 
+energy 307.785
+pixels 27.0
+prong 1
+clusterCharge 1068.713
+error 0.399998558826
+notTrough
+newCluster 
+energy 247.428
+pixels 22.0
+prong 1
+clusterCharge 762.701
+error 0.398313753408
+notTrough
+newCluster 
+energy 153.476
+pixels 16.0
+prong 1
+clusterCharge 383.989
+error 0.26834243998
+notTrough
+newCluster 
+energy 3313.298
+pixels 42.0
+prong 1
+clusterCharge 4670.943
+error 2.16600655572
+notTrough
+newCluster 
+energy 5681.428
+pixels 64.0
+prong 0
+clusterCharge 7571.344
+error 2.48654942928
+notTrough
+newCluster 
+energy 355.947
+pixels 14.0
+prong 0
+clusterCharge 570.613
+error 0.41464101235
+notTrough
+newCluster 
+energy 488.281
+pixels 26.0
+prong 1
+clusterCharge 1075.616
+error 0.387200077307
+notTrough
+newCluster 
+energy 5014.392
+pixels 69.0
+prong 1
+clusterCharge 9555.322
+error 2.22564462697
+notTrough
+newCluster 
+energy 216.469
+pixels 11.0
+prong 0
+clusterCharge 337.194
+error 0.433673114097
+notTrough
+newCluster 
+energy 261.181
+pixels 12.0
+prong 0
+clusterCharge 317.856
+error 0.346416018132
+notTrough
+newCluster 
+energy 61.662
+pixels 11.0
+prong 0
+clusterCharge 239.72
+error 0.233459908237
+notTrough
+newCluster 
+energy 808.844
+pixels 22.0
+prong 1
+clusterCharge 1088.872
+error 0.502554295039
+notTrough
+newCluster 
+energy 3572.185
+pixels 61.0
+prong 1
+clusterCharge 9637.255
+error 1.28917193006
+notTrough
+newCluster 
+energy 1123.731
+pixels 14.0
+prong 0
+clusterCharge 1254.477
+error 0.530011664915
+notTrough
+newCluster 
+energy 386.996
+pixels 12.0
+prong 0
+clusterCharge 386.996
+error 0.375948648113
+notTrough
+newCluster 
+energy 1161.204
+pixels 26.0
+prong 0
+clusterCharge 1733.472
+error 0.704537687916
+notTrough
+newCluster 
+energy 3078.532
+pixels 23.0
+prong 0
+clusterCharge 3291.905
+error 1.56570114862
+notTrough
+newCluster 
+energy 421.914
+pixels 19.0
+prong 0
+clusterCharge 700.698
+error 0.947980677771
+notTrough
+newCluster 
+energy 199.115
+pixels 13.0
+prong 0
+clusterCharge 286.339
+error 0.829251768374
+notTrough
+newCluster 
+energy 249.41
+pixels 12.0
+prong 0
+clusterCharge 377.637
+error 0.47830410529
+notTrough
+newCluster 
+energy 2125.766
+pixels 23.0
+prong 0
+clusterCharge 2741.276
+error 0.947586726857
+notTrough
+newCluster 
+energy 367.71
+pixels 16.0
+prong 0
+clusterCharge 473.638
+error 1.62478471593
+notTrough
+newCluster 
+energy 225.779
+pixels 13.0
+prong 1
+clusterCharge 391.072
+error 0.628354528122
+notTrough
+newCluster 
+energy 787.711
+pixels 50.0
+prong 1
+clusterCharge 3924.046
+error 0.45289559657
+notTrough
+newCluster 
+energy 5443.461
+pixels 28.0
+prong 0
+clusterCharge 5317.115
+error 1.01812038391
+notTrough
+newCluster 
+energy 2775.4
+pixels 16.0
+prong 0
+clusterCharge 3230.981
+error 1.50243525608
+notTrough
+newCluster 
+energy 1473.142
+pixels 13.0
+prong 0
+clusterCharge 1979.183
+error 3.50860580364
+notTrough
+newCluster 
+energy 1726.769
+pixels 12.0
+prong 0
+clusterCharge 2458.556
+error 2.77136309988
+notTrough
+newCluster 
+energy 1460.819
+pixels 13.0
+prong 0
+clusterCharge 2249.535
+error 0.679682341323
+notTrough
+newCluster 
+energy 2082.395
+pixels 16.0
+prong 0
+clusterCharge 2745.706
+error 1.69184270835
+notTrough
