@@ -101,7 +101,7 @@ def calculateFWHM(histo):
 listOfFiles=[ "D1_0kV_D2_3kV_E1_3kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_5kV_E2_3kV"]
 listOfFilesSimu=["D1_0D2_3000E1_3000E2_3000_scanning33um.txt","D1_0D2_3000E1_4000E2_3000_scanning33um.txt","D1_0D2_3000E1_5000E2_3000_scanning33um.txt"]
 rootDirSimu="/home/helga/GRACESimu/ibsimuData/onDetector"
-rootDirData="/home/helga/GRACESimu/GRACEbeamline/AntiprotonTagging/scan1"
+rootDirData="/home/helga/GRACESimu/GRACEbeamline/realData/timeAnalysis/scan1"
 counter=0
 
 for config in listOfFiles:
@@ -137,7 +137,7 @@ for config in listOfFiles:
 listOfFiles=[ "D1_0kV_D2_3kV_E1_4kV_E2_2kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_4kV"]
 listOfFilesSimu=["D1_0D2_3000E1_4000E2_2000_scanning33um.txt","D1_0D2_3000E1_4000E2_3000_scanning33um.txt","D1_0D2_3000E1_4000E2_4000_scanning33um.txt"]
 rootDirSimu="/home/helga/GRACESimu/ibsimuData/onDetector"
-rootDirData="/home/helga/GRACESimu/GRACEbeamline/AntiprotonTagging/scan2"
+rootDirData="/home/helga/GRACESimu/GRACEbeamline/realData/scan2"
 counter=0
 
 for config in listOfFiles:
@@ -175,7 +175,7 @@ for config in listOfFiles:
 listOfFiles=[ "D1_0kV_D2_1.5kV_E1_2kV_E2_3kV", "D1_0kV_D2_1.5kV_E1_3kV_E2_3kV","D1_0kV_D2_1.5kV_E1_4kV_E2_3kV"]
 listOfFilesSimu=["D1_0D2_1500E1_2000E2_3000_scanning33um.txt","D1_0D2_1500E1_3000E2_3000_scanning33um.txt","D1_0D2_1500E1_4000E2_3000_scanning33um.txt"]
 rootDirSimu="/home/helga/GRACESimu/ibsimuData/onDetector"
-rootDirData="/home/helga/GRACESimu/GRACEbeamline/AntiprotonTagging/scan3"
+rootDirData="/home/helga/GRACESimu/GRACEbeamline/realData/timeAnalysis/scan3"
 counter=0
 
 for config in listOfFiles:

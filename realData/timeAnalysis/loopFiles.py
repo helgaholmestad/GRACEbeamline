@@ -43,7 +43,7 @@ def countNumberForSetting(filepattern,outputfile):
                     
 listOfFilesScan1=["D1_0kV_D2_3kV_E1_0kV_E2_3kV","D1_0kV_D2_3kV_E1_1kV_E2_3kV", "D1_0kV_D2_3kV_E1_2kV_E2_3kV", "D1_0kV_D2_3kV_E1_3kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_5kV_E2_3kV"]
 
-listOfFilesScan1=["D1_0kV_D2_3kV_E1_4kV_E2_0kV","D1_0kV_D2_3kV_E1_4kV_E2_1kV", "D1_0kV_D2_3kV_E1_4kV_E2_2kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_4kV", "D1_0kV_D2_3kV_E1_3kV_E2_5kV"]
+listOfFilesScan2=["D1_0kV_D2_3kV_E1_4kV_E2_0kV","D1_0kV_D2_3kV_E1_4kV_E2_1kV", "D1_0kV_D2_3kV_E1_4kV_E2_2kV", "D1_0kV_D2_3kV_E1_4kV_E2_3kV", "D1_0kV_D2_3kV_E1_4kV_E2_4kV", "D1_0kV_D2_3kV_E1_3kV_E2_5kV"]
 
 listOfFilesScan3=["D1_0kV_D2_1.5kV_E1_0kV_E2_3kV","D1_0kV_D2_1.5kV_E1_1kV_E2_3kV", "D1_0kV_D2_1.5kV_E1_2kV_E2_3kV", "D1_0kV_D2_1.5kV_E1_3kV_E2_3kV", "D1_0kV_D2_1.5kV_E1_4kV_E2_3kV", "D1_0kV_D2_1.5kV_E1_5kV_E2_3kV"]
 
@@ -55,12 +55,12 @@ for pattern in listOfFilesScan1:
 
 
 # for pattern in listOfFilesScan2:
-#     outputfile=open("scan2"+str(pattern)+"_data.txt",'w')
+#     outputfile=open("scan2/"+str(pattern)+"_data.txt",'w')
 #     countNumberForSetting(pattern,outputfile)
 #     outputfile.close()
 
 
 # for pattern in listOfFilesScan3:
-#     outputfile=open("scan3"+str(pattern)+"_data.txt",'w')
+#     outputfile=open("scan3/"+str(pattern)+"_data.txt",'w')
 #     countNumberForSetting(pattern,outputfile)
 #     outputfile.close()
