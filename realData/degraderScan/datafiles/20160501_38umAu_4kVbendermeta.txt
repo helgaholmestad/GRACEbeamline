@@ -1,0 +1,411 @@
+newFile
+newCluster 
+energy 250.972
+pixels 10.0
+prong 0
+clusterCharge 267.605
+error 0.499306998974
+notTrough
+newCluster 
+energy 449.919
+pixels 27.0
+prong 1
+clusterCharge 711.995
+error 1.00234570033
+notTrough
+newCluster 
+energy 33.107
+pixels 1.0
+prong 0
+clusterCharge 33.107
+error 5.68434188608e-14
+notTrough
+newCluster 
+energy 51.37
+pixels 3.0
+prong 0
+clusterCharge 85.666
+error 0.408248290464
+notTrough
+newCluster 
+energy 78.602
+pixels 3.0
+prong 0
+clusterCharge 113.006
+error 0.408248290464
+notTrough
+newCluster 
+energy 36.707
+pixels 1.0
+prong 0
+clusterCharge 36.707
+error 5.3290705182e-15
+notTrough
+newCluster 
+energy 85.945
+pixels 3.0
+prong 0
+clusterCharge 116.029
+error 0.408248290464
+notTrough
+newCluster 
+energy 141.838
+pixels 4.0
+prong 0
+clusterCharge 257.024
+error 0.5
+notTrough
+newCluster 
+energy 82.373
+pixels 4.0
+prong 0
+clusterCharge 82.373
+error 0.369274472938
+notTrough
+newCluster 
+energy 6.507
+pixels 1.0
+prong 0
+clusterCharge 6.507
+error 1.7763568394e-15
+notTrough
+newCluster 
+energy 87.903
+pixels 1.0
+prong 0
+clusterCharge 87.903
+error 1.42108547152e-14
+notTrough
+newCluster 
+energy 41.816
+pixels 2.0
+prong 0
+clusterCharge 79.589
+error 1.28684762588e-13
+notTrough
+newCluster 
+energy 219.482
+pixels 8.0
+prong 0
+clusterCharge 276.658
+error 0.416025147169
+notTrough
+newFile
+newCluster 
+energy 37.074
+pixels 2.0
+prong 0
+clusterCharge 61.095
+error 1.00485917356e-14
+notTrough
+newCluster 
+energy 42.938
+pixels 1.0
+prong 0
+clusterCharge 42.938
+error 5.68434188608e-14
+notTrough
+newCluster 
+energy 273.651
+pixels 9.0
+prong 0
+clusterCharge 382.372
+error 1.47196014439
+notTrough
+newCluster 
+energy 105.059
+pixels 16.0
+prong 1
+clusterCharge 300.504
+error 0.331564356113
+notTrough
+newCluster 
+energy 26.746
+pixels 1.0
+prong 0
+clusterCharge 26.746
+error 1.42108547152e-14
+notTrough
+newCluster 
+energy 160.359
+pixels 5.0
+prong 0
+clusterCharge 210.193
+error 0.707106781187
+notTrough
+newCluster 
+energy 96.447
+pixels 3.0
+prong 0
+clusterCharge 126.018
+error 0.408248290464
+notTrough
+newCluster 
+energy 279.812
+pixels 10.0
+prong 0
+clusterCharge 414.896
+error 0.53512955101
+notTrough
+newCluster 
+energy 578.309
+pixels 20.0
+prong 0
+clusterCharge 600.06
+error 1.14361875193
+notTrough
+newCluster 
+energy 216.793
+pixels 13.0
+prong 0
+clusterCharge 242.028
+error 0.416733516739
+notTrough
+newCluster 
+energy 176.307
+pixels 13.0
+prong 0
+clusterCharge 280.493
+error 0.679658804273
+notTrough
+newCluster 
+energy 104.25
+pixels 6.0
+prong 0
+clusterCharge 119.08
+error 0.42292054646
+notTrough
+newCluster 
+energy 140.424
+pixels 3.0
+prong 0
+clusterCharge 174.957
+error 0.408248290464
+notTrough
+newCluster 
+energy 17.363
+pixels 3.0
+prong 0
+clusterCharge 25.841
+error 0.408248290464
+notTrough
+newCluster 
+energy 49.274
+pixels 1.0
+prong 0
+clusterCharge 49.274
+error 5.68434188608e-14
+notTrough
+newFile
+newCluster 
+energy 86.54
+pixels 4.0
+prong 0
+clusterCharge 168.744
+error 0.5
+notTrough
+newCluster 
+energy 403.486
+pixels 7.0
+prong 0
+clusterCharge 474.105
+error 0.654653670708
+notTrough
+newCluster 
+energy 518.911
+pixels 29.0
+prong 0
+clusterCharge 886.209
+error 3.27945934934
+notTrough
+newCluster 
+energy 46.633
+pixels 1.0
+prong 0
+clusterCharge 46.633
+error 1.42108547152e-14
+notTrough
+newCluster 
+energy 211.538
+pixels 4.0
+prong 0
+clusterCharge 219.082
+error 0.790569415042
+notTrough
+newCluster 
+energy 63.664
+pixels 1.0
+prong 0
+clusterCharge 63.664
+error 1.42108547152e-14
+notTrough
+newCluster 
+energy 193.38
+pixels 16.0
+prong 0
+clusterCharge 308.92
+error 0.357698355053
+notTrough
+newCluster 
+energy 18.708
+pixels 1.0
+prong 0
+clusterCharge 18.708
+error 1.42108547152e-14
+notTrough
+newCluster 
+energy 218.937
+pixels 22.0
+prong 0
+clusterCharge 402.465
+error 2.0687129382
+notTrough
+newCluster 
+energy 9.09
+pixels 1.0
+prong 0
+clusterCharge 9.09
+error 1.42108547152e-13
+notTrough
+newCluster 
+energy 176.849
+pixels 22.0
+prong 1
+clusterCharge 474.544
+error 0.359481389581
+notTrough
+newCluster 
+energy 477.555
+pixels 22.0
+prong 0
+clusterCharge 905.867
+error 1.00177359045
+notTrough
+newCluster 
+energy 315.102
+pixels 24.0
+prong 0
+clusterCharge 473.623
+error 0.577784857335
+notTrough
+newCluster 
+energy 22.824
+pixels 3.0
+prong 0
+clusterCharge 43.842
+error 0.408248290464
+notTrough
+newCluster 
+energy 219.484
+pixels 5.0
+prong 0
+clusterCharge 273.943
+error 0.707106781187
+notTrough
+newCluster 
+energy 271.394
+pixels 28.0
+prong 1
+clusterCharge 691.55
+error 0.433914735129
+notTrough
+newCluster 
+energy 222.849
+pixels 22.0
+prong 1
+clusterCharge 412.027
+error 0.555228580703
+notTrough
+newCluster 
+energy 149.556
+pixels 2.0
+prong 0
+clusterCharge 156.063
+error 0.5
+notTrough
+newCluster 
+energy 9.719
+pixels 1.0
+prong 0
+clusterCharge 9.719
+error 1.42108547152e-14
+notTrough
+newFile
+newCluster 
+energy 194.376
+pixels 10.0
+prong 0
+clusterCharge 227.859
+error 0.522812904712
+notTrough
+newCluster 
+energy 9.261
+pixels 1.0
+prong 0
+clusterCharge 9.261
+error 8.881784197e-16
+notTrough
+newCluster 
+energy 15.555
+pixels 1.0
+prong 0
+clusterCharge 15.555
+error 5.3290705182e-15
+notTrough
+newCluster 
+energy 145.998
+pixels 21.0
+prong 1
+clusterCharge 383.823
+error 0.387632937583
+notTrough
+newCluster 
+energy 214.685
+pixels 19.0
+prong 0
+clusterCharge 356.344
+error 0.403868268516
+notTrough
+newCluster 
+energy 285.029
+pixels 6.0
+prong 0
+clusterCharge 292.589
+error 0.5
+notTrough
+newCluster 
+energy 220.697
+pixels 24.0
+prong 1
+clusterCharge 509.595
+error 0.370986381873
+notTrough
+newCluster 
+energy 215.885
+pixels 57.0
+prong 2
+clusterCharge 944.328
+error 0.441183228728
+notTrough
+newCluster 
+energy 166.428
+pixels 10.0
+prong 0
+clusterCharge 196.898
+error 0.448251215446
+notTrough
+newCluster 
+energy 191.797
+pixels 20.0
+prong 0
+clusterCharge 451.11
+error 0.362179005175
+notTrough
+newCluster 
+energy 105.263
+pixels 5.0
+prong 0
+clusterCharge 125.149
+error 0.339683110243
+notTrough
+noFile
