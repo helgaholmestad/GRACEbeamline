@@ -283,6 +283,10 @@ void simu( int argc, char **argv )
   startPlate->translate(Vec3D(0.0,0.0,-0.026));
   geom.set_solid( 20, startPlate);
 
+  Solid *endPlate = new FuncSolid( detector);
+  endPlate->translate(Vec3D(0.0,0.0,1.6));
+  geom.set_solid( 21, endPlate);
+
 
   cout<<"her er det"<<endl;
   // the first 6 are the boundaries of the volume of simulation
@@ -306,6 +310,7 @@ void simu( int argc, char **argv )
   geom.set_boundary(  18,  Bound(BOUND_DIRICHLET,  upperEinzel) );
   geom.set_boundary(  19,  Bound(BOUND_DIRICHLET,  0.0) );
   geom.set_boundary(  20,  Bound(BOUND_DIRICHLET,  0.0) );
+  geom.set_boundary(  21,  Bound(BOUND_DIRICHLET,  0.0) );
   geom.build_mesh();
   geom.build_surface();
 
@@ -338,7 +343,7 @@ void simu( int argc, char **argv )
   pdb.clear();
 
 
-  //The inputfile giving  the energy,position and momentum  direction of the particles  are read  in.  
+  //The inputfile giving  the energy,position and momentum  direction of the particles  are read  in. 
   ReadAscii din(argv[5], 8 );
   cout<< "Reading this "<<argv[5]<<endl;
   cout << "Reading " << din.rows() << " particles\n";
@@ -361,13 +366,15 @@ void simu( int argc, char **argv )
     double energy = din[0][l];//the energy of the particle (in keV)
     
     //since  we are not interested in particles with lower than 10 keV energy we skip them here to save computation time
-     if (energy>13.0){
-      continue;
-     }
+    //if (energy>13.0){
+    //  continue;
+    // }
+
     if (test>3.00){
       cout<<"fant dobbel"<<endl;
       continue;
     }
+
     // if (counter>10000){
     //   cout<<"counter"<<counter<<endl;
     //   continue;
