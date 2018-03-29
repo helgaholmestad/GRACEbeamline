@@ -235,8 +235,10 @@ void simu( int argc, char **argv )
 
   Solid *det = new FuncSolid( detector);
   double d=0.5+GraceRadius/sin(M_PI*beam_curve/180.0);
-  double z_translateion=d+0.85*cos(M_PI*beam_curve/180.0);
-  double x_translateion=GraceRadius+0.85*sin(M_PI*beam_curve/180);
+  //double z_translateion=d+0.85*cos(M_PI*beam_curve/180.0);
+  //double x_translateion=GraceRadius+0.85*sin(M_PI*beam_curve/180);
+  double z_translateion=d+0.75*cos(M_PI*beam_curve/180.0);
+  double x_translateion=GraceRadius+0.75*sin(M_PI*beam_curve/180);
   det->rotate_y(beam_curve*M_PI/180);
   det->translate(Vec3D(x_translateion,0,z_translateion));
   geom.set_solid( 14, det);
@@ -337,7 +339,7 @@ void simu( int argc, char **argv )
 
 
   //The inputfile giving  the energy,position and momentum  direction of the particles  are read  in.  
-  ReadAscii din(argv[5], 7 );
+  ReadAscii din(argv[5], 8 );
   cout<< "Reading this "<<argv[5]<<endl;
   cout << "Reading " << din.rows() << " particles\n";
   // Loop  over all  the particles. We also make a vector of strings with the inital parameters so they can be stored for later analysis
@@ -359,16 +361,17 @@ void simu( int argc, char **argv )
     double energy = din[0][l];//the energy of the particle (in keV)
     
     //since  we are not interested in particles with lower than 10 keV energy we skip them here to save computation time
-    if (energy>10.0){
+     if (energy>13.0){
       continue;
-    }
+     }
     if (test>3.00){
       cout<<"fant dobbel"<<endl;
       continue;
     }
-    //if (counter>1000000){
+    // if (counter>10000){
+    //   cout<<"counter"<<counter<<endl;
     //   continue;
-    //}
+    // }
    
     //here the  velocity of the particle is  calculated  by using the relativistic  energy 
     double c=299792458.0;
@@ -413,17 +416,28 @@ void simu( int argc, char **argv )
   ofstream fileOut(outputfile.c_str());
   string lineNumberOutputfile=outputfile+"lineNumber";
   
-  //here we iterate over the particle database to write all informationto file.  
+  //here we iterate over the particle database to write all informationto file.
+
+
+  double maxLength=0;
   for( size_t k = 0; k < pdb.size(); k++ ) {
     Particle3D &pp = pdb.particle( k );
       //write the final  locatiion and energy to files
-      fileOut<< pp.location()<<"  "<<6.24e15*pp.m()*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"  ";
+    fileOut<< pp.location()<<"  "<<6.24e15*pp.m()*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"  "<<pp(0)*1000000000.0<<"  "<<pdb.traj_length(k);
       //reset the trajectory to find the initial position, momentum directions and energy of the particle
-      pp.reset_trajectory();
-      //print that information to file
-      fileOut <<"initial "<<initialParameters[k]<< "\n";
-      //fileOut <<"initial "<<pp.location()<<"  ";
-      //fileOut <<pp(2)/vtotal<<"   "<<pp(4)/vtotal<<"  "<<pp(6)/vtotal<<"  "<<6.2415096471e15*1.6e-27*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"\n";
+
+    if(pdb.traj_length(k)>maxLength){
+      maxLength=pdb.traj_length(k);
+    }
+    //cout<<"length "<<maxLength<<endl;
+    //cout<<pp.traj(0)<<endl;
+    //cout<<pp(0)*1000000000<<endl;
+    pp.reset_trajectory();
+    //cout<<pp(0)*1000000000<<endl;
+    //print that information to file
+    fileOut <<"initial "<<initialParameters[k]<< "\n";
+    //fileOut <<"initial "<<pp.location()<<"  ";
+    //fileOut <<pp(2)/vtotal<<"   "<<pp(4)/vtotal<<"  "<<pp(6)/vtotal<<"  "<<6.2415096471e15*1.6e-27*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"\n";
   }
   fileOut.close();
 }
