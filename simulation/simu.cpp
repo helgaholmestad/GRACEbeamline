@@ -366,9 +366,9 @@ void simu( int argc, char **argv )
     double energy = din[0][l];//the energy of the particle (in keV)
     
     //since  we are not interested in particles with lower than 10 keV energy we skip them here to save computation time
-    //if (energy>13.0){
-    //  continue;
-    // }
+    if (energy>13.0){
+      continue;
+    }
 
     if (test>3.00){
       cout<<"fant dobbel"<<endl;
@@ -430,7 +430,7 @@ void simu( int argc, char **argv )
   for( size_t k = 0; k < pdb.size(); k++ ) {
     Particle3D &pp = pdb.particle( k );
       //write the final  locatiion and energy to files
-    fileOut<< pp.location()<<"  "<<6.24e15*pp.m()*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"  "<<pp(0)*1000000000.0<<"  "<<pdb.traj_length(k);
+    fileOut<< pp.location()<<"  "<<6.24e15*pp.m()*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"  "<<pp(0)*1000000000.0;//<<"  "<<pdb.traj_length(k);
       //reset the trajectory to find the initial position, momentum directions and energy of the particle
 
     if(pdb.traj_length(k)>maxLength){
@@ -442,7 +442,7 @@ void simu( int argc, char **argv )
     pp.reset_trajectory();
     //cout<<pp(0)*1000000000<<endl;
     //print that information to file
-    fileOut <<"initial "<<initialParameters[k]<< "\n";
+    fileOut <<"  initial "<<initialParameters[k]<< "\n";
     //fileOut <<"initial "<<pp.location()<<"  ";
     //fileOut <<pp(2)/vtotal<<"   "<<pp(4)/vtotal<<"  "<<pp(6)/vtotal<<"  "<<6.2415096471e15*1.6e-27*(pp(2)*pp(2)+pp(4)*pp(4)+pp(6)*pp(6))/2.0<<"\n";
   }
