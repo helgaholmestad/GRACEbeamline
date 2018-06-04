@@ -1,5 +1,3 @@
-from ROOT import gROOT, TCanvas, TH1D,TH2D,TFile
-gROOT.Reset()
 import matplotlib.colors as colors
 import numpy as np
 import matplotlib
@@ -32,11 +30,11 @@ def findHitsOnDetector(filename,output):
     if os.path.isfile(filename)==False:
         print("not found",filename)
         return
-    output=open(output, t'w')
+    output=open(output,'w')
     hitsOnDetectorPlane=[]
     for line in open(filename,'r'):
         columns=line.split()
-        if float(columns[2])<1.2:
+        if float(columns[2])<0.4:
             continue
         point=np.matrix([[float(columns[0])-xtranslateion],[float(columns[1])],[float(columns[2])-ztranslation]])
         newPoint=rotation*point

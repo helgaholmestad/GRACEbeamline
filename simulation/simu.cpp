@@ -366,9 +366,9 @@ void simu( int argc, char **argv )
     double energy = din[0][l];//the energy of the particle (in keV)
     
     //since  we are not interested in particles with lower than 10 keV energy we skip them here to save computation time
-    if (energy>13.0){
-      continue;
-    }
+    //if (energy>13.0){
+    //   continue;
+    // }
 
     if (test>3.00){
       cout<<"fant dobbel"<<endl;
