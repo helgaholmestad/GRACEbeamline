@@ -287,8 +287,6 @@ void simu( int argc, char **argv )
   endPlate->translate(Vec3D(0.0,0.0,1.6));
   geom.set_solid( 21, endPlate);
 
-
-  cout<<"her er det"<<endl;
   // the first 6 are the boundaries of the volume of simulation
   geom.set_boundary(  1,  Bound(BOUND_NEUMANN,     0.0) );
   geom.set_boundary(  2,  Bound(BOUND_NEUMANN,     0.0) );
@@ -314,7 +312,6 @@ void simu( int argc, char **argv )
   geom.build_mesh();
   geom.build_surface();
 
-  cout<<"ferdig"<<endl;
   
   //solve for potential in the given geometry
   EpotField epot( geom );
@@ -367,16 +364,6 @@ void simu( int argc, char **argv )
     
     //since  we are not interested in particles with lower than 10 keV energy we skip them here to save computation time
     //if (energy>13.0){
-    //   continue;
-    // }
-
-    if (test>3.00){
-      cout<<"fant dobbel"<<endl;
-      continue;
-    }
-
-    // if (counter>10000){
-    //   cout<<"counter"<<counter<<endl;
     //   continue;
     // }
    

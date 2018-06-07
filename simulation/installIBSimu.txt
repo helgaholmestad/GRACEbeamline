@@ -1,0 +1,15 @@
+Downlaod IBSimu from github or from the webpage.
+Unpack it in a folder in your home directory, this folder is from now on referred to as pathToInstallIBSimu.
+
+./reconf
+./configure --prefix=$(pwd)
+make
+make install
+
+Remember
+
+export PKG_CONFIG_PATH=$LD_LIBRARY_PATH:/pathToInstallIBSimu/code
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/pathToInstallIBSimu/code/lib
+
+
+A prerequest is the gtk library, and you need the development packages from them. 
